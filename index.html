@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chinese Classics Atlas · 中国古典名著图谱</title>
+<meta name="description" content="在一座图谱里探索中国古典名著的人物、关系、事件与地点。">
+<style>
+:root{color-scheme:light;--ink:#29241e;--accent:#912e32;--paper:#f8f5ed;--line:#ddd4c6}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.75 system-ui,-apple-system,"PingFang SC",sans-serif}
+main{max-width:940px;margin:auto;padding:clamp(32px,8vw,100px) 24px}header{border-bottom:1px solid var(--line);padding-bottom:32px}
+small{color:var(--accent);letter-spacing:.15em}h1{font-family:Georgia,"Songti SC",serif;font-size:clamp(38px,6vw,64px);line-height:1.2;margin:12px 0}p{color:#625d55}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;margin:36px 0}.card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:26px;text-decoration:none;color:inherit;display:block}.card:hover,.card:focus-visible{border-color:var(--accent);box-shadow:0 5px 22px #29241e12}.card h2{margin:0;font-size:27px}.card p{margin:8px 0 16px}.card span{color:var(--accent);font-weight:600}footer{font-size:14px;color:#625d55}a{color:var(--accent)}
+</style>
+</head>
+<body>
+<main>
+<header><small>CHINESE CLASSICS ATLAS · 中国古典名著图谱</small><h1>一书一世界，合起来是一座图谱。</h1><p>从人物关系出发，顺着故事、地点和原著线索探索经典。</p></header>
+<div id="works" class="grid" aria-live="polite"></div>
+<footer><a href="https://github.com/iihao/chinese-classics-atlas">项目源码与反馈</a> · <a href="en/">English</a></footer>
+</main>
+<script>
+(function(){
+  var legacy = location.hash;
+  // 历史分享链接继续指向红楼，不占用系列首页路由。
+  if (legacy && /^#(?:lineage|graph|people|events|fate|riddle|poetry|places|map|chapters|data|item)(?:\/|$)/.test(legacy)) {
+    location.replace('works/honglou/' + legacy); return;
+  }
+  fetch('works/catalog.json').then(function(r){if(!r.ok)throw Error('目录加载失败');return r.json();}).then(function(c){
+    var box=document.getElementById('works');
+    c.works.forEach(function(w){
+      if(w.status!=='available')return;
+      var a=document.createElement('a');a.className='card';a.href=w.entry;
+      var h=document.createElement('h2');h.textContent=w.name;
+      var en=document.createElement('small');en.textContent=w.englishName;
+      var p=document.createElement('p');p.textContent=w.description;
+      var arrow=document.createElement('span');arrow.textContent='进入图谱 →';
+      a.append(h,en,p,arrow);box.append(a);
+    });
+  }).catch(function(e){document.getElementById('works').textContent=e.message;});
+})();
+</script>
+</body>
+</html>

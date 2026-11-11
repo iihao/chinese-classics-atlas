@@ -1,0 +1,20 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.log
+db/*.db
+db/*.db-journal
+db/*.db-wal
+db/*.db-shm
+dist/
+.venv/
+
+# 公众号 / 小红书等个人发布素材：只保留在本地，不推到公共仓库
+docs/wechat/
+docs/xhs/
+
+# 截图脚本用到的 puppeteer-core（按需 npm i --no-save 安装）
+node_modules/
+
+# 内部运营文档：只保留在本地
+docs/promotion.md

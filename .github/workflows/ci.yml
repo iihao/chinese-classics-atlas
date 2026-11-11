@@ -1,0 +1,71 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: 重建数据与数据库
+        run: |
+          python3 tools/build_seed.py
+          python3 db/init_db.py --force
+      - name: 数据完整性
+        run: |
+          python3 - <<'PY'
+          import json, collections
+          d = json.load(open('db/seed.json', encoding='utf-8'))
+          ids = [i['id'] for i in d['items']]
+          dup = [k for k, v in collections.Counter(ids).items() if v > 1]
+          assert not dup, f'重复 id: {dup[:5]}'
+          idset = set(ids)
+          bad = [r for r in d['relations'] if r['a'] not in idset or r['b'] not in idset]
+          assert not bad, f'悬空关系 {len(bad)} 条'
+          names = collections.Counter(i['name'] for i in d['items'] if i['cat'] == 'people')
+          dupe = [k for k, v in names.items() if v > 1]
+          assert not dupe, f'重名人物: {dupe[:5]}'
+          # 对称关系（夫妻/借银…）不允许 A→B 与 B→A 同时存在，否则前端会出现重复行
+          sym = {"夫妻","未婚夫妻","兄弟","姐妹","兄妹","姐弟","堂兄弟","堂姐妹","堂兄妹",
+                 "族亲","宗族","同房","同侪","同僚","同班","同窗","诗友","诗社同人","友人",
+                 "知己","情人","恋人","镜像","世交","旧交","旧识","私交","玩伴","同伴",
+                 "方外之交","冲突","仇人","合谋","串通","借银"}
+          seen = set()
+          both = []
+          for r in d['relations']:
+              if r['label'] not in sym:
+                  continue
+              k = (r['label'],) + tuple(sorted((r['a'], r['b'])))
+              if k in seen:
+                  both.append(r)
+              seen.add(k)
+          assert not both, f'对称关系重复 {len(both)} 条: {both[:3]}'
+          # vg-* 是「名佚」谱系占位节点，允许只存在于 genealogy
+          def ok(i):
+              return i in idset or str(i).startswith('vg-')
+          for g in d['genealogy']:
+              assert ok(g['id']), g['id']
+              if g['parent']: assert ok(g['parent']), g['parent']
+              if g['spouse']: assert ok(g['spouse']), g['spouse']
+          print(f"OK 条目 {len(ids)} 关系 {len(d['relations'])} 谱系 {len(d['genealogy'])}")
+          PY
+      - name: 系列作品目录与前端语法
+        run: |
+          python3 tools/validate_works.py
+          node --check js/app.js
+          node --check js/map-art.js
+      - name: 静态构建
+        run: |
+          python3 tools/build_static.py
+          test -f dist/works/honglou/index.html
+          test -f dist/api/works/honglou.json
+          test -f dist/en/index.html

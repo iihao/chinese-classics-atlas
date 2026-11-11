@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "works": [
+    {
+      "id": "honglou",
+      "name": "红楼梦",
+      "englishName": "Dream of the Red Chamber",
+      "description": "人物谱系、关系图、判词、诗词、事件与府邸",
+      "entry": "works/honglou/",
+      "data": "api/works/honglou.json",
+      "status": "available"
+    }
+  ]
+}
