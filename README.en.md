@@ -12,6 +12,10 @@ Four works now share one site: the Red Chamber atlas, Three Kingdoms, Journey to
 full 36 Heavenly Spirits ranked, 110 relations, and an ending breakdown after the amnesty.
 
 <p align="center">
+  <img src="docs/hub.png" alt="The series hub: Dream of the Red Chamber, Three Kingdoms, Journey to the West and Water Margin, each card showing a live relationship graph" width="820">
+</p>
+
+<p align="center">
   <img src="docs/demo.gif" alt="Searching 蕉下客 locates Tanchun; click an edge to see the relation between Baoyu and Tanchun" width="820">
 </p>
 

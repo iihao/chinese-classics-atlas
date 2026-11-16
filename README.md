@@ -3,6 +3,10 @@
 **一个仓库、一个站点，按作品路由组织。** 已收录《红楼梦》《三国演义》《西游记》《水浒传》四部——431 个人物、1301 条带出处的关系；聊斋在后续加入，不预置空页面。架构与作品接入约定见 [docs/architecture.md](docs/architecture.md)。
 
 <p align="center">
+  <img src="docs/hub.png" alt="系列首页：红楼梦、三国演义、西游记、水浒传四部作品，每张卡片带关系图缩略图" width="820">
+</p>
+
+<p align="center">
   <img src="docs/demo.gif" alt="红楼梦图谱：搜索「蕉下客」定位探春，点连线看宝玉与探春的关系" width="820">
 </p>
 
