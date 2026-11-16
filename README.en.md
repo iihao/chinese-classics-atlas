@@ -1,4 +1,15 @@
-# Honglou Atlas · Dream of the Red Chamber
+# Chinese Classics Atlas · 中国古典名著图谱
+
+> One repository, one site, one build. The Red Chamber atlas is complete; *Romance of the Three Kingdoms*
+> is available as an interactive preview at
+> [works/sanguo](https://iihao.github.io/chinese-classics-atlas/works/sanguo/) — 39 characters, 71 typed
+> relations and 28 chapter-cited events, with explicit notes where the novel differs from the histories.
+> A small dossier layer adds dates, origin, offices and battle outcomes, plus Wikipedia/Baidu links; no
+> encyclopedia prose is copied.
+
+Four works now share one site: the Red Chamber atlas, Three Kingdoms, Journey to the West, and
+[Water Margin](https://iihao.github.io/chinese-classics-atlas/works/shuihu/) — 79 characters with the
+full 36 Heavenly Spirits ranked, 110 relations, and an ending breakdown after the amnesty.
 
 <p align="center">
   <img src="docs/demo.gif" alt="Searching 蕉下客 locates Tanchun; click an edge to see the relation between Baoyu and Tanchun" width="820">
@@ -97,9 +108,13 @@ python3 tools/build_static.py   # -> dist/
 ## Structure
 
 ```
-index.html           single-page entry
-css/style.css        styles
-js/app.js            frontend (genealogy, graph, entries, search)
+index.html           series entry
+works/honglou/       Red Chamber entry
+works/sanguo/        Three Kingdoms preview (source data + entry)
+css/style.css        Red Chamber styles
+css/sanguo.css       Three Kingdoms styles
+js/app.js            Red Chamber frontend
+js/works/sanguo.js   Three Kingdoms graph, search, details and timeline
 en/index.html        English landing page
 server/app.py        local API + static file server
 db/schema.sql        SQLite schema
