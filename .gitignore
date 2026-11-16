@@ -18,3 +18,5 @@ node_modules/
 
 # 内部运营文档：只保留在本地
 docs/promotion.md
+
+tools/cache/
