@@ -1171,6 +1171,966 @@
           "url": "https://baike.baidu.com/item/%E5%AD%9F%E8%8E%B7"
         }
       ]
+    },
+    "cao-ren": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "168年—223年"
+        },
+        {
+          "label": "籍贯",
+          "value": "沛国谯县（今安徽亳州）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "大司马"
+        },
+        {
+          "label": "身份",
+          "value": "曹魏宗室名将"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E6%9B%B9%E4%BB%81"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E6%9B%B9%E4%BB%81"
+        }
+      ]
+    },
+    "xiahou-yuan": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "？—219年"
+        },
+        {
+          "label": "籍贯",
+          "value": "沛国谯县（今安徽亳州）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "征西将军"
+        },
+        {
+          "label": "身份",
+          "value": "曹魏宗室名将"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%A4%8F%E4%BE%AF%E6%B8%8A"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%A4%8F%E4%BE%AF%E6%B8%8A"
+        }
+      ]
+    },
+    "dian-wei": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "？—197年"
+        },
+        {
+          "label": "籍贯",
+          "value": "陈留己吾（今河南宁陵）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "都尉"
+        },
+        {
+          "label": "身份",
+          "value": "曹操亲卫将领"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%85%B8%E9%9F%A6"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%85%B8%E9%9F%A6"
+        }
+      ]
+    },
+    "xu-chu-2": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "？—227年"
+        },
+        {
+          "label": "籍贯",
+          "value": "河东杨县（今山西洪洞）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "右将军"
+        },
+        {
+          "label": "身份",
+          "value": "曹魏五子良将之一"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%BE%90%E6%99%83"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%BE%90%E6%99%83"
+        }
+      ]
+    },
+    "zhang-he": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "？—231年"
+        },
+        {
+          "label": "籍贯",
+          "value": "河间鄚县（今河北任丘）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "征西车骑将军"
+        },
+        {
+          "label": "身份",
+          "value": "曹魏五子良将之一"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%BC%A0%E9%83%83"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%BC%A0%E9%83%83"
+        }
+      ]
+    },
+    "jia-xu": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "147年—223年"
+        },
+        {
+          "label": "籍贯",
+          "value": "武威姑臧（今甘肃武威）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "太尉"
+        },
+        {
+          "label": "身份",
+          "value": "曹魏谋士"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E8%B4%BE%E8%AF%A9"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E8%B4%BE%E8%AF%A9"
+        }
+      ]
+    },
+    "cheng-yu": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "141年—220年"
+        },
+        {
+          "label": "籍贯",
+          "value": "东郡东阿（今山东东阿）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "卫尉"
+        },
+        {
+          "label": "身份",
+          "value": "曹操早期谋士"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E7%A8%8B%E6%98%B1"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E7%A8%8B%E6%98%B1"
+        }
+      ]
+    },
+    "sima-zhao": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "211年—265年"
+        },
+        {
+          "label": "籍贯",
+          "value": "河内温县（今河南温县）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "晋王"
+        },
+        {
+          "label": "身份",
+          "value": "曹魏权臣、晋朝奠基者"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%8F%B8%E9%A9%AC%E6%98%AD"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%8F%B8%E9%A9%AC%E6%98%AD"
+        }
+      ]
+    },
+    "deng-ai": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "197年—264年"
+        },
+        {
+          "label": "籍贯",
+          "value": "义阳棘阳（今河南新野）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "太尉"
+        },
+        {
+          "label": "身份",
+          "value": "灭蜀主将"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E9%82%93%E8%89%BE"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E9%82%93%E8%89%BE"
+        }
+      ]
+    },
+    "zhong-hui": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "225年—264年"
+        },
+        {
+          "label": "籍贯",
+          "value": "颍川长社（今河南长葛）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "司徒"
+        },
+        {
+          "label": "身份",
+          "value": "伐蜀主帅"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E9%92%9F%E4%BC%9A"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E9%92%9F%E4%BC%9A"
+        }
+      ]
+    },
+    "guan-ping": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "？—220年"
+        },
+        {
+          "label": "籍贯",
+          "value": "河东解县（今山西运城）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "—"
+        },
+        {
+          "label": "身份",
+          "value": "关羽之子"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%85%B3%E5%B9%B3"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%85%B3%E5%B9%B3"
+        }
+      ]
+    },
+    "liao-hua": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "？—264年"
+        },
+        {
+          "label": "籍贯",
+          "value": "襄阳（今湖北襄阳）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "右车骑将军"
+        },
+        {
+          "label": "身份",
+          "value": "蜀汉将领"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%BB%96%E5%8C%96"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%BB%96%E5%8C%96"
+        }
+      ]
+    },
+    "wei-yan": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "？—234年"
+        },
+        {
+          "label": "籍贯",
+          "value": "义阳（今河南桐柏）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "前军师、征西大将军"
+        },
+        {
+          "label": "身份",
+          "value": "蜀汉将领"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E9%AD%8F%E5%BB%B6"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E9%AD%8F%E5%BB%B6"
+        }
+      ]
+    },
+    "fa-zheng": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "176年—220年"
+        },
+        {
+          "label": "籍贯",
+          "value": "扶风郿县（今陕西眉县）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "尚书令"
+        },
+        {
+          "label": "身份",
+          "value": "刘备谋主"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E6%B3%95%E6%AD%A3"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E6%B3%95%E6%AD%A3"
+        }
+      ]
+    },
+    "jiang-wan": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "？—246年"
+        },
+        {
+          "label": "籍贯",
+          "value": "零陵湘乡（今湖南湘乡）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "大将军、录尚书事"
+        },
+        {
+          "label": "身份",
+          "value": "蜀汉执政"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E8%92%8B%E7%90%AC"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E8%92%8B%E7%90%AC"
+        }
+      ]
+    },
+    "ma-dai": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "生卒不详"
+        },
+        {
+          "label": "籍贯",
+          "value": "扶风茂陵（今陕西兴平）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "平北将军"
+        },
+        {
+          "label": "身份",
+          "value": "蜀汉将领"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E5%B2%B1"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E9%A9%AC%E5%B2%B1"
+        }
+      ]
+    },
+    "taishi-ci": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "166年—206年"
+        },
+        {
+          "label": "籍贯",
+          "value": "东莱黄县（今山东龙口）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "建昌都尉"
+        },
+        {
+          "label": "身份",
+          "value": "东吴名将"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%A4%AA%E5%8F%B2%E6%85%88"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%A4%AA%E5%8F%B2%E6%85%88"
+        }
+      ]
+    },
+    "lu-meng-2": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "226年—274年"
+        },
+        {
+          "label": "籍贯",
+          "value": "吴郡吴县（今江苏苏州）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "大司马、荆州牧"
+        },
+        {
+          "label": "身份",
+          "value": "东吴后期名将"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E9%99%86%E6%8A%97"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E9%99%86%E6%8A%97"
+        }
+      ]
+    },
+    "kan-ze": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "170年—243年"
+        },
+        {
+          "label": "籍贯",
+          "value": "会稽山阴（今浙江绍兴）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "中书令"
+        },
+        {
+          "label": "身份",
+          "value": "东吴谋士"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E9%98%9A%E6%B3%BD"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E9%98%9A%E6%B3%BD"
+        }
+      ]
+    },
+    "xu-sheng": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "？—228年"
+        },
+        {
+          "label": "籍贯",
+          "value": "琅邪莒县（今山东莒县）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "安东将军"
+        },
+        {
+          "label": "身份",
+          "value": "东吴将领"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%BE%90%E7%9B%9B"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%BE%90%E7%9B%9B"
+        }
+      ]
+    },
+    "zhang-jiao": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "？—184年"
+        },
+        {
+          "label": "籍贯",
+          "value": "巨鹿（今河北平乡）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "—"
+        },
+        {
+          "label": "身份",
+          "value": "黄巾起义首领"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%BC%A0%E8%A7%92"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%BC%A0%E8%A7%92"
+        }
+      ]
+    },
+    "hua-tuo": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "约145年—208年"
+        },
+        {
+          "label": "籍贯",
+          "value": "沛国谯县（今安徽亳州）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "—"
+        },
+        {
+          "label": "身份",
+          "value": "汉末名医"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%8D%8E%E4%BD%97"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%8D%8E%E4%BD%97"
+        }
+      ]
+    },
+    "mi-heng": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "173年—198年"
+        },
+        {
+          "label": "籍贯",
+          "value": "平原般县（今山东临邑）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "—"
+        },
+        {
+          "label": "身份",
+          "value": "汉末文士"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E7%A5%A2%E8%A1%A1"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E7%A5%A2%E8%A1%A1"
+        }
+      ]
+    },
+    "kong-rong": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "153年—208年"
+        },
+        {
+          "label": "籍贯",
+          "value": "鲁国（今山东曲阜）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "北海相、少府"
+        },
+        {
+          "label": "身份",
+          "value": "建安七子之一"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%AD%94%E8%9E%8D"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%AD%94%E8%9E%8D"
+        }
+      ]
+    },
+    "tao-qian": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "132年—194年"
+        },
+        {
+          "label": "籍贯",
+          "value": "丹阳（今安徽当涂）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "徐州牧"
+        },
+        {
+          "label": "身份",
+          "value": "汉末州牧"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E9%99%B6%E8%B0%A6"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E9%99%B6%E8%B0%A6"
+        }
+      ]
+    },
+    "gongsun-zan": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "？—199年"
+        },
+        {
+          "label": "籍贯",
+          "value": "辽西令支（今河北迁安）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "前将军"
+        },
+        {
+          "label": "身份",
+          "value": "汉末军阀"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%85%AC%E5%AD%99%E7%93%92"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%85%AC%E5%AD%99%E7%93%92"
+        }
+      ]
+    },
+    "ma-teng": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "？—212年"
+        },
+        {
+          "label": "籍贯",
+          "value": "扶风茂陵（今陕西兴平）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "卫尉"
+        },
+        {
+          "label": "身份",
+          "value": "西凉军阀"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E8%85%BE"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E9%A9%AC%E8%85%BE"
+        }
+      ]
+    },
+    "yan-liang": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "？—200年"
+        },
+        {
+          "label": "籍贯",
+          "value": "琅邪临沂（今山东临沂）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "—"
+        },
+        {
+          "label": "身份",
+          "value": "袁绍部将"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E9%A2%9C%E8%89%AF"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E9%A2%9C%E8%89%AF"
+        }
+      ]
+    },
+    "wen-chou": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "？—200年"
+        },
+        {
+          "label": "籍贯",
+          "value": "生卒籍贯不详"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "—"
+        },
+        {
+          "label": "身份",
+          "value": "袁绍部将"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E6%96%87%E4%B8%91"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E6%96%87%E4%B8%91"
+        }
+      ]
+    },
+    "tian-feng": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "？—200年"
+        },
+        {
+          "label": "籍贯",
+          "value": "巨鹿（今河北平乡）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "别驾"
+        },
+        {
+          "label": "身份",
+          "value": "袁绍谋士"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E7%94%B0%E4%B8%B0"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E7%94%B0%E4%B8%B0"
+        }
+      ]
+    },
+    "ju-shou": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "？—200年"
+        },
+        {
+          "label": "籍贯",
+          "value": "广平（今河北邯郸）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "监军、奋威将军"
+        },
+        {
+          "label": "身份",
+          "value": "袁绍谋士"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E6%B2%AE%E6%8E%88"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E6%B2%AE%E6%8E%88"
+        }
+      ]
+    },
+    "zhang-xiu": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "？—207年"
+        },
+        {
+          "label": "籍贯",
+          "value": "武威祖厉（今甘肃靖远）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "破羌将军"
+        },
+        {
+          "label": "身份",
+          "value": "汉末军阀"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%BC%A0%E7%BB%A3"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%BC%A0%E7%BB%A3"
+        }
+      ]
     }
   },
   "events": {

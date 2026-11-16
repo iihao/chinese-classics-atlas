@@ -2,7 +2,7 @@
 
 > One repository, one site, one build. The Red Chamber atlas is complete; *Romance of the Three Kingdoms*
 > is available as an interactive preview at
-> [works/sanguo](https://iihao.github.io/chinese-classics-atlas/works/sanguo/) — 39 characters, 71 typed
+> [works/sanguo](https://iihao.github.io/chinese-classics-atlas/works/sanguo/) — 71 characters, 128 typed
 > relations and 28 chapter-cited events, with explicit notes where the novel differs from the histories.
 > A small dossier layer adds dates, origin, offices and battle outcomes, plus Wikipedia/Baidu links; no
 > encyclopedia prose is copied.

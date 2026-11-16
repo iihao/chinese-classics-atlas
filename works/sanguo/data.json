@@ -640,6 +640,454 @@
       "summary": "南中首领，为诸葛亮七擒七纵。",
       "detail": "南中地区首领，诸葛亮南征时被七次擒获、七次释放，最终归服，南中得以平定。",
       "history": "南中平定为史实；七擒七纵见《华阳国志》等，小说加以铺演。"
+    },
+    {
+      "id": "cao-ren",
+      "name": "曹仁",
+      "alias": "子孝",
+      "faction": "wei",
+      "role": "武将",
+      "chapters": [
+        51,
+        75
+      ],
+      "summary": "曹操从弟，守南郡、樊城，是曹魏南线的屏障。",
+      "detail": "赤壁后守南郡，与周瑜相持；关羽围樊城时死守待援，是襄樊一线的关键守将。",
+      "history": "史载曹仁确以善守著称，南郡与樊城之战均见于《三国志》。"
+    },
+    {
+      "id": "xiahou-yuan",
+      "name": "夏侯渊",
+      "alias": "妙才",
+      "faction": "wei",
+      "role": "武将",
+      "chapters": [
+        71,
+        71
+      ],
+      "summary": "曹操族弟，善奔袭，定军山被黄忠所斩。",
+      "detail": "长期镇守汉中，以行军迅疾闻名；定军山一役被黄忠突袭斩于阵前，汉中局势由此逆转。",
+      "history": "定军山之战及夏侯渊之死史有明载，黄忠斩将的具体过程小说有增饰。"
+    },
+    {
+      "id": "dian-wei",
+      "name": "典韦",
+      "alias": "恶来",
+      "faction": "wei",
+      "role": "武将",
+      "chapters": [
+        10,
+        16
+      ],
+      "summary": "曹操的贴身护卫，宛城之战为护曹操而死。",
+      "detail": "濮阳、宛城两度救主；张绣夜袭时独守辕门，力战而亡，曹操为之痛哭。",
+      "history": "典韦战死宛城史有其事，小说加强了其勇力的描写。"
+    },
+    {
+      "id": "xu-chu-2",
+      "name": "徐晃",
+      "alias": "公明",
+      "faction": "wei",
+      "role": "武将",
+      "chapters": [
+        59,
+        76
+      ],
+      "summary": "曹魏名将，樊城之战破关羽围堑。",
+      "detail": "渭南、汉中屡立战功；关羽水淹七军后，徐晃率援军长驱直入，解樊城之围。",
+      "history": "徐晃解樊城之围见于史传，曹操称其有周亚夫之风。"
+    },
+    {
+      "id": "zhang-he",
+      "name": "张郃",
+      "alias": "儁乂",
+      "faction": "wei",
+      "role": "武将",
+      "chapters": [
+        70,
+        101
+      ],
+      "summary": "原属袁绍，官渡降曹，后期抵御蜀汉北伐。",
+      "detail": "官渡时与高览一同降曹；街亭之战击败马谡，致诸葛亮首次北伐失利。",
+      "history": "张郃降曹与街亭之胜均见于《三国志》。"
+    },
+    {
+      "id": "jia-xu",
+      "name": "贾诩",
+      "alias": "文和",
+      "faction": "wei",
+      "role": "谋士",
+      "chapters": [
+        9,
+        68
+      ],
+      "summary": "历事董卓余部、张绣、曹操，以自保与奇谋著称。",
+      "detail": "劝李傕郭汜反攻长安；为张绣设计两败曹操；后劝张绣归曹，官渡、潼关皆有建策。",
+      "history": "贾诩生平见于史传，小说对其阴柔自保的性格有强化。"
+    },
+    {
+      "id": "cheng-yu",
+      "name": "程昱",
+      "alias": "仲德",
+      "faction": "wei",
+      "role": "谋士",
+      "chapters": [
+        10,
+        61
+      ],
+      "summary": "曹操早期谋士，守鄄城、献十面埋伏之计。",
+      "detail": "吕布袭兖州时与荀彧共守三城；仓亭之战献十面埋伏，大破袁绍。",
+      "history": "守鄄城史有其事，十面埋伏为小说增饰。"
+    },
+    {
+      "id": "sima-zhao",
+      "name": "司马昭",
+      "alias": "子上",
+      "faction": "wei",
+      "role": "权臣",
+      "chapters": [
+        107,
+        119
+      ],
+      "summary": "司马懿次子，弑君、灭蜀的实际主持者。",
+      "detail": "继兄司马师执政，遣钟会、邓艾伐蜀；平蜀后封晋王，其子司马炎代魏。",
+      "history": "司马昭灭蜀、封晋王史有明载，「司马昭之心」为后世成语。"
+    },
+    {
+      "id": "deng-ai",
+      "name": "邓艾",
+      "alias": "士载",
+      "faction": "wei",
+      "role": "统帅",
+      "chapters": [
+        110,
+        118
+      ],
+      "summary": "灭蜀主将，阴平偷渡直取成都。",
+      "detail": "与姜维相持于剑阁之外，自阴平行无人之地七百余里，破绵竹、降刘禅；后被钟会构陷而死。",
+      "history": "阴平偷渡与灭蜀史有其事，小说对其结局有戏剧化处理。"
+    },
+    {
+      "id": "zhong-hui",
+      "name": "钟会",
+      "alias": "士季",
+      "faction": "wei",
+      "role": "谋士",
+      "chapters": [
+        107,
+        119
+      ],
+      "summary": "伐蜀主帅，灭蜀后谋反被杀。",
+      "detail": "与邓艾分道伐蜀，忌邓艾之功而构陷之；入成都后谋据蜀自立，事泄被乱军所杀。",
+      "history": "钟会谋反事见史传。"
+    },
+    {
+      "id": "guan-ping",
+      "name": "关平",
+      "alias": "坦之",
+      "faction": "shu",
+      "role": "武将",
+      "chapters": [
+        28,
+        77
+      ],
+      "summary": "关羽长子，随父镇守荆州，同死麦城。",
+      "detail": "随关羽征战襄樊，水淹七军时立功；荆州失守后与父同走麦城，被孙权所杀。",
+      "history": "关平为关羽之子史载有之，小说中形象更为丰满。"
+    },
+    {
+      "id": "liao-hua",
+      "name": "廖化",
+      "alias": "元俭",
+      "faction": "shu",
+      "role": "武将",
+      "chapters": [
+        27,
+        115
+      ],
+      "summary": "历事关羽、刘备、诸葛亮、姜维，蜀汉兴亡的见证者。",
+      "detail": "荆州失守后归蜀；北伐中屡任先锋，蜀亡后随姜维降魏，途中病卒。",
+      "history": "「蜀中无大将，廖化作先锋」为后世俗语，廖化本人史传有载。"
+    },
+    {
+      "id": "wei-yan",
+      "name": "魏延",
+      "alias": "文长",
+      "faction": "shu",
+      "role": "武将",
+      "chapters": [
+        41,
+        104
+      ],
+      "summary": "蜀汉大将，献子午谷奇谋，后与杨仪争权被斩。",
+      "detail": "随刘备入蜀，镇守汉中十余年；北伐时屡请率奇兵出子午谷，诸葛亮不从；亮死后与杨仪相攻，被马岱所斩。",
+      "history": "魏延之死史传与小说叙述有别，小说加入「脑后有反骨」的相术描写。"
+    },
+    {
+      "id": "fa-zheng",
+      "name": "法正",
+      "alias": "孝直",
+      "faction": "shu",
+      "role": "谋士",
+      "chapters": [
+        60,
+        77
+      ],
+      "summary": "刘备取益州、定汉中的主要谋主。",
+      "detail": "与张松、孟达共谋迎刘备入蜀；汉中之战献计斩夏侯渊，刘备倚为股肱。",
+      "history": "法正事迹见于史传，陈寿将其与庞统并称。"
+    },
+    {
+      "id": "jiang-wan",
+      "name": "蒋琬",
+      "alias": "公琰",
+      "faction": "shu",
+      "role": "大臣",
+      "chapters": [
+        63,
+        105
+      ],
+      "summary": "诸葛亮指定的接班人之一，主政蜀汉十二年。",
+      "detail": "亮卒后主持国政，改以水路东下之策代北伐，虽未行而蜀中安定。",
+      "history": "蒋琬继掌蜀政史有明载。"
+    },
+    {
+      "id": "ma-dai",
+      "name": "马岱",
+      "alias": "伯瞻",
+      "faction": "shu",
+      "role": "武将",
+      "chapters": [
+        65,
+        104
+      ],
+      "summary": "马超从弟，斩魏延者。",
+      "detail": "随马超归蜀，北伐时多有战功；魏延与杨仪相攻，马岱奉杨仪之命斩延。",
+      "history": "马岱斩魏延见于史传。"
+    },
+    {
+      "id": "taishi-ci",
+      "name": "太史慈",
+      "alias": "子义",
+      "faction": "wu",
+      "role": "武将",
+      "chapters": [
+        11,
+        53
+      ],
+      "summary": "东吴名将，与孙策惺惺相惜。",
+      "detail": "神亭岭与孙策单骑相搏；后归孙策，屡建战功，临终叹「大丈夫生于乱世，当带三尺剑以升天子之阶」。",
+      "history": "太史慈归孙策史有其事，神亭之战小说有增饰。"
+    },
+    {
+      "id": "lu-meng-2",
+      "name": "陆抗",
+      "alias": "幼节",
+      "faction": "wu",
+      "role": "统帅",
+      "chapters": [
+        120,
+        120
+      ],
+      "summary": "陆逊之子，东吴后期名将，与晋羊祜对峙。",
+      "detail": "镇守荆州，与晋将羊祜以德相待；吴亡前为最后的长城。",
+      "history": "陆抗事迹见于史传，小说着墨不多。"
+    },
+    {
+      "id": "kan-ze",
+      "name": "阚泽",
+      "alias": "德润",
+      "faction": "wu",
+      "role": "谋士",
+      "chapters": [
+        47,
+        82
+      ],
+      "summary": "东吴谋士，献诈降书的关键人物。",
+      "detail": "黄盖苦肉计后，阚泽代献诈降书，以言辞折服曹操，使火攻之计得行。",
+      "history": "阚泽献诈降书见于史传，细节小说有增饰。"
+    },
+    {
+      "id": "xu-sheng",
+      "name": "徐盛",
+      "alias": "文向",
+      "faction": "wu",
+      "role": "武将",
+      "chapters": [
+        38,
+        86
+      ],
+      "summary": "东吴将领，以疑兵退曹丕南征。",
+      "detail": "濡须、洞口屡御曹军；曹丕南征时以木城疑兵，使其不战自退。",
+      "history": "徐盛疑兵退魏见于史传。"
+    },
+    {
+      "id": "zhang-jiao",
+      "name": "张角",
+      "alias": "天公将军",
+      "faction": "qun",
+      "role": "教主",
+      "chapters": [
+        1,
+        2
+      ],
+      "summary": "黄巾起义首领，太平道创始人。",
+      "detail": "以符水治病聚众数十万，喊出「苍天已死，黄天当立」，掀起黄巾之乱，是全书乱世的开端。",
+      "history": "黄巾起义与张角史有明载，符水治病与「天公将军」名号见于史传。"
+    },
+    {
+      "id": "hua-tuo",
+      "name": "华佗",
+      "alias": "元化",
+      "faction": "qun",
+      "role": "医者",
+      "chapters": [
+        15,
+        78
+      ],
+      "summary": "名医，为关羽刮骨疗毒，后被曹操所杀。",
+      "detail": "为关羽刮骨疗毒，谈笑自若；欲为曹操开颅治头风，被疑下狱而死。",
+      "history": "华佗确为汉末名医，但刮骨疗毒的对象史传记载为他人，小说移至关羽身上。"
+    },
+    {
+      "id": "mi-heng",
+      "name": "祢衡",
+      "alias": "正平",
+      "faction": "qun",
+      "role": "文士",
+      "chapters": [
+        23,
+        23
+      ],
+      "summary": "裸衣击鼓骂曹的狂士。",
+      "detail": "曹操召见而不肯屈，裸身击鼓当众辱曹；后被黄祖所杀。",
+      "history": "祢衡骂曹事见于史传，裸衣击鼓为小说增饰。"
+    },
+    {
+      "id": "kong-rong",
+      "name": "孔融",
+      "alias": "文举",
+      "faction": "qun",
+      "role": "文士",
+      "chapters": [
+        11,
+        40
+      ],
+      "summary": "建安七子之一，北海太守，后为曹操所杀。",
+      "detail": "任北海相时被黄巾围困，太史慈突围求救；后屡忤曹操，以不孝之罪被诛。",
+      "history": "孔融被诛与其「父母无恩论」史传有载。"
+    },
+    {
+      "id": "tao-qian",
+      "name": "陶谦",
+      "alias": "恭祖",
+      "faction": "qun",
+      "role": "州牧",
+      "chapters": [
+        10,
+        12
+      ],
+      "summary": "徐州牧，三让徐州与刘备。",
+      "detail": "曹操报父仇攻徐州，陶谦求救于刘备；病危时以徐州相让，刘备再三推辞后领之。",
+      "history": "陶谦让徐州见于史传，「三让」的仪式为小说增饰。"
+    },
+    {
+      "id": "gongsun-zan",
+      "name": "公孙瓒",
+      "alias": "伯珪",
+      "faction": "qun",
+      "role": "军阀",
+      "chapters": [
+        1,
+        21
+      ],
+      "summary": "刘备同窗，白马义从之主。",
+      "detail": "与刘备同学于卢植，荐刘备为平原相；后与袁绍相争，界桥败后自焚于易京楼。",
+      "history": "公孙瓒事迹见于史传，与刘备的同窗关系亦有所本。"
+    },
+    {
+      "id": "ma-teng",
+      "name": "马腾",
+      "alias": "寿成",
+      "faction": "qun",
+      "role": "军阀",
+      "chapters": [
+        10,
+        57
+      ],
+      "summary": "马超之父，西凉割据者。",
+      "detail": "与韩遂据西凉，曾受衣带诏；后入朝为质，马超起兵后被曹操所杀。",
+      "history": "马腾被杀与马超起兵的关系史传与小说叙述有出入。"
+    },
+    {
+      "id": "yan-liang",
+      "name": "颜良",
+      "alias": "—",
+      "faction": "qun",
+      "role": "武将",
+      "chapters": [
+        25,
+        26
+      ],
+      "summary": "袁绍大将，白马坡被关羽所斩。",
+      "detail": "袁绍麾下先锋，白马之战连斩曹将；关羽单骑突入，斩其首而还。",
+      "history": "颜良为关羽所斩史有明载，小说强化了关羽的勇武。"
+    },
+    {
+      "id": "wen-chou",
+      "name": "文丑",
+      "alias": "—",
+      "faction": "qun",
+      "role": "武将",
+      "chapters": [
+        26,
+        26
+      ],
+      "summary": "袁绍大将，延津之战被斩。",
+      "detail": "颜良死后请战报仇，延津遇曹军伏击，为关羽所斩。",
+      "history": "文丑之死史传记载与小说不同，未必死于关羽之手。"
+    },
+    {
+      "id": "tian-feng",
+      "name": "田丰",
+      "alias": "元皓",
+      "faction": "qun",
+      "role": "谋士",
+      "chapters": [
+        25,
+        27
+      ],
+      "summary": "袁绍谋士，因直谏下狱，袁绍败后被赐死。",
+      "detail": "力劝袁绍勿急于南征，被囚；官渡败后袁绍羞见之，遂杀田丰。",
+      "history": "田丰下狱、被杀见于史传。"
+    },
+    {
+      "id": "ju-shou",
+      "name": "沮授",
+      "alias": "则注",
+      "faction": "qun",
+      "role": "谋士",
+      "chapters": [
+        25,
+        30
+      ],
+      "summary": "袁绍谋士，主张持久疲曹，被俘后不屈而死。",
+      "detail": "谏袁绍不可分兵、不宜急于决战；官渡兵败被俘，曹操欲降之，不屈而死。",
+      "history": "沮授事迹见史传，其被俘后不屈为史实。"
+    },
+    {
+      "id": "zhang-xiu",
+      "name": "张绣",
+      "alias": "—",
+      "faction": "qun",
+      "role": "军阀",
+      "chapters": [
+        16,
+        23
+      ],
+      "summary": "宛城割据者，降曹后复叛，再降。",
+      "detail": "以贾诩之谋两败曹操，宛城一役杀典韦、曹昂；后从贾诩之劝归曹，官渡立功。",
+      "history": "张绣降曹事见史传。"
     }
   ],
   "places": [
@@ -1708,6 +2156,405 @@
       "label": "七擒七纵",
       "group": "rival",
       "chapter": 90
+    },
+    {
+      "a": "cao-cao",
+      "b": "cao-ren",
+      "label": "宗族将领",
+      "group": "kin",
+      "chapter": 51
+    },
+    {
+      "a": "cao-cao",
+      "b": "xiahou-yuan",
+      "label": "宗族将领",
+      "group": "kin",
+      "chapter": 71
+    },
+    {
+      "a": "cao-cao",
+      "b": "dian-wei",
+      "label": "护卫",
+      "group": "serve",
+      "chapter": 10
+    },
+    {
+      "a": "cao-cao",
+      "b": "xu-chu-2",
+      "label": "帐下大将",
+      "group": "serve",
+      "chapter": 59
+    },
+    {
+      "a": "cao-cao",
+      "b": "zhang-he",
+      "label": "降将",
+      "group": "serve",
+      "chapter": 30
+    },
+    {
+      "a": "cao-cao",
+      "b": "jia-xu",
+      "label": "纳降用谋",
+      "group": "serve",
+      "chapter": 23
+    },
+    {
+      "a": "cao-cao",
+      "b": "cheng-yu",
+      "label": "早期谋士",
+      "group": "serve",
+      "chapter": 10
+    },
+    {
+      "a": "cao-cao",
+      "b": "sima-zhao",
+      "label": "后继权臣",
+      "group": "serve",
+      "chapter": 107
+    },
+    {
+      "a": "cao-pi",
+      "b": "sima-zhao",
+      "label": "托孤辅政",
+      "group": "serve",
+      "chapter": 91
+    },
+    {
+      "a": "sima-yi",
+      "b": "sima-zhao",
+      "label": "父子",
+      "group": "kin",
+      "chapter": 107
+    },
+    {
+      "a": "sima-zhao",
+      "b": "deng-ai",
+      "label": "遣将伐蜀",
+      "group": "serve",
+      "chapter": 116
+    },
+    {
+      "a": "sima-zhao",
+      "b": "zhong-hui",
+      "label": "遣将伐蜀",
+      "group": "serve",
+      "chapter": 116
+    },
+    {
+      "a": "deng-ai",
+      "b": "zhong-hui",
+      "label": "伐蜀争功",
+      "group": "rival",
+      "chapter": 117
+    },
+    {
+      "a": "deng-ai",
+      "b": "jiang-wei",
+      "label": "剑阁相持",
+      "group": "rival",
+      "chapter": 116
+    },
+    {
+      "a": "zhang-liao",
+      "b": "zhang-he",
+      "label": "同僚",
+      "group": "friend",
+      "chapter": 30
+    },
+    {
+      "a": "xiahou-dun",
+      "b": "xiahou-yuan",
+      "label": "族兄弟",
+      "group": "kin",
+      "chapter": 71
+    },
+    {
+      "a": "dian-wei",
+      "b": "xu-chu",
+      "label": "前后护卫",
+      "group": "friend",
+      "chapter": 58
+    },
+    {
+      "a": "guan-yu",
+      "b": "guan-ping",
+      "label": "父子",
+      "group": "kin",
+      "chapter": 28
+    },
+    {
+      "a": "guan-yu",
+      "b": "liao-hua",
+      "label": "部将",
+      "group": "serve",
+      "chapter": 27
+    },
+    {
+      "a": "guan-yu",
+      "b": "yan-liang",
+      "label": "白马斩将",
+      "group": "rival",
+      "chapter": 25
+    },
+    {
+      "a": "guan-yu",
+      "b": "wen-chou",
+      "label": "延津斩将",
+      "group": "rival",
+      "chapter": 26
+    },
+    {
+      "a": "liu-bei",
+      "b": "wei-yan",
+      "label": "部将",
+      "group": "serve",
+      "chapter": 41
+    },
+    {
+      "a": "liu-bei",
+      "b": "fa-zheng",
+      "label": "取蜀谋主",
+      "group": "serve",
+      "chapter": 60
+    },
+    {
+      "a": "liu-bei",
+      "b": "ma-dai",
+      "label": "部将",
+      "group": "serve",
+      "chapter": 65
+    },
+    {
+      "a": "liu-bei",
+      "b": "tao-qian",
+      "label": "三让徐州",
+      "group": "ally",
+      "chapter": 11
+    },
+    {
+      "a": "liu-bei",
+      "b": "gongsun-zan",
+      "label": "同窗举荐",
+      "group": "friend",
+      "chapter": 1
+    },
+    {
+      "a": "zhuge-liang",
+      "b": "jiang-wan",
+      "label": "托付后事",
+      "group": "serve",
+      "chapter": 105
+    },
+    {
+      "a": "zhuge-liang",
+      "b": "wei-yan",
+      "label": "用而疑之",
+      "group": "serve",
+      "chapter": 92
+    },
+    {
+      "a": "zhuge-liang",
+      "b": "ma-dai",
+      "label": "部将",
+      "group": "serve",
+      "chapter": 88
+    },
+    {
+      "a": "wei-yan",
+      "b": "ma-dai",
+      "label": "被其所斩",
+      "group": "rival",
+      "chapter": 104
+    },
+    {
+      "a": "wei-yan",
+      "b": "jiang-wei",
+      "label": "同朝将领",
+      "group": "serve",
+      "chapter": 104
+    },
+    {
+      "a": "fa-zheng",
+      "b": "zhang-fei",
+      "label": "取蜀同僚",
+      "group": "ally",
+      "chapter": 65
+    },
+    {
+      "a": "ma-chao",
+      "b": "ma-dai",
+      "label": "从兄弟",
+      "group": "kin",
+      "chapter": 65
+    },
+    {
+      "a": "ma-chao",
+      "b": "ma-teng",
+      "label": "父子",
+      "group": "kin",
+      "chapter": 10
+    },
+    {
+      "a": "sun-ce",
+      "b": "taishi-ci",
+      "label": "神亭交手后归心",
+      "group": "friend",
+      "chapter": 15
+    },
+    {
+      "a": "sun-quan",
+      "b": "taishi-ci",
+      "label": "部将",
+      "group": "serve",
+      "chapter": 15
+    },
+    {
+      "a": "sun-quan",
+      "b": "kan-ze",
+      "label": "谋士",
+      "group": "serve",
+      "chapter": 47
+    },
+    {
+      "a": "sun-quan",
+      "b": "xu-sheng",
+      "label": "部将",
+      "group": "serve",
+      "chapter": 38
+    },
+    {
+      "a": "zhou-yu",
+      "b": "kan-ze",
+      "label": "诈降书",
+      "group": "ally",
+      "chapter": 47
+    },
+    {
+      "a": "lu-xun",
+      "b": "lu-meng-2",
+      "label": "父子",
+      "group": "kin",
+      "chapter": 120
+    },
+    {
+      "a": "zhang-jiao",
+      "b": "liu-bei",
+      "label": "黄巾之乱",
+      "group": "rival",
+      "chapter": 1
+    },
+    {
+      "a": "zhang-jiao",
+      "b": "cao-cao",
+      "label": "黄巾之乱",
+      "group": "rival",
+      "chapter": 1
+    },
+    {
+      "a": "hua-tuo",
+      "b": "guan-yu",
+      "label": "刮骨疗毒",
+      "group": "ally",
+      "chapter": 75
+    },
+    {
+      "a": "hua-tuo",
+      "b": "cao-cao",
+      "label": "医者与患者",
+      "group": "rival",
+      "chapter": 78
+    },
+    {
+      "a": "mi-heng",
+      "b": "cao-cao",
+      "label": "击鼓骂曹",
+      "group": "rival",
+      "chapter": 23
+    },
+    {
+      "a": "kong-rong",
+      "b": "cao-cao",
+      "label": "屡忤被杀",
+      "group": "rival",
+      "chapter": 40
+    },
+    {
+      "a": "tao-qian",
+      "b": "cao-cao",
+      "label": "徐州之仇",
+      "group": "rival",
+      "chapter": 10
+    },
+    {
+      "a": "gongsun-zan",
+      "b": "yuan-shao",
+      "label": "界桥相争",
+      "group": "rival",
+      "chapter": 7
+    },
+    {
+      "a": "ma-teng",
+      "b": "cao-cao",
+      "label": "衣带诏与西凉",
+      "group": "rival",
+      "chapter": 57
+    },
+    {
+      "a": "yuan-shao",
+      "b": "yan-liang",
+      "label": "部将",
+      "group": "serve",
+      "chapter": 25
+    },
+    {
+      "a": "yuan-shao",
+      "b": "wen-chou",
+      "label": "部将",
+      "group": "serve",
+      "chapter": 26
+    },
+    {
+      "a": "yuan-shao",
+      "b": "tian-feng",
+      "label": "直谏被囚",
+      "group": "serve",
+      "chapter": 25
+    },
+    {
+      "a": "yuan-shao",
+      "b": "ju-shou",
+      "label": "谋主",
+      "group": "serve",
+      "chapter": 25
+    },
+    {
+      "a": "zhang-xiu",
+      "b": "cao-cao",
+      "label": "两降两叛",
+      "group": "rival",
+      "chapter": 16
+    },
+    {
+      "a": "zhang-xiu",
+      "b": "jia-xu",
+      "label": "用其谋",
+      "group": "ally",
+      "chapter": 16
+    },
+    {
+      "a": "dian-wei",
+      "b": "zhang-xiu",
+      "label": "宛城死战",
+      "group": "rival",
+      "chapter": 16
+    },
+    {
+      "a": "lv-bu",
+      "b": "yan-liang",
+      "label": "同为猛将",
+      "group": "friend",
+      "chapter": 5
     }
   ]
 }
