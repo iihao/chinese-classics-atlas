@@ -1,0 +1,3857 @@
+{
+  "version": 1,
+  "workId": "shuihu",
+  "title": "水浒传",
+  "subtitle": "从逼上梁山到魂聚蓼儿洼",
+  "scope": "《水浒传》小说叙事切片：智取生辰纲、火并王伦、三打祝家庄、大破连环马、英雄排座次、全伙受招安、征方腊至宋江之死。含人物关系、一百单八将座次、招安进程、事件与地点。不是全书索引，也不做版本校勘。",
+  "source": "《水浒传》通行一百二十回本。座次与星号取第七十一回石碣天文；招安后情节各本分歧较大，金圣叹七十回本止于排座次。",
+  "factSource": "职司依第七十一回座次后的职务名单；绰号释义、上山前身份依通行本正文与常见注本整理。维基百科、百度百科链接仅为延伸阅读入口，未抓取其正文。",
+  "layer": "novel",
+  "groups": [
+    {
+      "id": "liangshan",
+      "name": "梁山元老",
+      "color": "#8c3b32",
+      "note": "晁盖旧部与早期头领：智取生辰纲一系、梁山旧寨与林冲。"
+    },
+    {
+      "id": "jiangling",
+      "name": "降将 · 公人",
+      "color": "#3f6480",
+      "note": "朝廷军官、州县都头与两院押牢出身，被擒或归顺后入伙。"
+    },
+    {
+      "id": "jianghu",
+      "name": "江湖 · 三山",
+      "color": "#5f7a57",
+      "note": "二龙山、少华山、桃花山及各地江湖好汉。"
+    },
+    {
+      "id": "dengzhou",
+      "name": "登州",
+      "color": "#7a5c8a",
+      "note": "孙立、孙新、顾大嫂一干亲戚与登云山邹氏叔侄。"
+    },
+    {
+      "id": "jieyang",
+      "name": "揭阳 · 浔阳江",
+      "color": "#a4713a",
+      "note": "李俊、张横、穆弘等揭阳岭与浔阳江上的水上势力。"
+    },
+    {
+      "id": "jiangzhou",
+      "name": "江州",
+      "color": "#4f7276",
+      "note": "戴宗、李逵等江州两院节级与牢子。"
+    },
+    {
+      "id": "daming",
+      "name": "大名府",
+      "color": "#9a6a35",
+      "note": "卢俊义、燕青与大名府两院押牢蔡福一系。"
+    },
+    {
+      "id": "qingfeng",
+      "name": "清风山 · 青州",
+      "color": "#6e8352",
+      "note": "花荣、秦明、黄信与清风山燕顺、王英等。"
+    },
+    {
+      "id": "manor",
+      "name": "庄园故旧",
+      "color": "#8a7a3f",
+      "note": "柴进、李应、杜兴、扈三娘等庄园与地方势力。"
+    },
+    {
+      "id": "other",
+      "name": "朝廷 · 市井 · 敌方",
+      "color": "#6d675b",
+      "note": "未入一百单八将者：晁盖、王伦、高俅、方腊与市井人物。"
+    }
+  ],
+  "groupOrder": [
+    "liangshan",
+    "jiangling",
+    "jianghu",
+    "dengzhou",
+    "jieyang",
+    "jiangzhou",
+    "daming",
+    "qingfeng",
+    "manor",
+    "other"
+  ],
+  "fateOrder": [
+    "阵亡",
+    "病故",
+    "被害",
+    "自尽",
+    "出家",
+    "归隐",
+    "存留",
+    "不明"
+  ],
+  "characters": [
+    {
+      "id": "song-jiang",
+      "name": "宋江",
+      "nickname": "呼保义 · 及时雨",
+      "star": "天魁星",
+      "rank": 1,
+      "group": "liangshan",
+      "role": "寨主",
+      "chapters": [
+        18,
+        41,
+        71,
+        82,
+        120
+      ],
+      "summary": "私放晁盖，浔阳楼题反诗，上梁山后主盟，力主招安。",
+      "detail": "郓城县押司出身，因私放劫生辰纲的晁盖等人被阎婆惜要挟，杀惜后流配江州；浔阳楼题反诗被判死，梁山劫法场救出。晁盖死后主盟梁山，改聚义厅为忠义堂，力主招安。受招安后征辽、征方腊，最终被高俅等毒死。",
+      "ending": "征方腊后授楚州安抚使，被高俅等以御酒下毒，死后葬于蓼儿洼。",
+      "fate": "被害",
+      "history": "招安与征方腊见一百二十回本；七十回本止于排座次。",
+      "duty": "总兵都头领",
+      "nicknameNote": "「呼保义」是梁山对外自称的忠义名号，「及时雨」指其仗义疏财、救人于急难。",
+      "before": "郓城县押司",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%AE%8B%E6%B1%9F"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%AE%8B%E6%B1%9F"
+        }
+      ]
+    },
+    {
+      "id": "lu-junyi",
+      "name": "卢俊义",
+      "nickname": "玉麒麟",
+      "star": "天罡星",
+      "rank": 2,
+      "group": "daming",
+      "role": "副寨主",
+      "chapters": [
+        61,
+        66,
+        67,
+        71,
+        120
+      ],
+      "summary": "大名府富豪，被吴用设计赚上梁山，活捉史文恭。",
+      "detail": "北京大名府员外，枪棒天下无双。吴用扮算命先生题藏头诗，使其被官府追捕，梁山劫法场救出后入伙。曾头市活捉史文恭，坐第二把交椅。招安后征方腊，最终被毒。",
+      "ending": "授庐州安抚使，被高俅等在御膳中下水银，坠淮河而死。",
+      "fate": "被害",
+      "history": null,
+      "duty": "总兵都头领",
+      "nicknameNote": "「玉麒麟」取麒麟为瑞兽、喻其仪表与武艺出众。",
+      "before": "北京大名府员外",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%8D%A2%E4%BF%8A%E4%B9%89"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%8D%A2%E4%BF%8A%E4%B9%89"
+        }
+      ]
+    },
+    {
+      "id": "wu-yong",
+      "name": "吴用",
+      "nickname": "智多星",
+      "star": "天机星",
+      "rank": 3,
+      "group": "liangshan",
+      "role": "军师",
+      "chapters": [
+        15,
+        16,
+        50,
+        71,
+        120
+      ],
+      "summary": "梁山军师，智取生辰纲、双掌连环计皆出其谋。",
+      "detail": "东溪村塾师，与晁盖共谋智取生辰纲，事败上梁山。火并王伦后拥立晁盖，后又辅佐宋江。排座次后为掌管机密军师。宋江死后与花荣同缢于蓼儿洼。",
+      "ending": "宋江死后与花荣自缢于蓼儿洼。",
+      "fate": "自尽",
+      "history": null,
+      "duty": "掌管机密军师",
+      "nicknameNote": "「智多星」以天上智星喻其机谋；「加亮」为自比诸葛亮之说（一说）。",
+      "before": "东溪村塾师",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%90%B4%E7%94%A8"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%90%B4%E7%94%A8"
+        }
+      ]
+    },
+    {
+      "id": "gongsun-sheng",
+      "name": "公孙胜",
+      "nickname": "入云龙",
+      "star": "天闲星",
+      "rank": 4,
+      "group": "liangshan",
+      "role": "法师",
+      "chapters": [
+        15,
+        16,
+        60,
+        71,
+        89
+      ],
+      "summary": "蓟州道士，参与智取生辰纲，会道术。",
+      "detail": "蓟州二仙山罗真人弟子，应晁盖之邀参与智取生辰纲。高唐州斗高廉、芒砀山降魔皆有其法。征方腊前遵师命归山修行。",
+      "ending": "征方腊前从罗真人命归山，未参与征方腊。",
+      "fate": "归隐",
+      "history": null,
+      "duty": "掌管机密军师",
+      "nicknameNote": "「入云龙」状其道术高妙、来去如龙。",
+      "before": "蓟州二仙山道士",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%85%AC%E5%AD%99%E8%83%9C"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%85%AC%E5%AD%99%E8%83%9C"
+        }
+      ]
+    },
+    {
+      "id": "guan-sheng",
+      "name": "关胜",
+      "nickname": "大刀",
+      "star": "天勇星",
+      "rank": 5,
+      "group": "jiangling",
+      "role": "马军五虎将",
+      "chapters": [
+        63,
+        64,
+        71,
+        120
+      ],
+      "summary": "关羽后裔，蒲东巡检，被呼延灼诈降计赚入梁山。",
+      "detail": "蒲东巡检，使青龙偃月刀。蔡京派其征梁山，中呼延灼诈降之计被擒，感宋江之义归顺。排座次后为马军五虎将之首。",
+      "ending": "授大名府正兵马总管，后因酒醉坠马病亡。",
+      "fate": "病故",
+      "history": null,
+      "duty": "马军五虎将",
+      "nicknameNote": "「大刀」直取其兵器青龙偃月刀，并托关羽后裔身份。",
+      "before": "蒲东巡检",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%85%B3%E8%83%9C"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%85%B3%E8%83%9C"
+        }
+      ]
+    },
+    {
+      "id": "lin-chong",
+      "name": "林冲",
+      "nickname": "豹子头",
+      "star": "天雄星",
+      "rank": 6,
+      "group": "liangshan",
+      "role": "马军五虎将",
+      "chapters": [
+        7,
+        8,
+        9,
+        10,
+        19,
+        71
+      ],
+      "summary": "东京八十万禁军教头，被高俅陷害，风雪山神庙后上梁山。",
+      "detail": "因高衙内觊觎其妻，被高俅设计误入白虎堂，刺配沧州；在野猪林遇险获鲁智深相救，风雪山神庙手刃仇人后雪夜上梁山。王伦忌其才，林冲在晁盖等上山后火并王伦。",
+      "ending": "征方腊后风瘫，留六和寺养病，半年后病故。",
+      "fate": "病故",
+      "history": null,
+      "duty": "马军五虎将",
+      "nicknameNote": "「豹子头」形容其豹头环眼、燕颔虎须的相貌。",
+      "before": "东京八十万禁军教头",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E6%9E%97%E5%86%B2"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E6%9E%97%E5%86%B2"
+        }
+      ]
+    },
+    {
+      "id": "qin-ming",
+      "name": "秦明",
+      "nickname": "霹雳火",
+      "star": "天猛星",
+      "rank": 7,
+      "group": "qingfeng",
+      "role": "马军五虎将",
+      "chapters": [
+        34,
+        35,
+        71,
+        120
+      ],
+      "summary": "青州指挥司统制，被宋江设计断其归路后入伙。",
+      "detail": "青州指挥司总管本州兵马统制，性如烈火。征清风山时中计被擒，宋江使人假扮其攻打青州，秦明家小被官府所杀，走投无路入伙。",
+      "ending": "征方腊清溪县之战被方杰所杀。",
+      "fate": "阵亡",
+      "history": null,
+      "duty": "马军五虎将",
+      "nicknameNote": "「霹雳火」喻其性烈如火、声若霹雳。",
+      "before": "青州指挥司统制",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E7%A7%A6%E6%98%8E"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E7%A7%A6%E6%98%8E"
+        }
+      ]
+    },
+    {
+      "id": "hu-yanzhuo",
+      "name": "呼延灼",
+      "nickname": "双鞭",
+      "star": "天威星",
+      "rank": 8,
+      "group": "jiangling",
+      "role": "马军五虎将",
+      "chapters": [
+        54,
+        55,
+        57,
+        71,
+        120
+      ],
+      "summary": "开国功臣呼延赞之后，连环马被破后归顺。",
+      "detail": "汝宁郡都统制，奉旨征梁山，以连环马连胜。宋江请徐宁教钩镰枪破阵，呼延灼败走青州，被吴用设计擒获后归顺。",
+      "ending": "授御营兵马指挥使，后与金兵交战阵亡（一说）。",
+      "fate": "阵亡",
+      "history": "招安后结局各本略有异说。",
+      "duty": "马军五虎将",
+      "nicknameNote": "「双鞭」直取其兵器；呼延为开国功臣之姓，暗含将门出身。",
+      "before": "汝宁郡都统制",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%91%BC%E5%BB%B6%E7%81%BC"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%91%BC%E5%BB%B6%E7%81%BC"
+        }
+      ]
+    },
+    {
+      "id": "hua-rong",
+      "name": "花荣",
+      "nickname": "小李广",
+      "star": "天英星",
+      "rank": 9,
+      "group": "qingfeng",
+      "role": "马军八骠骑",
+      "chapters": [
+        33,
+        35,
+        71,
+        120
+      ],
+      "summary": "清风寨知寨，神箭，宋江挚友。",
+      "detail": "清风寨武知寨，箭术称小李广。因宋江在清风山事发，与秦明等一同反出青州，后上梁山。排座次后为马军八骠骑之首。宋江死后与吴用同缢。",
+      "ending": "宋江死后与吴用自缢于蓼儿洼。",
+      "fate": "自尽",
+      "history": null,
+      "duty": "马军八骠骑兼先锋使",
+      "nicknameNote": "「小李广」以汉代射将李广相比，极言其箭术。",
+      "before": "清风寨武知寨",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E8%8A%B1%E8%8D%A3"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E8%8A%B1%E8%8D%A3"
+        }
+      ]
+    },
+    {
+      "id": "chai-jin",
+      "name": "柴进",
+      "nickname": "小旋风",
+      "star": "天贵星",
+      "rank": 10,
+      "group": "manor",
+      "role": "掌管钱粮",
+      "chapters": [
+        9,
+        10,
+        22,
+        52,
+        71
+      ],
+      "summary": "后周皇族后裔，广交江湖，曾收留林冲、武松、宋江。",
+      "detail": "沧州横海郡人，后周世宗柴荣之后，家藏丹书铁券。先后收留林冲、宋江、武松，因高唐州叔父柴皇城被高廉陷害，失陷高唐州，梁山破城后入伙。",
+      "ending": "招安后辞官归沧州，后无疾而终。",
+      "fate": "归隐",
+      "history": null,
+      "duty": "掌管钱粮头领",
+      "nicknameNote": "「小旋风」一说状其行事迅疾、能卷动江湖；一说与后周皇族「旋风」旗号有关（存疑）。",
+      "before": "沧州横海郡皇族后裔",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E6%9F%B4%E8%BF%9B"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E6%9F%B4%E8%BF%9B"
+        }
+      ]
+    },
+    {
+      "id": "li-ying",
+      "name": "李应",
+      "nickname": "扑天雕",
+      "star": "天富星",
+      "rank": 11,
+      "group": "manor",
+      "role": "掌管钱粮",
+      "chapters": [
+        47,
+        50,
+        71
+      ],
+      "summary": "独龙岗李家庄庄主，被宋江设计赚上梁山。",
+      "detail": "郓州独龙岗李家庄庄主，与祝家庄、扈家庄结盟。因祝彪射伤，又与梁山交好，被宋江设计骗上山，家眷一并接来，遂留梁山掌管钱粮。",
+      "ending": "招安后辞官，回独龙岗做富豪。",
+      "fate": "归隐",
+      "history": null,
+      "duty": "掌管钱粮头领",
+      "nicknameNote": "「扑天雕」状其飞刀出手如雕扑天。",
+      "before": "独龙岗李家庄庄主",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E6%9D%8E%E5%BA%94"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E6%9D%8E%E5%BA%94"
+        }
+      ]
+    },
+    {
+      "id": "zhu-tong",
+      "name": "朱仝",
+      "nickname": "美髯公",
+      "star": "天满星",
+      "rank": 12,
+      "group": "jiangling",
+      "role": "马军八骠骑",
+      "chapters": [
+        13,
+        18,
+        51,
+        71
+      ],
+      "summary": "郓城县马兵都头，私放晁盖、宋江、雷横。",
+      "detail": "郓城县马兵都头，与雷横同衙。先后私放晁盖、宋江，又放走雷横，被刺配沧州。宋江使李逵杀小衙内断其归路，被迫上山。",
+      "ending": "授保定府都统制，后随刘光世破金，官至太平军节度使。",
+      "fate": "存留",
+      "history": null,
+      "duty": "马军八骠骑兼先锋使",
+      "nicknameNote": "「美髯公」以关羽之美髯相比，赞其仪表。",
+      "before": "郓城县马兵都头",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E6%9C%B1%E4%BB%9D"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E6%9C%B1%E4%BB%9D"
+        }
+      ]
+    },
+    {
+      "id": "lu-zhishen",
+      "name": "鲁智深",
+      "nickname": "花和尚",
+      "star": "天孤星",
+      "rank": 13,
+      "group": "jianghu",
+      "role": "步军头领",
+      "chapters": [
+        3,
+        4,
+        7,
+        17,
+        71,
+        119
+      ],
+      "summary": "拳打镇关西，倒拔垂杨柳，二龙山之主，后归梁山。",
+      "detail": "渭州经略府提辖，三拳打死镇关西后出家，法名智深。东京大相国寺倒拔垂杨柳，野猪林救林冲。后与杨志、武松占二龙山，三山聚义后归梁山。",
+      "ending": "征方腊后于杭州六和寺听潮圆寂。",
+      "fate": "出家",
+      "history": null,
+      "duty": "步军头领",
+      "nicknameNote": "「花和尚」因其身刺花绣又出家为僧。",
+      "before": "渭州经略府提辖",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E9%B2%81%E6%99%BA%E6%B7%B1"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E9%B2%81%E6%99%BA%E6%B7%B1"
+        }
+      ]
+    },
+    {
+      "id": "wu-song",
+      "name": "武松",
+      "nickname": "行者",
+      "star": "天伤星",
+      "rank": 14,
+      "group": "jianghu",
+      "role": "步军头领",
+      "chapters": [
+        23,
+        26,
+        27,
+        31,
+        32,
+        71
+      ],
+      "summary": "景阳冈打虎，杀嫂祭兄，血溅鸳鸯楼，后于六和寺出家。",
+      "detail": "清河县人，景阳冈醉打猛虎后任阳谷县都头。兄武大被潘金莲、西门庆谋害，武松杀嫂、斗杀西门庆，刺配孟州；又遭蒋门神、张都监陷害，血溅鸳鸯楼后上二龙山。",
+      "ending": "征方腊断臂，留六和寺出家，八十善终。",
+      "fate": "出家",
+      "history": null,
+      "duty": "步军头领",
+      "nicknameNote": "「行者」是头陀装束的称呼；「武二郎」为家中排行。",
+      "before": "阳谷县都头",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E6%AD%A6%E6%9D%BE"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E6%AD%A6%E6%9D%BE"
+        }
+      ]
+    },
+    {
+      "id": "dong-ping",
+      "name": "董平",
+      "nickname": "双枪将",
+      "star": "天立星",
+      "rank": 15,
+      "group": "jiangling",
+      "role": "马军五虎将",
+      "chapters": [
+        69,
+        71,
+        120
+      ],
+      "summary": "东平府兵马都监，归顺后为马军五虎将。",
+      "detail": "东平府兵马都监，善使双枪。宋江攻打东平府时被擒归顺，并娶程太守之女。排座次后列马军五虎将。",
+      "ending": "征方腊独松关之战阵亡。",
+      "fate": "阵亡",
+      "history": null,
+      "duty": "马军五虎将",
+      "nicknameNote": "「双枪将」直取其双枪兵器。",
+      "before": "东平府兵马都监",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E8%91%A3%E5%B9%B3"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E8%91%A3%E5%B9%B3"
+        }
+      ]
+    },
+    {
+      "id": "zhang-qing",
+      "name": "张清",
+      "nickname": "没羽箭",
+      "star": "天捷星",
+      "rank": 16,
+      "group": "jiangling",
+      "role": "马军八骠骑",
+      "chapters": [
+        70,
+        71,
+        120
+      ],
+      "summary": "东昌府守将，飞石连打梁山十五员头领。",
+      "detail": "彰德府人，善用飞石打将。宋江攻东昌府时连伤梁山十余人，后被吴用设计擒获归顺。",
+      "ending": "征方腊独松关之战阵亡。",
+      "fate": "阵亡",
+      "history": null,
+      "duty": "马军八骠骑兼先锋使",
+      "nicknameNote": "「没羽箭」指飞石之力，箭没羽而石无羽，故名。",
+      "before": "东昌府守将",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%BC%A0%E6%B8%85"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%BC%A0%E6%B8%85"
+        }
+      ]
+    },
+    {
+      "id": "yang-zhi",
+      "name": "杨志",
+      "nickname": "青面兽",
+      "star": "天暗星",
+      "rank": 17,
+      "group": "jianghu",
+      "role": "马军八骠骑",
+      "chapters": [
+        12,
+        16,
+        17,
+        71
+      ],
+      "summary": "杨家将之后，失陷生辰纲后上二龙山。",
+      "detail": "杨业之后，曾任殿帅府制使，失陷花石纲后流落东京，卖刀杀牛二被刺配。梁中书抬举其押送生辰纲，又被晁盖等劫去，走投无路与鲁智深占二龙山。",
+      "ending": "征方腊途中病故于丹徒。",
+      "fate": "病故",
+      "history": null,
+      "duty": "马军八骠骑兼先锋使",
+      "nicknameNote": "「青面兽」因其面有青色胎记、状貌威猛。",
+      "before": "殿帅府制使",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E6%9D%A8%E5%BF%97"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E6%9D%A8%E5%BF%97"
+        }
+      ]
+    },
+    {
+      "id": "xu-ning",
+      "name": "徐宁",
+      "nickname": "金枪手",
+      "star": "天佑星",
+      "rank": 18,
+      "group": "jiangling",
+      "role": "马军八骠骑",
+      "chapters": [
+        56,
+        57,
+        71
+      ],
+      "summary": "东京金枪班教师，钩镰枪法破连环马。",
+      "detail": "东京禁军金枪班教师，家传钩镰枪法可破连环马。汤隆献计，时迁盗其雁翎圈金甲，徐宁被赚上梁山，教演钩镰枪法。",
+      "ending": "征方腊杭州之战中毒箭身亡。",
+      "fate": "阵亡",
+      "history": null,
+      "duty": "马军八骠骑兼先锋使",
+      "nicknameNote": "「金枪手」指其家传金枪与钩镰枪法。",
+      "before": "东京禁军金枪班教师",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%BE%90%E5%AE%81"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%BE%90%E5%AE%81"
+        }
+      ]
+    },
+    {
+      "id": "suo-chao",
+      "name": "索超",
+      "nickname": "急先锋",
+      "star": "天空星",
+      "rank": 19,
+      "group": "jiangling",
+      "role": "马军八骠骑",
+      "chapters": [
+        13,
+        63,
+        71,
+        120
+      ],
+      "summary": "大名府留守司正牌军，归顺后为马军八骠骑。",
+      "detail": "大名府留守司正牌军，性急，人称急先锋。宋江攻大名府时被擒归顺。",
+      "ending": "征方腊杭州之战阵亡。",
+      "fate": "阵亡",
+      "history": null,
+      "duty": "马军八骠骑兼先锋使",
+      "nicknameNote": "「急先锋」喻其临阵争先、性急。",
+      "before": "大名府留守司正牌军",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E7%B4%A2%E8%B6%85"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E7%B4%A2%E8%B6%85"
+        }
+      ]
+    },
+    {
+      "id": "dai-zong",
+      "name": "戴宗",
+      "nickname": "神行太保",
+      "star": "天速星",
+      "rank": 20,
+      "group": "jiangzhou",
+      "role": "情报",
+      "chapters": [
+        38,
+        39,
+        41,
+        71,
+        120
+      ],
+      "summary": "江州两院节级，善神行法，传递军情。",
+      "detail": "江州两院押牢节级，会神行法，日行数百里。宋江在江州遇险时多方奔走，后一同上梁山，掌管情报传递。",
+      "ending": "招安后辞官，往泰安州岳庙出家，大笑而终。",
+      "fate": "出家",
+      "history": null,
+      "duty": "总探声息头领",
+      "nicknameNote": "「神行太保」指其神行法，日行数百里。",
+      "before": "江州两院押牢节级",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E6%88%B4%E5%AE%97"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E6%88%B4%E5%AE%97"
+        }
+      ]
+    },
+    {
+      "id": "liu-tang",
+      "name": "刘唐",
+      "nickname": "赤发鬼",
+      "star": "天异星",
+      "rank": 21,
+      "group": "liangshan",
+      "role": "步军头领",
+      "chapters": [
+        14,
+        15,
+        16,
+        71
+      ],
+      "summary": "东潞州人，报信生辰纲，参与智取。",
+      "detail": "东潞州人，鬓边有朱砂记。得知梁中书押送生辰纲，投晁盖报信，后参与智取。",
+      "ending": "征方腊杭州候潮门之战阵亡。",
+      "fate": "阵亡",
+      "history": null,
+      "duty": "步军头领",
+      "nicknameNote": "「赤发鬼」因其鬓边朱砂记、貌如赤发。",
+      "before": "东潞州江湖人",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%88%98%E5%94%90"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%88%98%E5%94%90"
+        }
+      ]
+    },
+    {
+      "id": "li-kui",
+      "name": "李逵",
+      "nickname": "黑旋风",
+      "star": "天杀星",
+      "rank": 22,
+      "group": "jiangzhou",
+      "role": "步军头领",
+      "chapters": [
+        38,
+        43,
+        71,
+        120
+      ],
+      "summary": "宋江心腹，两把板斧，性情暴烈。",
+      "detail": "沂州沂水县人，因打死人流落江州做牢子。宋江刺配江州时相识，劫法场后上梁山，成为宋江最忠实的追随者。",
+      "ending": "宋江被毒后，恐其造反，亦以毒酒鸩之。",
+      "fate": "被害",
+      "history": null,
+      "duty": "步军头领",
+      "nicknameNote": "「黑旋风」状其肤色黝黑、冲锋如旋风。",
+      "before": "江州牢子",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E6%9D%8E%E9%80%B5"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E6%9D%8E%E9%80%B5"
+        }
+      ]
+    },
+    {
+      "id": "shi-jin",
+      "name": "史进",
+      "nickname": "九纹龙",
+      "star": "天微星",
+      "rank": 23,
+      "group": "jianghu",
+      "role": "马军八骠骑",
+      "chapters": [
+        2,
+        3,
+        59,
+        71
+      ],
+      "summary": "华阴县史家庄少庄主，少华山之首。",
+      "detail": "华阴县史家庄少庄主，身刺九条青龙，从王进学得武艺。因结交少华山好汉，火烧庄园后上山，后归梁山。",
+      "ending": "征方腊昱岭关之战阵亡。",
+      "fate": "阵亡",
+      "history": null,
+      "duty": "马军八骠骑兼先锋使",
+      "nicknameNote": "「九纹龙」因其身刺九条青龙。",
+      "before": "华阴县史家庄少庄主",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%8F%B2%E8%BF%9B"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%8F%B2%E8%BF%9B"
+        }
+      ]
+    },
+    {
+      "id": "mu-hong",
+      "name": "穆弘",
+      "nickname": "没遮拦",
+      "star": "天究星",
+      "rank": 24,
+      "group": "jieyang",
+      "role": "马军八骠骑",
+      "chapters": [
+        37,
+        41,
+        71
+      ],
+      "summary": "揭阳镇富户，揭阳三霸之一。",
+      "detail": "江州揭阳镇富户，与弟穆春称霸一方。宋江路过揭阳时与其冲突，后结义同上梁山。",
+      "ending": "征方腊后病故于杭州。",
+      "fate": "病故",
+      "history": null,
+      "duty": "马军八骠骑兼先锋使",
+      "nicknameNote": "「没遮拦」喻其勇猛无所阻挡。",
+      "before": "揭阳镇富户",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E7%A9%86%E5%BC%98"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E7%A9%86%E5%BC%98"
+        }
+      ]
+    },
+    {
+      "id": "lei-heng",
+      "name": "雷横",
+      "nickname": "插翅虎",
+      "star": "天退星",
+      "rank": 25,
+      "group": "jiangling",
+      "role": "步军头领",
+      "chapters": [
+        13,
+        51,
+        71
+      ],
+      "summary": "郓城县步兵都头，因打死白秀英被朱仝放走。",
+      "detail": "郓城县步兵都头，与朱仝同衙。因母亲受辱打死白秀英，朱仝私放其逃走，后上梁山。",
+      "ending": "征方腊德清县之战阵亡。",
+      "fate": "阵亡",
+      "history": null,
+      "duty": "步军头领",
+      "nicknameNote": "「插翅虎」喻其能跳跃如虎添翼。",
+      "before": "郓城县步兵都头",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E9%9B%B7%E6%A8%AA"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E9%9B%B7%E6%A8%AA"
+        }
+      ]
+    },
+    {
+      "id": "li-jun",
+      "name": "李俊",
+      "nickname": "混江龙",
+      "star": "天寿星",
+      "rank": 26,
+      "group": "jieyang",
+      "role": "水军头领",
+      "chapters": [
+        36,
+        37,
+        71,
+        119
+      ],
+      "summary": "揭阳岭水上豪杰，梁山泊水军之首。",
+      "detail": "庐州人，撑船为生，在揭阳岭与李立、童威童猛结伙。宋江遇险时多次相救，后上梁山统领水军。",
+      "ending": "征方腊后诈病，与童威童猛出海，后为暹罗国王（一说）。",
+      "fate": "存留",
+      "history": "海外结局为一百二十回本及续书所载，异说较多。",
+      "duty": "水军头领",
+      "nicknameNote": "「混江龙」以水中蛟龙喻其水性。",
+      "before": "揭阳岭艄公",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E6%9D%8E%E4%BF%8A"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E6%9D%8E%E4%BF%8A"
+        }
+      ]
+    },
+    {
+      "id": "ruan-xiaoer",
+      "name": "阮小二",
+      "nickname": "立地太岁",
+      "star": "天剑星",
+      "rank": 27,
+      "group": "liangshan",
+      "role": "水军头领",
+      "chapters": [
+        15,
+        16,
+        19,
+        71
+      ],
+      "summary": "石碣村阮氏三雄之长，参与智取生辰纲。",
+      "detail": "济州石碣村渔民，阮氏三雄之长。吴用说动三阮参与智取生辰纲，后随晁盖上梁山，为水军头领。",
+      "ending": "征方腊乌龙岭之战阵亡。",
+      "fate": "阵亡",
+      "history": null,
+      "duty": "水军头领",
+      "nicknameNote": "「立地太岁」以凶神太岁喻其不好惹。",
+      "before": "石碣村渔民",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E9%98%AE%E5%B0%8F%E4%BA%8C"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E9%98%AE%E5%B0%8F%E4%BA%8C"
+        }
+      ]
+    },
+    {
+      "id": "zhang-heng",
+      "name": "张横",
+      "nickname": "船火儿",
+      "star": "天平星",
+      "rank": 28,
+      "group": "jieyang",
+      "role": "水军头领",
+      "chapters": [
+        37,
+        71,
+        119
+      ],
+      "summary": "浔阳江艄公，张顺之兄。",
+      "detail": "浔阳江上以摆渡为名劫掠，后与弟张顺同上梁山。",
+      "ending": "征方腊后病故。",
+      "fate": "病故",
+      "history": null,
+      "duty": "水军头领",
+      "nicknameNote": "「船火儿」为宋代船工称谓，点其艄公出身。",
+      "before": "浔阳江艄公",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%BC%A0%E6%A8%AA"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%BC%A0%E6%A8%AA"
+        }
+      ]
+    },
+    {
+      "id": "ruan-xiaowu",
+      "name": "阮小五",
+      "nickname": "短命二郎",
+      "star": "天罪星",
+      "rank": 29,
+      "group": "liangshan",
+      "role": "水军头领",
+      "chapters": [
+        15,
+        16,
+        19,
+        71
+      ],
+      "summary": "石碣村阮氏三雄之一。",
+      "detail": "石碣村渔民，与兄阮小二、弟阮小七同参智取生辰纲，后为梁山泊水军头领。",
+      "ending": "征方腊清溪县之战阵亡。",
+      "fate": "阵亡",
+      "history": null,
+      "duty": "水军头领",
+      "nicknameNote": "「短命二郎」为江湖绰号，非字面短命之意。",
+      "before": "石碣村渔民",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E9%98%AE%E5%B0%8F%E4%BA%94"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E9%98%AE%E5%B0%8F%E4%BA%94"
+        }
+      ]
+    },
+    {
+      "id": "zhang-shun",
+      "name": "张顺",
+      "nickname": "浪里白条",
+      "star": "天损星",
+      "rank": 30,
+      "group": "jieyang",
+      "role": "水军头领",
+      "chapters": [
+        38,
+        65,
+        71,
+        114
+      ],
+      "summary": "浔阳江水中好汉，涌金门归神。",
+      "detail": "张横之弟，水性极佳。江州劫法场后上梁山，为水军头领。征方腊时只身潜往杭州，欲从涌金门入城，被守军发现，乱箭射死。",
+      "ending": "征方腊攻杭州，于涌金门被乱箭射死。",
+      "fate": "阵亡",
+      "history": null,
+      "duty": "水军头领",
+      "nicknameNote": "「浪里白条」喻其水中身手矫健、肤色白净。",
+      "before": "浔阳江鱼贩",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%BC%A0%E9%A1%BA"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%BC%A0%E9%A1%BA"
+        }
+      ]
+    },
+    {
+      "id": "ruan-xiaoqi",
+      "name": "阮小七",
+      "nickname": "活阎罗",
+      "star": "天败星",
+      "rank": 31,
+      "group": "liangshan",
+      "role": "水军头领",
+      "chapters": [
+        15,
+        16,
+        19,
+        71,
+        119
+      ],
+      "summary": "阮氏三雄之幼，曾穿方腊龙袍戏耍。",
+      "detail": "石碣村阮氏三雄之幼。征方腊后因穿方腊龙袍戏耍被追夺官诰，仍回石碣村打鱼。",
+      "ending": "授盖天军都统制，后被追夺官诰，回石碣村打鱼为生。",
+      "fate": "归隐",
+      "history": null,
+      "duty": "水军头领",
+      "nicknameNote": "「活阎罗」喻其水中手段狠辣。",
+      "before": "石碣村渔民",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E9%98%AE%E5%B0%8F%E4%B8%83"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E9%98%AE%E5%B0%8F%E4%B8%83"
+        }
+      ]
+    },
+    {
+      "id": "yang-xiong",
+      "name": "杨雄",
+      "nickname": "病关索",
+      "star": "天牢星",
+      "rank": 32,
+      "group": "jianghu",
+      "role": "步军头领",
+      "chapters": [
+        44,
+        45,
+        46,
+        71
+      ],
+      "summary": "蓟州两院押狱，杀妻后与石秀同上梁山。",
+      "detail": "蓟州两院押狱兼行刑刽子，面有微黄，人称病关索。妻潘巧云与和尚裴如海私通，杨雄与石秀杀之，同投梁山。",
+      "ending": "征方腊后病故于杭州。",
+      "fate": "病故",
+      "history": null,
+      "duty": "步军头领",
+      "nicknameNote": "「病关索」以关羽之子关索相比，「病」为赛过之意（一说）。",
+      "before": "蓟州两院押狱",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E6%9D%A8%E9%9B%84"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E6%9D%A8%E9%9B%84"
+        }
+      ]
+    },
+    {
+      "id": "shi-xiu",
+      "name": "石秀",
+      "nickname": "拼命三郎",
+      "star": "天慧星",
+      "rank": 33,
+      "group": "jianghu",
+      "role": "步军头领",
+      "chapters": [
+        44,
+        45,
+        46,
+        62,
+        71
+      ],
+      "summary": "金陵人，精明果敢，曾单身劫法场救卢俊义。",
+      "detail": "金陵建康府人，流落蓟州卖柴，与杨雄结义。察觉潘巧云私情，助杨雄杀妻。后随宋江攻大名府，卢俊义问斩时单身跳楼劫法场。",
+      "ending": "征方腊昱岭关之战阵亡。",
+      "fate": "阵亡",
+      "history": null,
+      "duty": "步军头领",
+      "nicknameNote": "「拼命三郎」喻其敢死敢拼。",
+      "before": "蓟州卖柴人",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E7%9F%B3%E7%A7%80"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E7%9F%B3%E7%A7%80"
+        }
+      ]
+    },
+    {
+      "id": "xie-zhen",
+      "name": "解珍",
+      "nickname": "两头蛇",
+      "star": "天暴星",
+      "rank": 34,
+      "group": "dengzhou",
+      "role": "步军头领",
+      "chapters": [
+        49,
+        71,
+        117
+      ],
+      "summary": "登州猎户，解宝之兄，登州劫牢后上梁山。",
+      "detail": "登州猎户，与弟解宝因射伤老虎被毛太公陷害入狱，顾大嫂、孙立等劫牢救出，一同上梁山。",
+      "ending": "征方腊乌龙岭之战阵亡。",
+      "fate": "阵亡",
+      "history": null,
+      "duty": "步军头领",
+      "nicknameNote": "「两头蛇」与弟「双尾蝎」对举，状兄弟二人之难缠。",
+      "before": "登州猎户",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E8%A7%A3%E7%8F%8D"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E8%A7%A3%E7%8F%8D"
+        }
+      ]
+    },
+    {
+      "id": "xie-bao",
+      "name": "解宝",
+      "nickname": "双尾蝎",
+      "star": "天哭星",
+      "rank": 35,
+      "group": "dengzhou",
+      "role": "步军头领",
+      "chapters": [
+        49,
+        71,
+        117
+      ],
+      "summary": "登州猎户，解珍之弟。",
+      "detail": "登州猎户，与兄解珍同被毛太公陷害，越狱后上梁山，为步军头领。",
+      "ending": "征方腊乌龙岭之战阵亡。",
+      "fate": "阵亡",
+      "history": null,
+      "duty": "步军头领",
+      "nicknameNote": "「双尾蝎」与兄「两头蛇」对举，状其狠毒难防。",
+      "before": "登州猎户",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E8%A7%A3%E5%AE%9D"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E8%A7%A3%E5%AE%9D"
+        }
+      ]
+    },
+    {
+      "id": "yan-qing",
+      "name": "燕青",
+      "nickname": "浪子",
+      "star": "天巧星",
+      "rank": 36,
+      "group": "daming",
+      "role": "步军头领",
+      "chapters": [
+        61,
+        71,
+        119
+      ],
+      "summary": "卢俊义家仆，相扑、吹箫、诸般技艺皆精。",
+      "detail": "卢俊义家仆，自幼父母双亡，由卢俊义养大。通晓诸般技艺，善相扑。征方腊后劝卢俊义归隐不成，独自浪迹江湖。",
+      "ending": "征方腊后劝卢俊义归隐不听，自去浪迹天涯。",
+      "fate": "归隐",
+      "history": null,
+      "duty": "步军头领",
+      "nicknameNote": "「浪子」指其风流多艺、不受拘束。",
+      "before": "卢俊义家仆",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E7%87%95%E9%9D%92"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E7%87%95%E9%9D%92"
+        }
+      ]
+    },
+    {
+      "id": "zhu-wu",
+      "name": "朱武",
+      "nickname": "神机军师",
+      "star": "地魁星",
+      "rank": 37,
+      "group": "jianghu",
+      "role": "军师",
+      "chapters": [
+        2,
+        59,
+        71
+      ],
+      "summary": "少华山之主，后为梁山参赞军务。",
+      "detail": "定远人，少华山寨主，能使双刀，精通阵法。三山聚义后归梁山，为参赞军务头领。",
+      "ending": "招安后授武奕郎，后投公孙胜出家。",
+      "fate": "出家",
+      "history": null,
+      "duty": "参赞军务头领",
+      "nicknameNote": "「神机军师」指其善用阵法机谋。",
+      "before": "少华山寨主",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E6%9C%B1%E6%AD%A6"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E6%9C%B1%E6%AD%A6"
+        }
+      ]
+    },
+    {
+      "id": "huang-xin",
+      "name": "黄信",
+      "nickname": "镇三山",
+      "star": "地煞星",
+      "rank": 38,
+      "group": "qingfeng",
+      "role": "马军小彪将",
+      "chapters": [
+        33,
+        34,
+        71
+      ],
+      "summary": "青州兵马都监，秦明之徒。",
+      "detail": "青州兵马都监，秦明徒弟，人称镇三山。随秦明征清风山被擒，感宋江之义归顺。",
+      "ending": "招安后授武奕郎，仍回青州任用。",
+      "fate": "存留",
+      "history": null,
+      "duty": "马军小彪将兼远探出哨头领",
+      "nicknameNote": "「镇三山」自称能镇青州三山，后成笑谈。",
+      "before": "青州兵马都监",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E9%BB%84%E4%BF%A1"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E9%BB%84%E4%BF%A1"
+        }
+      ]
+    },
+    {
+      "id": "sun-li",
+      "name": "孙立",
+      "nickname": "病尉迟",
+      "star": "地勇星",
+      "rank": 39,
+      "group": "dengzhou",
+      "role": "马军小彪将",
+      "chapters": [
+        49,
+        50,
+        71
+      ],
+      "summary": "登州提辖，登州劫牢后卧底祝家庄。",
+      "detail": "登州兵马提辖，孙新之兄。为救解珍解宝劫牢，后以祝家庄教师栾廷玉同门身份卧底，里应外合破庄。",
+      "ending": "招安后授武奕郎，仍回登州任用。",
+      "fate": "存留",
+      "history": null,
+      "duty": "马军小彪将兼远探出哨头领",
+      "nicknameNote": "「病尉迟」以唐将尉迟恭相比，「病」为赛过之意（一说）。",
+      "before": "登州兵马提辖",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%AD%99%E7%AB%8B"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%AD%99%E7%AB%8B"
+        }
+      ]
+    },
+    {
+      "id": "hao-siweng",
+      "name": "郝思文",
+      "nickname": "井木犴",
+      "star": "地雄星",
+      "rank": 41,
+      "group": "jiangling",
+      "role": "马军小彪将",
+      "chapters": [
+        63,
+        64,
+        71
+      ],
+      "summary": "关胜结义兄弟，随其征梁山，兵败同降。",
+      "detail": "关胜结义兄弟，随关胜征梁山，兵败被擒后一同归顺，为马军小彪将。",
+      "ending": "征方腊杭州之战被擒杀。",
+      "fate": "阵亡",
+      "history": null,
+      "duty": "马军小彪将兼远探出哨头领",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E9%83%9D%E6%80%9D%E6%96%87"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E9%83%9D%E6%80%9D%E6%96%87"
+        }
+      ]
+    },
+    {
+      "id": "xuan-zan",
+      "name": "宣赞",
+      "nickname": "丑郡马",
+      "star": "地杰星",
+      "rank": 40,
+      "group": "jiangling",
+      "role": "马军小彪将",
+      "chapters": [
+        63,
+        71,
+        120
+      ],
+      "summary": "蒲东巡检，关胜副将。",
+      "detail": "原为王府郡马，面貌丑陋，人称丑郡马。随关胜征梁山，兵败归顺。",
+      "ending": "征方腊之战阵亡。",
+      "fate": "阵亡",
+      "history": null,
+      "duty": "马军小彪将兼远探出哨头领",
+      "nicknameNote": "「丑郡马」因其貌丑而入赘王府得名。",
+      "before": "王府郡马",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%AE%A3%E8%B5%9E"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%AE%A3%E8%B5%9E"
+        }
+      ]
+    },
+    {
+      "id": "han-tao",
+      "name": "韩滔",
+      "nickname": "百胜将",
+      "star": "地威星",
+      "rank": 42,
+      "group": "jiangling",
+      "role": "马军小彪将",
+      "chapters": [
+        55,
+        57,
+        71
+      ],
+      "summary": "陈州团练使，呼延灼副将。",
+      "detail": "陈州团练使，随呼延灼以连环马征梁山，兵败归顺。",
+      "ending": "征方腊常州之战阵亡。",
+      "fate": "阵亡",
+      "history": null,
+      "duty": "马军小彪将兼远探出哨头领",
+      "nicknameNote": "「百胜将」为自诩之号，非实指百战百胜。",
+      "before": "陈州团练使",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E9%9F%A9%E6%BB%94"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E9%9F%A9%E6%BB%94"
+        }
+      ]
+    },
+    {
+      "id": "ling-zhen",
+      "name": "凌振",
+      "nickname": "轰天雷",
+      "star": "地轴星",
+      "rank": 52,
+      "group": "jiangling",
+      "role": "炮手",
+      "chapters": [
+        55,
+        67,
+        71
+      ],
+      "summary": "东京甲仗库副使炮手，善造火炮。",
+      "detail": "东京甲仗库副炮手，善造火炮，能打十四五里远。征梁山时被擒归顺，为梁山造炮。",
+      "ending": "招安后授武奕郎，后为火药局御营任用。",
+      "fate": "存留",
+      "history": null,
+      "duty": "掌管专造一应大小号炮",
+      "nicknameNote": "「轰天雷」指其造炮放炮之能。",
+      "before": "东京甲仗库副使炮手",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%87%8C%E6%8C%AF"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%87%8C%E6%8C%AF"
+        }
+      ]
+    },
+    {
+      "id": "an-daoquan",
+      "name": "安道全",
+      "nickname": "神医",
+      "star": "地灵星",
+      "rank": 56,
+      "group": "jiangling",
+      "role": "医士",
+      "chapters": [
+        65,
+        71
+      ],
+      "summary": "建康府名医，梁山内外科圣手。",
+      "detail": "建康府医生，医术高明。宋江背疮发作时被张顺请上梁山医治，遂留寨中。",
+      "ending": "征方腊前被召回京为御医，未随军。",
+      "fate": "存留",
+      "history": null,
+      "duty": "掌管专治诸疾内外科医士",
+      "nicknameNote": "「神医」指其内外科医术。",
+      "before": "建康府医生",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%AE%89%E9%81%93%E5%85%A8"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%AE%89%E9%81%93%E5%85%A8"
+        }
+      ]
+    },
+    {
+      "id": "wang-ying",
+      "name": "王英",
+      "nickname": "矮脚虎",
+      "star": "地微星",
+      "rank": 58,
+      "group": "qingfeng",
+      "role": "专掌三军内探事",
+      "chapters": [
+        32,
+        35,
+        50,
+        71
+      ],
+      "summary": "清风山二头领，好色，后娶扈三娘。",
+      "detail": "清风山二头领，身材短小，人称矮脚虎。三打祝家庄后由宋江主婚，娶扈三娘。",
+      "ending": "征方腊睦州之战阵亡。",
+      "fate": "阵亡",
+      "history": null,
+      "duty": "专掌三军内探事马军头领",
+      "nicknameNote": "「矮脚虎」因其身材短小而勇悍。",
+      "before": "清风山二头领",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E7%8E%8B%E8%8B%B1"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E7%8E%8B%E8%8B%B1"
+        }
+      ]
+    },
+    {
+      "id": "hu-sanniang",
+      "name": "扈三娘",
+      "nickname": "一丈青",
+      "star": "地慧星",
+      "rank": 59,
+      "group": "manor",
+      "role": "女将",
+      "chapters": [
+        47,
+        48,
+        50,
+        71
+      ],
+      "summary": "扈家庄女将，被擒后由宋江主婚嫁王英。",
+      "detail": "扈家庄庄主扈太公之女，武艺高强，使两口日月双刀。三打祝家庄时被林冲擒获，宋江收为义妹，主婚嫁与王英。",
+      "ending": "征方腊睦州之战阵亡。",
+      "fate": "阵亡",
+      "history": null,
+      "duty": "专掌三军内探事马军头领",
+      "nicknameNote": "「一丈青」一说指其高挑、一说指其衣饰青色（存疑）。",
+      "before": "扈家庄女将",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E6%89%88%E4%B8%89%E5%A8%98"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E6%89%88%E4%B8%89%E5%A8%98"
+        }
+      ]
+    },
+    {
+      "id": "tong-wei",
+      "name": "童威",
+      "nickname": "出洞蛟",
+      "star": "地进星",
+      "rank": 68,
+      "group": "jieyang",
+      "role": "水军头领",
+      "chapters": [
+        36,
+        71,
+        119
+      ],
+      "summary": "李俊同伙，后随其出海。",
+      "detail": "揭阳岭人，与弟童猛随李俊贩私盐。宋江遇险时相助，后上梁山为水军头领。征方腊后随李俊出海。",
+      "ending": "随李俊出海，后为暹罗国官（一说）。",
+      "fate": "存留",
+      "history": null,
+      "duty": "水军头领",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E7%AB%A5%E5%A8%81"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E7%AB%A5%E5%A8%81"
+        }
+      ]
+    },
+    {
+      "id": "tong-meng",
+      "name": "童猛",
+      "nickname": "翻江蜃",
+      "star": "地退星",
+      "rank": 69,
+      "group": "jieyang",
+      "role": "水军头领",
+      "chapters": [
+        36,
+        71,
+        119
+      ],
+      "summary": "童威之弟，随李俊出海。",
+      "detail": "童威之弟，与兄同随李俊。征方腊后随李俊出海，不复回朝。",
+      "ending": "随李俊出海，后为暹罗国官（一说）。",
+      "fate": "存留",
+      "history": null,
+      "duty": "水军头领",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E7%AB%A5%E7%8C%9B"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E7%AB%A5%E7%8C%9B"
+        }
+      ]
+    },
+    {
+      "id": "chen-da",
+      "name": "陈达",
+      "nickname": "跳涧虎",
+      "star": "地周星",
+      "rank": 72,
+      "group": "jianghu",
+      "role": "步军将校",
+      "chapters": [
+        2,
+        59,
+        71
+      ],
+      "summary": "少华山头领，被史进所擒后结义。",
+      "detail": "少华山二头领，下山借粮时被史进擒获，后与史进结交，同占少华山，三山聚义后归梁山。",
+      "ending": "征方腊昱岭关之战阵亡。",
+      "fate": "阵亡",
+      "history": null,
+      "duty": "马军小彪将兼远探出哨头领",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E9%99%88%E8%BE%BE"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E9%99%88%E8%BE%BE"
+        }
+      ]
+    },
+    {
+      "id": "mu-chun",
+      "name": "穆春",
+      "nickname": "小遮拦",
+      "star": "地镇星",
+      "rank": 80,
+      "group": "jieyang",
+      "role": "步军将校",
+      "chapters": [
+        37,
+        71
+      ],
+      "summary": "穆弘之弟，揭阳镇一霸。",
+      "detail": "穆弘之弟，与兄在揭阳镇称霸。宋江路过时起冲突，后结义同上梁山。",
+      "ending": "征方腊后授武奕郎，后回揭阳。",
+      "fate": "存留",
+      "history": null,
+      "duty": "步军将校",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E7%A9%86%E6%98%A5"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E7%A9%86%E6%98%A5"
+        }
+      ]
+    },
+    {
+      "id": "zhou-tong",
+      "name": "周通",
+      "nickname": "小霸王",
+      "star": "地空星",
+      "rank": 86,
+      "group": "jianghu",
+      "role": "步军将校",
+      "chapters": [
+        5,
+        6,
+        71
+      ],
+      "summary": "桃花山二头领，好色，曾被鲁智深痛打。",
+      "detail": "桃花山二头领，强娶民女时被鲁智深假扮新娘痛打。后与李忠同归梁山。",
+      "ending": "征方腊独松关之战阵亡。",
+      "fate": "阵亡",
+      "history": null,
+      "duty": "马军小彪将兼远探出哨头领",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%91%A8%E9%80%9A"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%91%A8%E9%80%9A"
+        }
+      ]
+    },
+    {
+      "id": "tang-long",
+      "name": "汤隆",
+      "nickname": "金钱豹子",
+      "star": "地孤星",
+      "rank": 89,
+      "group": "jiangling",
+      "role": "铁匠",
+      "chapters": [
+        56,
+        57,
+        71
+      ],
+      "summary": "延安府铁匠，徐宁表弟，献计破连环马。",
+      "detail": "延安府知寨之子，流落江湖打铁为生。与徐宁是表兄弟，献计盗甲赚徐宁上山，以钩镰枪破连环马。",
+      "ending": "征方腊清溪县之战阵亡。",
+      "fate": "阵亡",
+      "history": null,
+      "duty": "掌管监督打造一应军器铁甲",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E6%B1%A4%E9%9A%86"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E6%B1%A4%E9%9A%86"
+        }
+      ]
+    },
+    {
+      "id": "kong-ming",
+      "name": "孔明",
+      "nickname": "毛头星",
+      "star": "地猖星",
+      "rank": 62,
+      "group": "jianghu",
+      "role": "守护中军",
+      "chapters": [
+        32,
+        33,
+        71
+      ],
+      "summary": "白虎山孔家庄少主，宋江的徒弟。",
+      "detail": "白虎山孔家庄大少主，与弟孔亮同好枪棒，曾从宋江学武。后占白虎山，三山聚义归梁山。",
+      "ending": "征方腊途中病故。",
+      "fate": "病故",
+      "history": null,
+      "duty": "守护中军步军骁将",
+      "nicknameNote": "「毛头星」为星号绰号，状其年少勇猛。",
+      "before": "白虎山孔家庄少主",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%AD%94%E6%98%8E"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%AD%94%E6%98%8E"
+        }
+      ]
+    },
+    {
+      "id": "kong-liang",
+      "name": "孔亮",
+      "nickname": "独火星",
+      "star": "地狂星",
+      "rank": 63,
+      "group": "jianghu",
+      "role": "守护中军",
+      "chapters": [
+        32,
+        33,
+        71
+      ],
+      "summary": "孔明之弟，宋江的徒弟。",
+      "detail": "孔明之弟，与兄同占白虎山。因与本地财主争执，引出三山聚义打青州，后归梁山。",
+      "ending": "征方腊昆山之战阵亡。",
+      "fate": "阵亡",
+      "history": null,
+      "duty": "守护中军步军骁将",
+      "nicknameNote": "「独火星」与兄「毛头星」对举。",
+      "before": "白虎山孔家庄少主",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%AD%94%E4%BA%AE"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%AD%94%E4%BA%AE"
+        }
+      ]
+    },
+    {
+      "id": "song-qing",
+      "name": "宋清",
+      "nickname": "铁扇子",
+      "star": "地俊星",
+      "rank": 76,
+      "group": "liangshan",
+      "role": "排设筵宴",
+      "chapters": [
+        18,
+        22,
+        71
+      ],
+      "summary": "宋江之弟，随兄上梁山掌管筵宴。",
+      "detail": "宋江之弟，与父宋太公同住宋家村。宋江上梁山后，官府追捕，宋清随父上山，掌管排设筵宴。",
+      "ending": "宋江死后还乡务农。",
+      "fate": "归隐",
+      "history": null,
+      "duty": "掌管专一排设筵宴",
+      "nicknameNote": "「铁扇子」一说为无用之器，暗指其在梁山并无战功（一说）。",
+      "before": "宋家村农户",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%AE%8B%E6%B8%85"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%AE%8B%E6%B8%85"
+        }
+      ]
+    },
+    {
+      "id": "yue-he",
+      "name": "乐和",
+      "nickname": "铁叫子",
+      "star": "地乐星",
+      "rank": 77,
+      "group": "dengzhou",
+      "role": "走报机密",
+      "chapters": [
+        49,
+        71
+      ],
+      "summary": "登州小牢子，孙立妻舅，善唱。",
+      "detail": "登州小牢子，孙立妻舅，诸般乐器皆能，人称铁叫子。参与登州劫牢，后上梁山。",
+      "ending": "征方腊前被王都尉留于府中，未随军。",
+      "fate": "存留",
+      "history": null,
+      "duty": "军中走报机密步军头领",
+      "nicknameNote": "「铁叫子」指其善唱、诸般乐器皆能。",
+      "before": "登州小牢子",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E4%B9%90%E5%92%8C"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E4%B9%90%E5%92%8C"
+        }
+      ]
+    },
+    {
+      "id": "song-wan",
+      "name": "宋万",
+      "nickname": "云里金刚",
+      "star": "地魔星",
+      "rank": 82,
+      "group": "liangshan",
+      "role": "步军将校",
+      "chapters": [
+        11,
+        19,
+        71
+      ],
+      "summary": "梁山旧寨头领，王伦旧部。",
+      "detail": "梁山泊旧寨头领之一，与杜迁、朱贵同奉王伦。火并王伦后仍留山寨，为步军将校。",
+      "ending": "征方腊润州之战阵亡。",
+      "fate": "阵亡",
+      "history": null,
+      "duty": "步军将校",
+      "nicknameNote": "「云里金刚」状其身材高大。",
+      "before": "梁山泊旧寨头领",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%AE%8B%E4%B8%87"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%AE%8B%E4%B8%87"
+        }
+      ]
+    },
+    {
+      "id": "du-qian",
+      "name": "杜迁",
+      "nickname": "摸着天",
+      "star": "地妖星",
+      "rank": 83,
+      "group": "liangshan",
+      "role": "步军将校",
+      "chapters": [
+        11,
+        19,
+        71
+      ],
+      "summary": "梁山旧寨头领，最早入伙者之一。",
+      "detail": "梁山泊旧寨头领，与宋万、朱贵同奉王伦。火并王伦后仍留山寨，位列地煞。",
+      "ending": "征方腊清溪县之战阵亡。",
+      "fate": "阵亡",
+      "history": null,
+      "duty": "步军将校",
+      "nicknameNote": "「摸着天」亦状其身材高大。",
+      "before": "梁山泊旧寨头领",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E6%9D%9C%E8%BF%81"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E6%9D%9C%E8%BF%81"
+        }
+      ]
+    },
+    {
+      "id": "shi-en",
+      "name": "施恩",
+      "nickname": "金眼彪",
+      "star": "地伏星",
+      "rank": 85,
+      "group": "jianghu",
+      "role": "步军将校",
+      "chapters": [
+        28,
+        29,
+        30,
+        71
+      ],
+      "summary": "孟州牢城小管营，与武松结义。",
+      "detail": "孟州牢城营小管营，快活林被蒋门神夺占，结交武松夺回。武松被陷害后，施恩多方营救，后上梁山。",
+      "ending": "征方腊常熟之战落水身亡。",
+      "fate": "阵亡",
+      "history": null,
+      "duty": "步军将校",
+      "nicknameNote": "「金眼彪」状其相貌。",
+      "before": "孟州牢城小管营",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E6%96%BD%E6%81%A9"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E6%96%BD%E6%81%A9"
+        }
+      ]
+    },
+    {
+      "id": "li-zhong",
+      "name": "李忠",
+      "nickname": "打虎将",
+      "star": "地僻星",
+      "rank": 87,
+      "group": "jianghu",
+      "role": "步军将校",
+      "chapters": [
+        3,
+        5,
+        6,
+        71
+      ],
+      "summary": "江湖卖艺人，桃花山大头领，史进开手师傅。",
+      "detail": "江湖卖膏药艺人，史进的开手师傅。后占桃花山，三山聚义归梁山。",
+      "ending": "征方腊昱岭关之战阵亡。",
+      "fate": "阵亡",
+      "history": null,
+      "duty": "步军将校",
+      "nicknameNote": "「打虎将」为江湖卖艺自抬身价之号，并非真曾打虎。",
+      "before": "江湖卖艺人",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E6%9D%8E%E5%BF%A0"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E6%9D%8E%E5%BF%A0"
+        }
+      ]
+    },
+    {
+      "id": "du-xing",
+      "name": "杜兴",
+      "nickname": "鬼脸儿",
+      "star": "地全星",
+      "rank": 88,
+      "group": "manor",
+      "role": "情报",
+      "chapters": [
+        47,
+        50,
+        71
+      ],
+      "summary": "李家庄主管，李应的心腹。",
+      "detail": "中山府人，因打死同伴流落蓟州，得杨雄相救。后为李家庄主管，随李应上梁山，掌管情报。",
+      "ending": "随李应辞官归乡。",
+      "fate": "归隐",
+      "history": null,
+      "duty": "打听声息邀接来宾头领（南山酒店）",
+      "nicknameNote": "「鬼脸儿」状其相貌丑陋。",
+      "before": "李家庄主管",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E6%9D%9C%E5%85%B4"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E6%9D%9C%E5%85%B4"
+        }
+      ]
+    },
+    {
+      "id": "zhu-gui",
+      "name": "朱贵",
+      "nickname": "旱地忽律",
+      "star": "地囚星",
+      "rank": 93,
+      "group": "liangshan",
+      "role": "情报",
+      "chapters": [
+        11,
+        19,
+        71
+      ],
+      "summary": "梁山泊开酒店的头领，专管打探消息。",
+      "detail": "沂州沂水县人，最早在梁山泊边开酒店，以蒙汗药劫掠客商，暗中接应上山好汉。",
+      "ending": "征方腊杭州之战病故。",
+      "fate": "病故",
+      "history": null,
+      "duty": "打听声息邀接来宾头领（南山酒店）",
+      "nicknameNote": "「旱地忽律」中「忽律」为鳄鱼，喻其陆上开店害客。",
+      "before": "梁山泊酒店主人",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E6%9C%B1%E8%B4%B5"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E6%9C%B1%E8%B4%B5"
+        }
+      ]
+    },
+    {
+      "id": "li-li",
+      "name": "李立",
+      "nickname": "催命判官",
+      "star": "地奴星",
+      "rank": 96,
+      "group": "jieyang",
+      "role": "情报",
+      "chapters": [
+        36,
+        37,
+        71
+      ],
+      "summary": "揭阳岭酒店主人，与李俊结伙。",
+      "detail": "揭阳岭开酒店，以蒙汗药害客。宋江路过时被麻翻，幸得李俊相救，后同上梁山。",
+      "ending": "征方腊清溪县之战阵亡。",
+      "fate": "阵亡",
+      "history": null,
+      "duty": "打听声息邀接来宾头领（北山酒店）",
+      "nicknameNote": "「催命判官」喻其开店害命。",
+      "before": "揭阳岭酒店主人",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E6%9D%8E%E7%AB%8B"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E6%9D%8E%E7%AB%8B"
+        }
+      ]
+    },
+    {
+      "id": "sun-xin",
+      "name": "孙新",
+      "nickname": "小尉迟",
+      "star": "地数星",
+      "rank": 100,
+      "group": "dengzhou",
+      "role": "打听声息",
+      "chapters": [
+        49,
+        71
+      ],
+      "summary": "登州酒店主人，孙立之弟，顾大嫂之夫。",
+      "detail": "孙立之弟，与妻顾大嫂在登州开酒店。为救解珍解宝，联络登州好汉劫牢，后上梁山。",
+      "ending": "招安后授武奕郎，回登州任用。",
+      "fate": "存留",
+      "history": null,
+      "duty": "打听声息邀接来宾头领（东山酒店）",
+      "nicknameNote": "「小尉迟」以尉迟恭相比。",
+      "before": "登州酒店主人",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%AD%99%E6%96%B0"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%AD%99%E6%96%B0"
+        }
+      ]
+    },
+    {
+      "id": "gu-dasao",
+      "name": "顾大嫂",
+      "nickname": "母大虫",
+      "star": "地阴星",
+      "rank": 101,
+      "group": "dengzhou",
+      "role": "打听声息",
+      "chapters": [
+        49,
+        71
+      ],
+      "summary": "登州酒店女主人，性烈，主导登州劫牢。",
+      "detail": "孙新之妻，在登州开酒店。解珍解宝被毛太公陷害后，顾大嫂力主劫牢，联络邹渊、邹润与乐和，救出二人。",
+      "ending": "招安后授东源县君，回登州。",
+      "fate": "存留",
+      "history": null,
+      "duty": "打听声息邀接来宾头领（东山酒店）",
+      "nicknameNote": "「母大虫」即母老虎，喻其性烈。",
+      "before": "登州酒店女主人",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E9%A1%BE%E5%A4%A7%E5%AB%82"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E9%A1%BE%E5%A4%A7%E5%AB%82"
+        }
+      ]
+    },
+    {
+      "id": "zhang-qing-cai",
+      "name": "张青",
+      "nickname": "菜园子",
+      "star": "地刑星",
+      "rank": 102,
+      "group": "jianghu",
+      "role": "情报",
+      "chapters": [
+        27,
+        28,
+        71
+      ],
+      "summary": "孟州十字坡酒店主人，孙二娘之夫。",
+      "detail": "孟州十字坡开酒店，与妻孙二娘以蒙汗药劫客。结识武松后结义，后同上二龙山、梁山。",
+      "ending": "征方腊歙州之战阵亡。",
+      "fate": "阵亡",
+      "history": null,
+      "duty": "打听声息邀接来宾头领（西山酒店）",
+      "nicknameNote": "「菜园子」点其原为菜农、寺院园圃出身。",
+      "before": "孟州十字坡酒店主人",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%BC%A0%E9%9D%92"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%BC%A0%E9%9D%92"
+        }
+      ]
+    },
+    {
+      "id": "sun-erniang",
+      "name": "孙二娘",
+      "nickname": "母夜叉",
+      "star": "地壮星",
+      "rank": 103,
+      "group": "jianghu",
+      "role": "情报",
+      "chapters": [
+        27,
+        28,
+        71
+      ],
+      "summary": "十字坡酒店女主人，武松结义嫂。",
+      "detail": "张青之妻，在十字坡卖人肉馒头。武松刺配孟州路过时相识，结为义兄妹。",
+      "ending": "征方腊歙州之战阵亡。",
+      "fate": "阵亡",
+      "history": null,
+      "duty": "打听声息邀接来宾头领（西山酒店）",
+      "nicknameNote": "「母夜叉」喻其凶悍。",
+      "before": "孟州十字坡酒店女主人",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%AD%99%E4%BA%8C%E5%A8%98"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%AD%99%E4%BA%8C%E5%A8%98"
+        }
+      ]
+    },
+    {
+      "id": "bai-sheng",
+      "name": "白胜",
+      "nickname": "白日鼠",
+      "star": "地耗星",
+      "rank": 106,
+      "group": "liangshan",
+      "role": "走报机密",
+      "chapters": [
+        16,
+        18,
+        71
+      ],
+      "summary": "安乐村闲汉，智取生辰纲的参与者。",
+      "detail": "郓城县安乐村闲汉，参与智取生辰纲，扮卖酒人麻倒杨志一行。案发后被捉，熬刑不过供出晁盖等。",
+      "ending": "征方腊途中病故。",
+      "fate": "病故",
+      "history": null,
+      "duty": "军中走报机密步军头领",
+      "nicknameNote": "「白日鼠」喻其昼伏夜出、行迹如鼠。",
+      "before": "安乐村闲汉",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E7%99%BD%E8%83%9C"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E7%99%BD%E8%83%9C"
+        }
+      ]
+    },
+    {
+      "id": "shi-qian",
+      "name": "时迁",
+      "nickname": "鼓上蚤",
+      "star": "地贼星",
+      "rank": 107,
+      "group": "jianghu",
+      "role": "走报机密",
+      "chapters": [
+        46,
+        56,
+        71
+      ],
+      "summary": "高唐州盗贼，盗甲赚徐宁上山。",
+      "detail": "高唐州人，飞檐走壁，人称鼓上蚤。与杨雄、石秀同投梁山，途中偷鸡惹出祝家庄之战；后盗得徐宁雁翎甲，赚其上山。",
+      "ending": "征方腊后病故（搅肠痧）。",
+      "fate": "病故",
+      "history": null,
+      "duty": "军中走报机密步军头领",
+      "nicknameNote": "「鼓上蚤」喻其身轻善跳、来去无声。",
+      "before": "高唐州盗贼",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E6%97%B6%E8%BF%81"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E6%97%B6%E8%BF%81"
+        }
+      ]
+    },
+    {
+      "id": "chao-gai",
+      "name": "晁盖",
+      "nickname": "托塔天王",
+      "star": null,
+      "rank": null,
+      "group": "other",
+      "role": "梁山旧主",
+      "chapters": [
+        14,
+        15,
+        16,
+        19,
+        60
+      ],
+      "summary": "东溪村保正，智取生辰纲之主，梁山第二任寨主。",
+      "detail": "郓城县东溪村保正，仗义疏财。得刘唐报信后联络吴用、公孙胜与阮氏三雄智取生辰纲，事败上梁山，火并王伦后被推为寨主。曾头市之战中箭身亡。",
+      "ending": "征曾头市时中毒箭身亡，未入一百单八将。",
+      "fate": "阵亡",
+      "history": null,
+      "nicknameNote": "「托塔天王」以毗沙门天王托塔之像，状其魁伟镇众。",
+      "before": "郓城县东溪村保正",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E6%99%81%E7%9B%96"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E6%99%81%E7%9B%96"
+        }
+      ]
+    },
+    {
+      "id": "wang-lun",
+      "name": "王伦",
+      "nickname": "白衣秀士",
+      "star": null,
+      "rank": null,
+      "group": "other",
+      "role": "梁山首任寨主",
+      "chapters": [
+        11,
+        19
+      ],
+      "summary": "梁山泊首任寨主，忌贤妒能，为林冲所杀。",
+      "detail": "落第秀才，与杜迁、宋万、朱贵占梁山泊。林冲上山时多方刁难，晁盖等来投时仍拒，被林冲火并。",
+      "ending": "为林冲火并所杀。",
+      "fate": "被害",
+      "history": null,
+      "nicknameNote": "「白衣秀士」指其落第秀才身份。",
+      "before": "落第秀才",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E7%8E%8B%E4%BC%A6"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E7%8E%8B%E4%BC%A6"
+        }
+      ]
+    },
+    {
+      "id": "gao-qiu",
+      "name": "高俅",
+      "nickname": null,
+      "star": null,
+      "rank": null,
+      "group": "other",
+      "role": "殿帅府太尉",
+      "chapters": [
+        2,
+        7,
+        8,
+        120
+      ],
+      "summary": "东京破落户出身，因踢球得宠，陷害林冲。",
+      "detail": "东京浮浪破落户子弟，因善蹴鞠得端王（徽宗）宠信，官至殿帅府太尉。其子高衙内欲夺林冲之妻，高俅设计陷害林冲；招安后又与蔡京等谋害宋江、卢俊义。",
+      "ending": "小说中为害梁山众人的权奸，结局不载。",
+      "fate": "存留",
+      "history": "历史上有高俅其人，小说形象有增饰。",
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E9%AB%98%E4%BF%85"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E9%AB%98%E4%BF%85"
+        }
+      ]
+    },
+    {
+      "id": "fang-la",
+      "name": "方腊",
+      "nickname": null,
+      "star": null,
+      "rank": null,
+      "group": "other",
+      "role": "起义军首领",
+      "chapters": [
+        110,
+        117,
+        119
+      ],
+      "summary": "睦州青溪起义首领，梁山征方腊之敌。",
+      "detail": "睦州青溪人，以摩尼教聚众起义，据江南八州二十五县。梁山受招安后被派征讨，战事惨烈，一百单八将折损过半。",
+      "ending": "兵败被擒，押赴东京处死。",
+      "fate": "被害",
+      "history": null,
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E6%96%B9%E8%85%8A"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E6%96%B9%E8%85%8A"
+        }
+      ]
+    },
+    {
+      "id": "pan-jinlian",
+      "name": "潘金莲",
+      "nickname": null,
+      "star": null,
+      "rank": null,
+      "group": "other",
+      "role": "市井妇人",
+      "chapters": [
+        24,
+        25,
+        26
+      ],
+      "summary": "武大之妻，与西门庆私通，毒杀亲夫。",
+      "detail": "清河县大户人家使女，被嫁与武大郎。后与西门庆私通，合谋毒死武大，被武松杀死祭兄。",
+      "ending": "被武松杀死祭兄。",
+      "fate": "被害",
+      "history": null,
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E6%BD%98%E9%87%91%E8%8E%B2"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E6%BD%98%E9%87%91%E8%8E%B2"
+        }
+      ]
+    },
+    {
+      "id": "xi-mengqing",
+      "name": "西门庆",
+      "nickname": null,
+      "star": null,
+      "rank": null,
+      "group": "other",
+      "role": "阳谷县富户",
+      "chapters": [
+        24,
+        25,
+        26
+      ],
+      "summary": "阳谷县生药铺财主，与潘金莲私通。",
+      "detail": "阳谷县生药铺财主，结交官府，与潘金莲私通并合谋毒死武大。武松告官不成，斗杀西门庆。",
+      "ending": "被武松斗杀。",
+      "fate": "被害",
+      "history": null,
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E8%A5%BF%E9%97%A8%E5%BA%86"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E8%A5%BF%E9%97%A8%E5%BA%86"
+        }
+      ]
+    },
+    {
+      "id": "jiang-menshen",
+      "name": "蒋门神",
+      "nickname": null,
+      "star": null,
+      "rank": null,
+      "group": "other",
+      "role": "恶霸",
+      "chapters": [
+        28,
+        29,
+        30
+      ],
+      "summary": "孟州恶霸，夺施恩快活林，被武松醉打。",
+      "detail": "孟州恶霸，本名蒋忠，仗张都监之势夺占施恩快活林。武松醉打蒋门神夺回，后蒋门神与张都监合谋陷害武松，被武松杀死。",
+      "ending": "被武松杀死于鸳鸯楼。",
+      "fate": "被害",
+      "history": null,
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E8%92%8B%E9%97%A8%E7%A5%9E"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E8%92%8B%E9%97%A8%E7%A5%9E"
+        }
+      ]
+    },
+    {
+      "id": "luan-tingyu",
+      "name": "栾廷玉",
+      "nickname": null,
+      "star": null,
+      "rank": null,
+      "group": "other",
+      "role": "祝家庄教师",
+      "chapters": [
+        47,
+        50
+      ],
+      "summary": "祝家庄教师，孙立同门，庄破后下落不明。",
+      "detail": "祝家庄教师，武艺高强，与登州孙立同门。三打祝家庄时主持防守，庄破后书中不再交代其下落。",
+      "ending": "祝家庄破后下落不明，一说死于乱军。",
+      "fate": "不明",
+      "history": null,
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E6%A0%BE%E5%BB%B7%E7%8E%89"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E6%A0%BE%E5%BB%B7%E7%8E%89"
+        }
+      ]
+    },
+    {
+      "id": "shi-wengong",
+      "name": "史文恭",
+      "nickname": null,
+      "star": null,
+      "rank": null,
+      "group": "other",
+      "role": "曾头市教师",
+      "chapters": [
+        60,
+        68
+      ],
+      "summary": "曾头市教师，射死晁盖，后被卢俊义活捉。",
+      "detail": "曾头市教师，武艺高强。晁盖征曾头市时被其毒箭射中。曾头市破后为卢俊义所擒，剖腹剜心祭晁盖。",
+      "ending": "被卢俊义活捉，剖腹剜心祭晁盖。",
+      "fate": "被害",
+      "history": null,
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%8F%B2%E6%96%87%E6%81%AD"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%8F%B2%E6%96%87%E6%81%AD"
+        }
+      ]
+    },
+    {
+      "id": "zheng-tu",
+      "name": "郑屠",
+      "nickname": null,
+      "star": null,
+      "rank": null,
+      "group": "other",
+      "role": "屠户",
+      "chapters": [
+        3
+      ],
+      "summary": "渭州状元桥下肉铺主人，绰号镇关西，被鲁达三拳打死。",
+      "detail": "渭州街头卖肉的屠户，强占金翠莲。鲁达为其抱不平，三拳将其打死，从此亡命出家。",
+      "ending": "被鲁达三拳打死。",
+      "fate": "被害",
+      "history": null,
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E9%83%91%E5%B1%A0"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E9%83%91%E5%B1%A0"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "a": "chao-gai",
+      "b": "wu-yong",
+      "label": "智取生辰纲同谋",
+      "group": "ally",
+      "chapter": 15
+    },
+    {
+      "a": "chao-gai",
+      "b": "gongsun-sheng",
+      "label": "智取生辰纲同谋",
+      "group": "ally",
+      "chapter": 15
+    },
+    {
+      "a": "chao-gai",
+      "b": "liu-tang",
+      "label": "报信",
+      "group": "ally",
+      "chapter": 14
+    },
+    {
+      "a": "chao-gai",
+      "b": "ruan-xiaoer",
+      "label": "智取生辰纲同谋",
+      "group": "ally",
+      "chapter": 15
+    },
+    {
+      "a": "chao-gai",
+      "b": "ruan-xiaowu",
+      "label": "智取生辰纲同谋",
+      "group": "ally",
+      "chapter": 15
+    },
+    {
+      "a": "chao-gai",
+      "b": "ruan-xiaoqi",
+      "label": "智取生辰纲同谋",
+      "group": "ally",
+      "chapter": 15
+    },
+    {
+      "a": "chao-gai",
+      "b": "bai-sheng",
+      "label": "智取生辰纲同谋",
+      "group": "ally",
+      "chapter": 16
+    },
+    {
+      "a": "chao-gai",
+      "b": "song-jiang",
+      "label": "通风报信",
+      "group": "ally",
+      "chapter": 18
+    },
+    {
+      "a": "chao-gai",
+      "b": "lin-chong",
+      "label": "拥立为寨主",
+      "group": "ally",
+      "chapter": 19
+    },
+    {
+      "a": "chao-gai",
+      "b": "wang-lun",
+      "label": "火并",
+      "group": "rival",
+      "chapter": 19
+    },
+    {
+      "a": "wang-lun",
+      "b": "lin-chong",
+      "label": "刁难与火并",
+      "group": "rival",
+      "chapter": 19
+    },
+    {
+      "a": "wang-lun",
+      "b": "du-qian",
+      "label": "旧寨部属",
+      "group": "serve",
+      "chapter": 11
+    },
+    {
+      "a": "wang-lun",
+      "b": "song-wan",
+      "label": "旧寨部属",
+      "group": "serve",
+      "chapter": 11
+    },
+    {
+      "a": "wang-lun",
+      "b": "zhu-gui",
+      "label": "旧寨部属",
+      "group": "serve",
+      "chapter": 11
+    },
+    {
+      "a": "du-qian",
+      "b": "song-wan",
+      "label": "同寨头领",
+      "group": "friend",
+      "chapter": 19
+    },
+    {
+      "a": "du-qian",
+      "b": "zhu-gui",
+      "label": "同寨头领",
+      "group": "friend",
+      "chapter": 19
+    },
+    {
+      "a": "song-jiang",
+      "b": "song-qing",
+      "label": "兄弟",
+      "group": "kin",
+      "chapter": 18
+    },
+    {
+      "a": "song-jiang",
+      "b": "wu-yong",
+      "label": "军师",
+      "group": "serve",
+      "chapter": 41
+    },
+    {
+      "a": "song-jiang",
+      "b": "li-kui",
+      "label": "心腹",
+      "group": "serve",
+      "chapter": 38
+    },
+    {
+      "a": "song-jiang",
+      "b": "hua-rong",
+      "label": "知己",
+      "group": "ally",
+      "chapter": 33
+    },
+    {
+      "a": "song-jiang",
+      "b": "dai-zong",
+      "label": "上下级",
+      "group": "serve",
+      "chapter": 38
+    },
+    {
+      "a": "song-jiang",
+      "b": "zhu-tong",
+      "label": "私放之恩",
+      "group": "ally",
+      "chapter": 18
+    },
+    {
+      "a": "song-jiang",
+      "b": "lei-heng",
+      "label": "同衙旧识",
+      "group": "friend",
+      "chapter": 13
+    },
+    {
+      "a": "song-jiang",
+      "b": "wu-song",
+      "label": "结义",
+      "group": "friend",
+      "chapter": 32
+    },
+    {
+      "a": "song-jiang",
+      "b": "lu-junyi",
+      "label": "让位",
+      "group": "ally",
+      "chapter": 67
+    },
+    {
+      "a": "song-jiang",
+      "b": "hu-sanniang",
+      "label": "义兄妹",
+      "group": "kin",
+      "chapter": 50
+    },
+    {
+      "a": "song-jiang",
+      "b": "wang-ying",
+      "label": "主婚",
+      "group": "ally",
+      "chapter": 50
+    },
+    {
+      "a": "song-jiang",
+      "b": "gao-qiu",
+      "label": "招安与被害",
+      "group": "rival",
+      "chapter": 120
+    },
+    {
+      "a": "song-jiang",
+      "b": "fang-la",
+      "label": "征讨",
+      "group": "rival",
+      "chapter": 111
+    },
+    {
+      "a": "song-jiang",
+      "b": "an-daoquan",
+      "label": "医治背疮",
+      "group": "ally",
+      "chapter": 65
+    },
+    {
+      "a": "lu-junyi",
+      "b": "yan-qing",
+      "label": "主仆",
+      "group": "serve",
+      "chapter": 61
+    },
+    {
+      "a": "lu-junyi",
+      "b": "shi-xiu",
+      "label": "劫法场相救",
+      "group": "ally",
+      "chapter": 62
+    },
+    {
+      "a": "lu-junyi",
+      "b": "wu-yong",
+      "label": "设计赚上山",
+      "group": "rival",
+      "chapter": 61
+    },
+    {
+      "a": "lu-junyi",
+      "b": "gao-qiu",
+      "label": "被毒害",
+      "group": "rival",
+      "chapter": 120
+    },
+    {
+      "a": "lin-chong",
+      "b": "gao-qiu",
+      "label": "陷害",
+      "group": "rival",
+      "chapter": 7
+    },
+    {
+      "a": "lin-chong",
+      "b": "lu-zhishen",
+      "label": "结义兄弟",
+      "group": "kin",
+      "chapter": 9
+    },
+    {
+      "a": "lin-chong",
+      "b": "chai-jin",
+      "label": "收留",
+      "group": "ally",
+      "chapter": 10
+    },
+    {
+      "a": "lu-zhishen",
+      "b": "zheng-tu",
+      "label": "三拳打死",
+      "group": "rival",
+      "chapter": 3
+    },
+    {
+      "a": "lu-zhishen",
+      "b": "yang-zhi",
+      "label": "二龙山同寨",
+      "group": "ally",
+      "chapter": 17
+    },
+    {
+      "a": "lu-zhishen",
+      "b": "wu-song",
+      "label": "二龙山同寨",
+      "group": "ally",
+      "chapter": 32
+    },
+    {
+      "a": "lu-zhishen",
+      "b": "shi-jin",
+      "label": "故交",
+      "group": "friend",
+      "chapter": 6
+    },
+    {
+      "a": "wu-song",
+      "b": "pan-jinlian",
+      "label": "杀嫂",
+      "group": "rival",
+      "chapter": 26
+    },
+    {
+      "a": "wu-song",
+      "b": "xi-mengqing",
+      "label": "斗杀",
+      "group": "rival",
+      "chapter": 26
+    },
+    {
+      "a": "wu-song",
+      "b": "jiang-menshen",
+      "label": "醉打",
+      "group": "rival",
+      "chapter": 29
+    },
+    {
+      "a": "wu-song",
+      "b": "shi-en",
+      "label": "结义",
+      "group": "ally",
+      "chapter": 28
+    },
+    {
+      "a": "wu-song",
+      "b": "zhang-qing-cai",
+      "label": "结义",
+      "group": "ally",
+      "chapter": 28
+    },
+    {
+      "a": "wu-song",
+      "b": "sun-erniang",
+      "label": "结义",
+      "group": "kin",
+      "chapter": 28
+    },
+    {
+      "a": "wu-song",
+      "b": "fang-la",
+      "label": "断臂",
+      "group": "rival",
+      "chapter": 117
+    },
+    {
+      "a": "yang-zhi",
+      "b": "chao-gai",
+      "label": "失陷生辰纲",
+      "group": "rival",
+      "chapter": 16
+    },
+    {
+      "a": "yang-zhi",
+      "b": "wu-yong",
+      "label": "失陷生辰纲",
+      "group": "rival",
+      "chapter": 16
+    },
+    {
+      "a": "hua-rong",
+      "b": "qin-ming",
+      "label": "姻亲",
+      "group": "kin",
+      "chapter": 35
+    },
+    {
+      "a": "hua-rong",
+      "b": "huang-xin",
+      "label": "同僚",
+      "group": "friend",
+      "chapter": 33
+    },
+    {
+      "a": "qin-ming",
+      "b": "huang-xin",
+      "label": "师徒",
+      "group": "serve",
+      "chapter": 33
+    },
+    {
+      "a": "qin-ming",
+      "b": "song-jiang",
+      "label": "归顺",
+      "group": "serve",
+      "chapter": 35
+    },
+    {
+      "a": "hu-yanzhuo",
+      "b": "han-tao",
+      "label": "副将",
+      "group": "serve",
+      "chapter": 55
+    },
+    {
+      "a": "hu-yanzhuo",
+      "b": "ling-zhen",
+      "label": "同征梁山",
+      "group": "ally",
+      "chapter": 55
+    },
+    {
+      "a": "hu-yanzhuo",
+      "b": "xu-ning",
+      "label": "连环马被破",
+      "group": "rival",
+      "chapter": 57
+    },
+    {
+      "a": "xu-ning",
+      "b": "shi-qian",
+      "label": "盗甲",
+      "group": "rival",
+      "chapter": 56
+    },
+    {
+      "a": "xu-ning",
+      "b": "tang-long",
+      "label": "表亲",
+      "group": "kin",
+      "chapter": 56
+    },
+    {
+      "a": "guan-sheng",
+      "b": "xuan-zan",
+      "label": "副将",
+      "group": "serve",
+      "chapter": 63
+    },
+    {
+      "a": "guan-sheng",
+      "b": "hao-siweng",
+      "label": "结义兄弟",
+      "group": "kin",
+      "chapter": 63
+    },
+    {
+      "a": "guan-sheng",
+      "b": "dong-ping",
+      "label": "同列五虎将",
+      "group": "friend",
+      "chapter": 71
+    },
+    {
+      "a": "dong-ping",
+      "b": "song-jiang",
+      "label": "归顺",
+      "group": "serve",
+      "chapter": 69
+    },
+    {
+      "a": "zhang-qing",
+      "b": "song-jiang",
+      "label": "归顺",
+      "group": "serve",
+      "chapter": 70
+    },
+    {
+      "a": "zhang-qing",
+      "b": "dong-ping",
+      "label": "同征东昌",
+      "group": "ally",
+      "chapter": 70
+    },
+    {
+      "a": "suo-chao",
+      "b": "yang-zhi",
+      "label": "大名府同僚",
+      "group": "friend",
+      "chapter": 13
+    },
+    {
+      "a": "suo-chao",
+      "b": "song-jiang",
+      "label": "归顺",
+      "group": "serve",
+      "chapter": 63
+    },
+    {
+      "a": "shi-wengong",
+      "b": "chao-gai",
+      "label": "射死晁盖",
+      "group": "rival",
+      "chapter": 60
+    },
+    {
+      "a": "shi-wengong",
+      "b": "lu-junyi",
+      "label": "被擒",
+      "group": "rival",
+      "chapter": 68
+    },
+    {
+      "a": "luan-tingyu",
+      "b": "song-jiang",
+      "label": "守庄相抗",
+      "group": "rival",
+      "chapter": 48
+    },
+    {
+      "a": "guan-sheng",
+      "b": "song-jiang",
+      "label": "归顺",
+      "group": "serve",
+      "chapter": 64
+    },
+    {
+      "a": "xuan-zan",
+      "b": "hao-siweng",
+      "label": "同僚",
+      "group": "ally",
+      "chapter": 63
+    },
+    {
+      "a": "chai-jin",
+      "b": "wu-song",
+      "label": "收留",
+      "group": "ally",
+      "chapter": 22
+    },
+    {
+      "a": "chai-jin",
+      "b": "song-jiang",
+      "label": "旧交",
+      "group": "ally",
+      "chapter": 22
+    },
+    {
+      "a": "li-ying",
+      "b": "du-xing",
+      "label": "主仆",
+      "group": "serve",
+      "chapter": 47
+    },
+    {
+      "a": "li-ying",
+      "b": "hu-sanniang",
+      "label": "三庄结盟",
+      "group": "ally",
+      "chapter": 47
+    },
+    {
+      "a": "hu-sanniang",
+      "b": "wang-ying",
+      "label": "夫妻",
+      "group": "kin",
+      "chapter": 50
+    },
+    {
+      "a": "hu-sanniang",
+      "b": "lin-chong",
+      "label": "被擒",
+      "group": "rival",
+      "chapter": 48
+    },
+    {
+      "a": "sun-li",
+      "b": "sun-xin",
+      "label": "兄弟",
+      "group": "kin",
+      "chapter": 49
+    },
+    {
+      "a": "sun-li",
+      "b": "gu-dasao",
+      "label": "姻亲",
+      "group": "kin",
+      "chapter": 49
+    },
+    {
+      "a": "sun-li",
+      "b": "yue-he",
+      "label": "姻亲",
+      "group": "kin",
+      "chapter": 49
+    },
+    {
+      "a": "sun-xin",
+      "b": "gu-dasao",
+      "label": "夫妻",
+      "group": "kin",
+      "chapter": 49
+    },
+    {
+      "a": "gu-dasao",
+      "b": "xie-zhen",
+      "label": "劫牢相救",
+      "group": "ally",
+      "chapter": 49
+    },
+    {
+      "a": "gu-dasao",
+      "b": "xie-bao",
+      "label": "劫牢相救",
+      "group": "ally",
+      "chapter": 49
+    },
+    {
+      "a": "xie-zhen",
+      "b": "xie-bao",
+      "label": "兄弟",
+      "group": "kin",
+      "chapter": 49
+    },
+    {
+      "a": "sun-li",
+      "b": "luan-tingyu",
+      "label": "同门",
+      "group": "friend",
+      "chapter": 49
+    },
+    {
+      "a": "li-jun",
+      "b": "zhang-heng",
+      "label": "揭阳同伙",
+      "group": "ally",
+      "chapter": 37
+    },
+    {
+      "a": "li-jun",
+      "b": "zhang-shun",
+      "label": "揭阳同伙",
+      "group": "ally",
+      "chapter": 37
+    },
+    {
+      "a": "li-jun",
+      "b": "mu-hong",
+      "label": "揭阳同伙",
+      "group": "ally",
+      "chapter": 37
+    },
+    {
+      "a": "li-jun",
+      "b": "li-li",
+      "label": "揭阳同伙",
+      "group": "ally",
+      "chapter": 36
+    },
+    {
+      "a": "li-jun",
+      "b": "tong-wei",
+      "label": "出海同伴",
+      "group": "ally",
+      "chapter": 119
+    },
+    {
+      "a": "li-jun",
+      "b": "tong-meng",
+      "label": "出海同伴",
+      "group": "ally",
+      "chapter": 119
+    },
+    {
+      "a": "zhang-heng",
+      "b": "zhang-shun",
+      "label": "兄弟",
+      "group": "kin",
+      "chapter": 37
+    },
+    {
+      "a": "mu-hong",
+      "b": "mu-chun",
+      "label": "兄弟",
+      "group": "kin",
+      "chapter": 37
+    },
+    {
+      "a": "dai-zong",
+      "b": "li-kui",
+      "label": "上下级",
+      "group": "serve",
+      "chapter": 38
+    },
+    {
+      "a": "shi-xiu",
+      "b": "yang-xiong",
+      "label": "结义兄弟",
+      "group": "kin",
+      "chapter": 44
+    },
+    {
+      "a": "shi-xiu",
+      "b": "shi-qian",
+      "label": "结义兄弟",
+      "group": "kin",
+      "chapter": 46
+    },
+    {
+      "a": "yang-xiong",
+      "b": "shi-qian",
+      "label": "结义兄弟",
+      "group": "kin",
+      "chapter": 46
+    },
+    {
+      "a": "zhang-qing-cai",
+      "b": "sun-erniang",
+      "label": "夫妻",
+      "group": "kin",
+      "chapter": 27
+    },
+    {
+      "a": "shi-en",
+      "b": "jiang-menshen",
+      "label": "快活林之争",
+      "group": "rival",
+      "chapter": 29
+    },
+    {
+      "a": "kong-ming",
+      "b": "kong-liang",
+      "label": "兄弟",
+      "group": "kin",
+      "chapter": 32
+    },
+    {
+      "a": "kong-ming",
+      "b": "song-jiang",
+      "label": "师徒",
+      "group": "serve",
+      "chapter": 32
+    },
+    {
+      "a": "kong-liang",
+      "b": "song-jiang",
+      "label": "师徒",
+      "group": "serve",
+      "chapter": 32
+    },
+    {
+      "a": "li-zhong",
+      "b": "shi-jin",
+      "label": "开手师傅",
+      "group": "serve",
+      "chapter": 3
+    },
+    {
+      "a": "li-zhong",
+      "b": "zhou-tong",
+      "label": "桃花山同寨",
+      "group": "ally",
+      "chapter": 5
+    },
+    {
+      "a": "zhu-wu",
+      "b": "shi-jin",
+      "label": "少华山同寨",
+      "group": "serve",
+      "chapter": 2
+    },
+    {
+      "a": "zhu-wu",
+      "b": "chen-da",
+      "label": "少华山同寨",
+      "group": "serve",
+      "chapter": 2
+    },
+    {
+      "a": "shi-jin",
+      "b": "chen-da",
+      "label": "少华山同寨",
+      "group": "ally",
+      "chapter": 2
+    },
+    {
+      "a": "fang-la",
+      "b": "hu-sanniang",
+      "label": "睦州交战",
+      "group": "rival",
+      "chapter": 117
+    },
+    {
+      "a": "fang-la",
+      "b": "wang-ying",
+      "label": "睦州交战",
+      "group": "rival",
+      "chapter": 117
+    }
+  ],
+  "places": [
+    {
+      "id": "liangshan",
+      "name": "梁山泊",
+      "modern": "今山东济宁梁山",
+      "chapter": 11,
+      "summary": "八百里水泊，梁山好汉聚义之所。"
+    },
+    {
+      "id": "yuncheng",
+      "name": "郓城县",
+      "modern": "今山东郓城",
+      "chapter": 18,
+      "summary": "宋江、朱仝、雷横任事之地；东溪村、安乐村皆在其境。"
+    },
+    {
+      "id": "dongxi",
+      "name": "东溪村",
+      "modern": "今山东郓城境",
+      "chapter": 14,
+      "summary": "晁盖庄院所在，智取生辰纲的谋划地。"
+    },
+    {
+      "id": "huangnitai",
+      "name": "黄泥冈",
+      "modern": "今山东郓城东南",
+      "chapter": 16,
+      "summary": "杨志押送生辰纲被劫之处。"
+    },
+    {
+      "id": "shijie",
+      "name": "石碣村",
+      "modern": "今山东梁山境",
+      "chapter": 15,
+      "summary": "阮氏三雄打鱼为生之地。"
+    },
+    {
+      "id": "cangzhou",
+      "name": "沧州",
+      "modern": "今河北沧州",
+      "chapter": 10,
+      "summary": "林冲刺配、柴进庄院所在。"
+    },
+    {
+      "id": "dongjing",
+      "name": "东京",
+      "modern": "今河南开封",
+      "chapter": 7,
+      "summary": "北宋都城，高俅、林冲、徐宁故事的发生地。"
+    },
+    {
+      "id": "damingfu",
+      "name": "大名府",
+      "modern": "今河北邯郸大名",
+      "chapter": 61,
+      "summary": "卢俊义、燕青与蔡福兄弟所在，梁山攻城的重镇。"
+    },
+    {
+      "id": "qingzhou",
+      "name": "青州",
+      "modern": "今山东青州",
+      "chapter": 33,
+      "summary": "秦明、黄信驻军之地，清风山在其南。"
+    },
+    {
+      "id": "qingfeng",
+      "name": "清风寨",
+      "modern": "今山东青州南",
+      "chapter": 33,
+      "summary": "花荣任知寨之处。"
+    },
+    {
+      "id": "jiangzhou",
+      "name": "江州",
+      "modern": "今江西九江",
+      "chapter": 38,
+      "summary": "宋江刺配、浔阳楼题反诗、劫法场之地。"
+    },
+    {
+      "id": "xunyang",
+      "name": "浔阳江",
+      "modern": "今江西九江一带长江",
+      "chapter": 37,
+      "summary": "张横、张顺兄弟横行之处。"
+    },
+    {
+      "id": "jieyang",
+      "name": "揭阳岭",
+      "modern": "今广东揭阳一带（小说地望）",
+      "chapter": 36,
+      "summary": "李俊、李立结伙之地。"
+    },
+    {
+      "id": "erlong",
+      "name": "二龙山",
+      "modern": "今山东济南东南",
+      "chapter": 17,
+      "summary": "鲁智深、杨志、武松落草之处。"
+    },
+    {
+      "id": "shaohua",
+      "name": "少华山",
+      "modern": "今陕西华州",
+      "chapter": 2,
+      "summary": "史进、朱武等聚义之处。"
+    },
+    {
+      "id": "taohua",
+      "name": "桃花山",
+      "modern": "小说地望在今山东境",
+      "chapter": 5,
+      "summary": "李忠、周通占山之处。"
+    },
+    {
+      "id": "zhujiazhuang",
+      "name": "祝家庄",
+      "modern": "今山东梁山境",
+      "chapter": 47,
+      "summary": "三打祝家庄的主战场。"
+    },
+    {
+      "id": "hujiazhuang",
+      "name": "扈家庄",
+      "modern": "今山东梁山境",
+      "chapter": 47,
+      "summary": "扈三娘出身之地，与祝、李二庄结盟。"
+    },
+    {
+      "id": "gaotang",
+      "name": "高唐州",
+      "modern": "今山东高唐",
+      "chapter": 52,
+      "summary": "高廉害柴进、公孙胜斗法之地。"
+    },
+    {
+      "id": "zengtou",
+      "name": "曾头市",
+      "modern": "小说地望在今山东境",
+      "chapter": 60,
+      "summary": "晁盖中箭身亡之地。"
+    },
+    {
+      "id": "mengzhou",
+      "name": "孟州",
+      "modern": "今河南孟州",
+      "chapter": 28,
+      "summary": "武松刺配、快活林与鸳鸯楼故事所在。"
+    },
+    {
+      "id": "jizhou",
+      "name": "蓟州",
+      "modern": "今天津蓟州",
+      "chapter": 44,
+      "summary": "杨雄、石秀相识之地。"
+    },
+    {
+      "id": "chuzhou",
+      "name": "楚州",
+      "modern": "今江苏淮安",
+      "chapter": 120,
+      "summary": "宋江被毒后任职与安葬之地。"
+    },
+    {
+      "id": "liaoerwa",
+      "name": "蓼儿洼",
+      "modern": "今江苏淮安境（小说地望）",
+      "chapter": 120,
+      "summary": "宋江、李逵、吴用、花荣最终归葬之处。"
+    },
+    {
+      "id": "hangzhou",
+      "name": "杭州",
+      "modern": "今浙江杭州",
+      "chapter": 114,
+      "summary": "征方腊主战场之一；涌金门、六和寺皆在此。"
+    },
+    {
+      "id": "muzhou",
+      "name": "睦州",
+      "modern": "今浙江建德",
+      "chapter": 117,
+      "summary": "征方腊关键战场，乌龙岭在其境。"
+    }
+  ],
+  "events": [
+    {
+      "id": "ev-shengchen",
+      "name": "智取生辰纲",
+      "chapter": 16,
+      "sourceTitle": "杨志押送金银担 吴用智取生辰纲",
+      "place": "huangnitai",
+      "cast": [
+        "yang-zhi",
+        "chao-gai",
+        "wu-yong",
+        "gongsun-sheng",
+        "liu-tang",
+        "ruan-xiaoer",
+        "ruan-xiaowu",
+        "ruan-xiaoqi",
+        "bai-sheng"
+      ],
+      "summary": "晁盖、吴用等八人在黄泥冈麻倒杨志一行，劫走生辰纲。",
+      "detail": "梁中书以十万贯金珠宝贝为岳父蔡京贺寿，派杨志押送。吴用定计，七人扮枣商、白胜扮酒贩，在黄泥冈以蒙汗药麻倒杨志一行，劫走生辰纲。此案成为众人上梁山的直接起因。",
+      "history": "生辰纲被劫是小说核心情节；《宋史》仅载宋江等三十六人起事，无此细节。"
+    },
+    {
+      "id": "ev-huobing",
+      "name": "火并王伦",
+      "chapter": 19,
+      "sourceTitle": "林冲水寨大并火 晁盖梁山小夺泊",
+      "place": "liangshan",
+      "cast": [
+        "lin-chong",
+        "wang-lun",
+        "chao-gai",
+        "wu-yong",
+        "du-qian",
+        "song-wan",
+        "zhu-gui"
+      ],
+      "summary": "晁盖等投梁山，王伦拒纳，林冲火并王伦，拥晁盖为寨主。",
+      "detail": "王伦忌晁盖等势大，托词拒纳。吴用挑动林冲，林冲当众杀死王伦，推晁盖为寨主，梁山格局自此改变。",
+      "history": "火并王伦为小说情节，史传无载。"
+    },
+    {
+      "id": "ev-dahu",
+      "name": "景阳冈打虎",
+      "chapter": 23,
+      "sourceTitle": "横海郡柴进留宾 景阳冈武松打虎",
+      "place": "yuncheng",
+      "cast": [
+        "wu-song"
+      ],
+      "summary": "武松醉过景阳冈，赤手打死猛虎。",
+      "detail": "武松离柴进庄后返乡，途经景阳冈，不听店家劝阻，醉中上冈，遇猛虎，赤手空拳将其打死，由此任阳谷县都头。",
+      "history": "打虎为小说名场面，史传无载。"
+    },
+    {
+      "id": "ev-yuanyang",
+      "name": "血溅鸳鸯楼",
+      "chapter": 31,
+      "sourceTitle": "张都监血溅鸳鸯楼 武行者夜走蜈蚣岭",
+      "place": "mengzhou",
+      "cast": [
+        "wu-song",
+        "jiang-menshen"
+      ],
+      "summary": "武松遭陷害后杀回鸳鸯楼，杀死蒋门神与张都监等。",
+      "detail": "武松醉打蒋门神后，张都监设计诬其为盗，刺配途中又派人追杀。武松杀回鸳鸯楼，将张都监、蒋门神等一并杀死，从此亡命。",
+      "history": "血溅鸳鸯楼为小说情节。"
+    },
+    {
+      "id": "ev-zhujia",
+      "name": "三打祝家庄",
+      "chapter": 47,
+      "sourceTitle": "扑天雕双修生死书 宋公明一打祝家庄",
+      "place": "zhujiazhuang",
+      "cast": [
+        "song-jiang",
+        "shi-qian",
+        "yang-xiong",
+        "shi-xiu",
+        "lin-chong",
+        "hu-sanniang",
+        "li-ying",
+        "sun-li"
+      ],
+      "summary": "宋江三次攻打祝家庄，最终里应外合破庄。",
+      "detail": "时迁偷鸡引发冲突，宋江率军三打祝家庄。前两次因地形与埋伏失利，第三次得孙立卧底、扈家庄中立，里应外合破庄。",
+      "history": "三打祝家庄为小说重要战役，史传无载。"
+    },
+    {
+      "id": "ev-lianhuan",
+      "name": "大破连环马",
+      "chapter": 57,
+      "sourceTitle": "徐宁教使钩镰枪 宋江大破连环马",
+      "place": "liangshan",
+      "cast": [
+        "hu-yanzhuo",
+        "xu-ning",
+        "shi-qian",
+        "tang-long",
+        "song-jiang"
+      ],
+      "summary": "徐宁教演钩镰枪，破呼延灼连环马。",
+      "detail": "呼延灼以连环马连胜梁山。汤隆举荐徐宁，时迁盗其雁翎甲赚其上山；徐宁教演钩镰枪，专钩马腿，连环马遂破。",
+      "history": "连环马与钩镰枪为小说情节。"
+    },
+    {
+      "id": "ev-zengtou",
+      "name": "曾头市晁盖中箭",
+      "chapter": 60,
+      "sourceTitle": "公孙胜芒砀山降魔 晁天王曾头市中箭",
+      "place": "zengtou",
+      "cast": [
+        "chao-gai",
+        "song-jiang",
+        "shi-wengong"
+      ],
+      "summary": "晁盖征曾头市，中毒箭身亡。",
+      "detail": "曾头市夺马挑衅，晁盖亲征，中伏被毒箭射中面颊，回寨后身亡，遗命捉得仇人者为寨主。",
+      "history": "晁盖之死为小说情节；其人以《宋史》所载宋江三十六人之一为原型，事迹多出小说。"
+    },
+    {
+      "id": "ev-lujunyi",
+      "name": "赚卢俊义上山",
+      "chapter": 61,
+      "sourceTitle": "放冷箭燕青救主 劫法场石秀跳楼",
+      "place": "damingfu",
+      "cast": [
+        "lu-junyi",
+        "wu-yong",
+        "yan-qing",
+        "shi-xiu",
+        "song-jiang"
+      ],
+      "summary": "吴用设计使卢俊义获罪，梁山劫法场救出。",
+      "detail": "吴用扮算命先生为卢俊义题藏头反诗，卢俊义被管家李固告发下狱。梁山攻大名府，石秀单身劫法场，最终救出卢俊义。",
+      "history": "卢俊义入伙为小说情节。"
+    },
+    {
+      "id": "ev-paizuoci",
+      "name": "英雄排座次",
+      "chapter": 71,
+      "sourceTitle": "忠义堂石碣受天文 梁山泊英雄排座次",
+      "place": "liangshan",
+      "cast": [
+        "song-jiang",
+        "lu-junyi",
+        "wu-yong",
+        "gongsun-sheng"
+      ],
+      "summary": "石碣天文现世，一百单八将排定座次与星号。",
+      "detail": "梁山设罗天大醮，天降石碣，刻一百单八人星号与名次。宋江等依石碣排定座次，天罡三十六、地煞七十二，梁山达到鼎盛。",
+      "history": "排座次为小说结构高潮；一百单八将的座次名单是小说创造，非史实。"
+    },
+    {
+      "id": "ev-zhaoan",
+      "name": "全伙受招安",
+      "chapter": 82,
+      "sourceTitle": "梁山泊分金大买市 宋公明全伙受招安",
+      "place": "liangshan",
+      "cast": [
+        "song-jiang",
+        "lu-junyi",
+        "wu-yong",
+        "gao-qiu"
+      ],
+      "summary": "宋江力主招安，梁山全伙接受朝廷招安。",
+      "detail": "宋江长期谋求招安，屡遭高俅等阻挠。最终通过李师师、宿元景等门路，朝廷下诏招安，梁山全伙归顺，随后奉命征辽、征方腊。",
+      "history": "招安为小说后半部主线；七十回本止于排座次，不载招安后事。"
+    },
+    {
+      "id": "ev-zhengla",
+      "name": "征方腊",
+      "chapter": 111,
+      "sourceTitle": "张顺夜伏金山寺 宋江智取润州城",
+      "place": "hangzhou",
+      "cast": [
+        "song-jiang",
+        "lu-junyi",
+        "fang-la",
+        "wu-song",
+        "lu-zhishen",
+        "hu-sanniang",
+        "wang-ying"
+      ],
+      "summary": "梁山受招安后征讨方腊，战事惨烈，头领折损过半。",
+      "detail": "方腊据江南八州起义，梁山奉命征讨。润州、杭州、睦州诸战接连损兵折将，张顺、解珍解宝、扈三娘、王英等先后阵亡，鲁智深、武松等亦在此役转折。",
+      "history": "征方腊见一百二十回本；梁山征方腊是否实有其事、规模如何，史传与小说差异很大。"
+    },
+    {
+      "id": "ev-yongjin",
+      "name": "张顺魂断涌金门",
+      "chapter": 114,
+      "sourceTitle": "宁海军宋江吊孝 涌金门张顺归神",
+      "place": "hangzhou",
+      "cast": [
+        "zhang-shun",
+        "song-jiang"
+      ],
+      "summary": "张顺夜潜涌金门，被守军发现，乱箭射死。",
+      "detail": "宋江攻杭州，张顺自请从涌金门水门潜入。行至半途被守军察觉，乱箭齐发，张顺死于水中。",
+      "history": "张顺之死为小说情节。"
+    },
+    {
+      "id": "ev-wulong",
+      "name": "乌龙岭之战",
+      "chapter": 117,
+      "sourceTitle": "睦州城箭射邓元觉 乌龙岭神助宋公明",
+      "place": "muzhou",
+      "cast": [
+        "song-jiang",
+        "xie-zhen",
+        "xie-bao",
+        "ruan-xiaoer",
+        "wu-song",
+        "fang-la"
+      ],
+      "summary": "梁山攻睦州、乌龙岭，解珍解宝等阵亡。",
+      "detail": "征方腊后期，梁山军攻睦州与乌龙岭。解珍、解宝探路时阵亡，阮小二等亦折于此役，战况惨烈。",
+      "history": "乌龙岭之战为小说情节。"
+    },
+    {
+      "id": "ev-songjiang",
+      "name": "宋江之死",
+      "chapter": 120,
+      "sourceTitle": "宋公明神聚蓼儿洼 徽宗帝梦游梁山泊",
+      "place": "chuzhou",
+      "cast": [
+        "song-jiang",
+        "li-kui",
+        "wu-yong",
+        "hua-rong",
+        "gao-qiu"
+      ],
+      "summary": "宋江被毒，李逵同死；吴用、花荣自缢于蓼儿洼。",
+      "detail": "宋江任楚州安抚使后，高俅等以御酒下毒。宋江恐李逵造反坏其忠义之名，亦以毒酒鸩之。吴用、花荣闻讯，同缢于蓼儿洼宋江墓前。",
+      "history": "宋江之死见一百二十回本；《宋史》载宋江降后复叛被讨平，与小说结局不同。"
+    }
+  ],
+  "amnesty": [
+    {
+      "id": "stage-paizuoci",
+      "name": "梁山聚义",
+      "chapter": 71,
+      "summary": "一百单八将排定座次，梁山达到鼎盛。"
+    },
+    {
+      "id": "stage-zhaoan",
+      "name": "全伙受招安",
+      "chapter": 82,
+      "summary": "宋江力主归顺，梁山接受朝廷招安。"
+    },
+    {
+      "id": "stage-zhenglao",
+      "name": "征辽",
+      "chapter": 83,
+      "summary": "受招安后奉命征辽，全身而退。"
+    },
+    {
+      "id": "stage-zhengfangla",
+      "name": "征方腊",
+      "chapter": 111,
+      "summary": "南征方腊，头领折损过半。"
+    },
+    {
+      "id": "stage-end",
+      "name": "魂聚蓼儿洼",
+      "chapter": 120,
+      "summary": "宋江、李逵被毒，吴用、花荣自缢。"
+    }
+  ],
+  "counts": {
+    "characters": 79,
+    "ranked": 69,
+    "heaven": 36,
+    "earth": 33,
+    "relations": 110,
+    "places": 26,
+    "events": 14
+  }
+}
