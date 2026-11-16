@@ -27,11 +27,27 @@
 .work { display: flex; flex-direction: column; gap: 8px; min-width: 0; height: 100%; }
 .card {
   position: relative; display: flex; flex-direction: column; gap: 6px;
-  flex: 1; padding: 22px 22px 20px;
+  flex: 1; padding: 0 22px 20px; overflow: hidden;
   background: var(--card); border: 1px solid var(--line); border-radius: var(--r-md);
   color: inherit; box-shadow: var(--shadow-2);
   transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
 }
+/* 卡片顶部的关系图缩略图：给"这是什么"一个 3 秒答案 */
+.card .thumb {
+  margin: 0 -22px 14px; aspect-ratio: 16 / 9; overflow: hidden;
+  background: linear-gradient(#f7f2e8, #f2ece0);
+  border-bottom: 1px solid var(--line);
+  /* 缩略图取原图中部偏上：图谱主体在中间，边缘是留白 */
+  display: block; position: relative;
+}
+.card .thumb img {
+  width: 100%; height: 100%; display: block;
+  object-fit: cover; object-position: 50% 42%;
+  transition: transform .35s ease;
+}
+.card:hover .thumb img { transform: scale(1.035); }
+/* 四张卡片高度对齐：标题与正文区固定行数，避免参差 */
+.card p { min-height: 5.4em; }
 .card:hover, .card:focus-visible { transform: translateY(-2px); border-color: var(--c); box-shadow: 0 16px 34px -20px rgba(50, 34, 20, .6); color: inherit; }
 .card-head { display: flex; align-items: center; gap: 12px; }
 .card .seal { background: var(--c); box-shadow: inset 0 0 0 1px rgba(255,255,255,.25); }
@@ -92,6 +108,7 @@
   <div id="works" class="grid">
     <div class="work">
       <a class="card" href="works/honglou/" data-work="honglou">
+        <span class="thumb"><img src="docs/cards/honglou.jpg" alt="红楼梦人物关系图谱：贾府谱系与人物关系" loading="lazy" width="560" height="315"></span>
         <div class="card-head">
           <span class="seal">红</span>
           <div>
@@ -107,6 +124,7 @@
 
     <div class="work">
       <a class="card" href="works/sanguo/" data-work="sanguo">
+        <span class="thumb"><img src="docs/cards/sanguo.jpg" alt="三国演义人物关系图谱：魏蜀吴群雄四方势力" loading="lazy" width="560" height="315"></span>
         <div class="card-head">
           <span class="seal">三</span>
           <div>
@@ -121,6 +139,7 @@
 
     <div class="work">
       <a class="card" href="works/xiyou/" data-work="xiyou">
+        <span class="thumb"><img src="docs/cards/xiyou.jpg" alt="西游记人物关系图谱：取经团队与法脉师承" loading="lazy" width="560" height="315"></span>
         <div class="card-head">
           <span class="seal">西</span>
           <div>
@@ -135,6 +154,7 @@
 
     <div class="work">
       <a class="card" href="works/shuihu/" data-work="shuihu">
+        <span class="thumb"><img src="docs/cards/shuihu.jpg" alt="水浒传人物关系图谱：一百单八将聚义梁山" loading="lazy" width="560" height="315"></span>
         <div class="card-head">
           <span class="seal">水</span>
           <div>

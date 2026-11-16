@@ -43,7 +43,7 @@ STATIC_RE = re.compile(
     r"(?:css|js|assets)(?:/[A-Za-z0-9][A-Za-z0-9._-]*)*/[A-Za-z0-9][A-Za-z0-9._-]*\.(?:css|js|png|jpe?g|svg|webp|gif|ico|woff2?)|"
     r"works/catalog\.json|works/(?:" + _WORK_ALT + r")/(?:[A-Za-z0-9._-]+/)*"
     r"[A-Za-z0-9._-]+\.(?:html|json)|"
-    r"en/index\.html|docs/[A-Za-z0-9][A-Za-z0-9._-]*\.(?:png|gif|jpe?g|webp))$")
+    r"en/index\.html|docs/(?:cards/)?[A-Za-z0-9][A-Za-z0-9._-]*\.(?:png|gif|jpe?g|webp))$")
 
 
 def json_bytes(obj):

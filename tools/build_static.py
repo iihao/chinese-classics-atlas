@@ -126,8 +126,20 @@ def build():
     # 英文页引用的演示图、社交预览图与各作品的 og:image（不打包内部发布素材）。
     os.makedirs(os.path.join(OUT, "docs"))
     for f in ("demo.gif", "screenshot-graph.png", "social-preview.png",
-              "screenshot-sanguo.png", "screenshot-xiyou-graph.png"):
+              "screenshot-sanguo.png", "screenshot-xiyou-graph.png",
+              "screenshot-shuihu.png", "screenshot-game.png"):
         shutil.copy2(os.path.join(ROOT, "docs", f), os.path.join(OUT, "docs", f))
+    # 首页作品卡片的缩略图（16:9，约 20KB/张）
+    src_cards = os.path.join(ROOT, "docs", "cards")
+    if os.path.isdir(src_cards):
+        out_cards = os.path.join(OUT, "docs", "cards")
+        os.makedirs(out_cards, exist_ok=True)
+        for f in sorted(os.listdir(src_cards)):
+            if f.endswith(".jpg"):
+                shutil.copy2(os.path.join(src_cards, f), os.path.join(out_cards, f))
+    else:
+        print("! 缺少 docs/cards/，首页卡片将没有缩略图")
+
 
     with open(os.path.join(OUT, "api", "works", "honglou.json"), "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
