@@ -1,0 +1,2073 @@
+{
+  "version": 1,
+  "note": "人物生卒、籍贯、官职与事件性质依《三国志》及通行辞书整理；百科链接仅作延伸阅读，未复制百科正文。生卒年、地望遇异说时以史传与本书版本为准。",
+  "characters": {
+    "liu-bei": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "161年—223年"
+        },
+        {
+          "label": "籍贯",
+          "value": "涿郡涿县（今河北涿州）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "蜀汉昭烈帝"
+        },
+        {
+          "label": "身份",
+          "value": "蜀汉开国皇帝"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%88%98%E5%A4%87"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%88%98%E5%A4%87"
+        }
+      ]
+    },
+    "guan-yu": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "卒于220年"
+        },
+        {
+          "label": "籍贯",
+          "value": "河东解县（今山西运城）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "前将军、汉寿亭侯"
+        },
+        {
+          "label": "身份",
+          "value": "蜀汉名将"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%85%B3%E7%BE%BD"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%85%B3%E7%BE%BD"
+        }
+      ]
+    },
+    "zhang-fei": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "卒于221年"
+        },
+        {
+          "label": "籍贯",
+          "value": "涿郡（今河北涿州）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "车骑将军、西乡侯"
+        },
+        {
+          "label": "身份",
+          "value": "蜀汉名将"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%BC%A0%E9%A3%9E"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%BC%A0%E9%A3%9E"
+        }
+      ]
+    },
+    "zhuge-liang": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "181年—234年"
+        },
+        {
+          "label": "籍贯",
+          "value": "琅琊阳都（今山东沂南）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "丞相、武乡侯"
+        },
+        {
+          "label": "身份",
+          "value": "蜀汉丞相、政治家"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E8%AF%B8%E8%91%9B%E4%BA%AE"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E8%AF%B8%E8%91%9B%E4%BA%AE"
+        }
+      ]
+    },
+    "zhao-yun": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "卒于229年"
+        },
+        {
+          "label": "籍贯",
+          "value": "常山真定（今河北正定）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "镇东将军、永昌亭侯"
+        },
+        {
+          "label": "身份",
+          "value": "蜀汉名将"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E8%B5%B5%E4%BA%91"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E8%B5%B5%E4%BA%91"
+        }
+      ]
+    },
+    "huang-zhong": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "卒于220年"
+        },
+        {
+          "label": "籍贯",
+          "value": "南阳（今河南南阳）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "后将军、关内侯"
+        },
+        {
+          "label": "身份",
+          "value": "蜀汉名将"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E9%BB%84%E5%BF%A0"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E9%BB%84%E5%BF%A0"
+        }
+      ]
+    },
+    "ma-chao": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "176年—222年"
+        },
+        {
+          "label": "籍贯",
+          "value": "扶风茂陵（今陕西兴平）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "骠骑将军、斄乡侯"
+        },
+        {
+          "label": "身份",
+          "value": "蜀汉名将"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E8%B6%85"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E9%A9%AC%E8%B6%85"
+        }
+      ]
+    },
+    "pang-tong": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "179年—214年"
+        },
+        {
+          "label": "籍贯",
+          "value": "襄阳（今湖北襄阳）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "军师中郎将"
+        },
+        {
+          "label": "身份",
+          "value": "刘备谋士"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%BA%9E%E7%BB%9F"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%BA%9E%E7%BB%9F"
+        }
+      ]
+    },
+    "xu-shu": {
+      "facts": [
+        {
+          "label": "籍贯",
+          "value": "颍川（今河南禹州）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "右中郎将、御史中丞"
+        },
+        {
+          "label": "身份",
+          "value": "刘备、曹操谋士"
+        },
+        {
+          "label": "说明",
+          "value": "生卒年不详"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%BE%90%E5%BA%B6"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%BE%90%E5%BA%B6"
+        }
+      ]
+    },
+    "ma-su": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "190年—228年"
+        },
+        {
+          "label": "籍贯",
+          "value": "襄阳宜城（今湖北宜城）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "参军"
+        },
+        {
+          "label": "身份",
+          "value": "蜀汉参军"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E8%B0%A1"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E9%A9%AC%E8%B0%A1"
+        }
+      ]
+    },
+    "jiang-wei": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "202年—264年"
+        },
+        {
+          "label": "籍贯",
+          "value": "天水冀县（今甘肃甘谷）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "大将军"
+        },
+        {
+          "label": "身份",
+          "value": "蜀汉大将军"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%A7%9C%E7%BB%B4"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%A7%9C%E7%BB%B4"
+        }
+      ]
+    },
+    "liu-shan": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "207年—271年"
+        },
+        {
+          "label": "籍贯",
+          "value": "涿郡涿县（生于荆州）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "蜀汉后主"
+        },
+        {
+          "label": "身份",
+          "value": "蜀汉后主"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%88%98%E7%A6%85"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%88%98%E7%A6%85"
+        }
+      ]
+    },
+    "cao-cao": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "155年—220年"
+        },
+        {
+          "label": "籍贯",
+          "value": "沛国谯县（今安徽亳州）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "魏王、丞相"
+        },
+        {
+          "label": "身份",
+          "value": "东汉末政治家、军事家，曹魏奠基者"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E6%9B%B9%E6%93%8D"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E6%9B%B9%E6%93%8D"
+        }
+      ]
+    },
+    "cao-pi": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "187年—226年"
+        },
+        {
+          "label": "籍贯",
+          "value": "沛国谯县（今安徽亳州）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "魏文帝"
+        },
+        {
+          "label": "身份",
+          "value": "曹魏开国皇帝"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E6%9B%B9%E4%B8%95"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E6%9B%B9%E4%B8%95"
+        }
+      ]
+    },
+    "sima-yi": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "179年—251年"
+        },
+        {
+          "label": "籍贯",
+          "value": "河内温县（今河南温县）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "太傅、宣王"
+        },
+        {
+          "label": "身份",
+          "value": "曹魏权臣、西晋奠基者"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%8F%B8%E9%A9%AC%E6%87%BF"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%8F%B8%E9%A9%AC%E6%87%BF"
+        }
+      ]
+    },
+    "guo-jia": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "170年—207年"
+        },
+        {
+          "label": "籍贯",
+          "value": "颍川阳翟（今河南禹州）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "军师祭酒"
+        },
+        {
+          "label": "身份",
+          "value": "曹操谋士"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E9%83%AD%E5%98%89"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E9%83%AD%E5%98%89"
+        }
+      ]
+    },
+    "xun-yu": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "163年—212年"
+        },
+        {
+          "label": "籍贯",
+          "value": "颍川颍阴（今河南许昌）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "尚书令"
+        },
+        {
+          "label": "身份",
+          "value": "曹操谋士"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E8%8D%80%E5%BD%A7"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E8%8D%80%E5%BD%A7"
+        }
+      ]
+    },
+    "zhang-liao": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "169年—222年"
+        },
+        {
+          "label": "籍贯",
+          "value": "雁门马邑（今山西朔州）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "前将军、晋阳侯"
+        },
+        {
+          "label": "身份",
+          "value": "曹魏名将"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%BC%A0%E8%BE%BD"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%BC%A0%E8%BE%BD"
+        }
+      ]
+    },
+    "xu-chu": {
+      "facts": [
+        {
+          "label": "籍贯",
+          "value": "沛国谯县（今安徽亳州）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "武卫将军、牟乡侯"
+        },
+        {
+          "label": "身份",
+          "value": "曹操宿卫"
+        },
+        {
+          "label": "说明",
+          "value": "生卒年不详"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E8%AE%B8%E8%A4%9A"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E8%AE%B8%E8%A4%9A"
+        }
+      ]
+    },
+    "xiahou-dun": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "卒于220年"
+        },
+        {
+          "label": "籍贯",
+          "value": "沛国谯县（今安徽亳州）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "大将军、高安乡侯"
+        },
+        {
+          "label": "身份",
+          "value": "曹魏宗室将领"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%A4%8F%E4%BE%AF%E6%83%87"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%A4%8F%E4%BE%AF%E6%83%87"
+        }
+      ]
+    },
+    "sun-jian": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "155年—191年"
+        },
+        {
+          "label": "籍贯",
+          "value": "吴郡富春（今浙江杭州富阳）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "破虏将军、乌程侯"
+        },
+        {
+          "label": "身份",
+          "value": "东汉末江东军阀"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%AD%99%E5%9D%9A"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%AD%99%E5%9D%9A"
+        }
+      ]
+    },
+    "sun-ce": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "175年—200年"
+        },
+        {
+          "label": "籍贯",
+          "value": "吴郡富春（今浙江杭州富阳）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "讨逆将军、吴侯"
+        },
+        {
+          "label": "身份",
+          "value": "东吴奠基者"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%AD%99%E7%AD%96"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%AD%99%E7%AD%96"
+        }
+      ]
+    },
+    "sun-quan": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "182年—252年"
+        },
+        {
+          "label": "籍贯",
+          "value": "吴郡富春（今浙江杭州富阳）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "吴大帝"
+        },
+        {
+          "label": "身份",
+          "value": "东吴开国皇帝"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%AD%99%E6%9D%83"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%AD%99%E6%9D%83"
+        }
+      ]
+    },
+    "zhou-yu": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "175年—210年"
+        },
+        {
+          "label": "籍贯",
+          "value": "庐江舒县（今安徽庐江）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "偏将军、南郡太守"
+        },
+        {
+          "label": "身份",
+          "value": "东吴名将"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%91%A8%E7%91%9C"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%91%A8%E7%91%9C"
+        }
+      ]
+    },
+    "lu-su": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "172年—217年"
+        },
+        {
+          "label": "籍贯",
+          "value": "临淮东城（今安徽定远）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "横江将军、汉昌太守"
+        },
+        {
+          "label": "身份",
+          "value": "东吴谋臣"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E9%B2%81%E8%82%83"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E9%B2%81%E8%82%83"
+        }
+      ]
+    },
+    "lv-meng": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "178年—220年"
+        },
+        {
+          "label": "籍贯",
+          "value": "汝南富陂（今安徽阜南）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "虎威将军、孱陵侯"
+        },
+        {
+          "label": "身份",
+          "value": "东吴名将"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%95%E8%92%99"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%90%95%E8%92%99"
+        }
+      ]
+    },
+    "lu-xun": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "183年—245年"
+        },
+        {
+          "label": "籍贯",
+          "value": "吴郡吴县（今江苏苏州）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "上大将军、丞相、江陵侯"
+        },
+        {
+          "label": "身份",
+          "value": "东吴名将、丞相"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E9%99%86%E9%80%8A"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E9%99%86%E9%80%8A"
+        }
+      ]
+    },
+    "gan-ning": {
+      "facts": [
+        {
+          "label": "籍贯",
+          "value": "巴郡临江（今重庆忠县）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "折冲将军"
+        },
+        {
+          "label": "身份",
+          "value": "东吴名将"
+        },
+        {
+          "label": "说明",
+          "value": "生卒年不详"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E7%94%98%E5%AE%81"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E7%94%98%E5%AE%81"
+        }
+      ]
+    },
+    "huang-gai": {
+      "facts": [
+        {
+          "label": "籍贯",
+          "value": "零陵泉陵（今湖南永州）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "武锋中郎将"
+        },
+        {
+          "label": "身份",
+          "value": "东吴名将"
+        },
+        {
+          "label": "说明",
+          "value": "生卒年不详"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E9%BB%84%E7%9B%96"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E9%BB%84%E7%9B%96"
+        }
+      ]
+    },
+    "dong-zhuo": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "约139年—192年"
+        },
+        {
+          "label": "籍贯",
+          "value": "陇西临洮（今甘肃岷县）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "太师、郿侯"
+        },
+        {
+          "label": "身份",
+          "value": "东汉末权臣"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E8%91%A3%E5%8D%93"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E8%91%A3%E5%8D%93"
+        }
+      ]
+    },
+    "lv-bu": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "卒于199年"
+        },
+        {
+          "label": "籍贯",
+          "value": "五原九原（今内蒙古包头）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "奋威将军、温侯"
+        },
+        {
+          "label": "身份",
+          "value": "东汉末武将"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%95%E5%B8%83"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%90%95%E5%B8%83"
+        }
+      ]
+    },
+    "diao-chan": {
+      "facts": [
+        {
+          "label": "籍贯",
+          "value": "小说人物，籍贯无载"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "王允府歌伎（小说）"
+        },
+        {
+          "label": "身份",
+          "value": "小说人物"
+        },
+        {
+          "label": "说明",
+          "value": "不见于《三国志》"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E8%B2%82%E8%9D%89"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E8%B2%82%E8%9D%89"
+        }
+      ]
+    },
+    "wang-yun": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "137年—192年"
+        },
+        {
+          "label": "籍贯",
+          "value": "太原祁县（今山西祁县）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "司徒"
+        },
+        {
+          "label": "身份",
+          "value": "东汉司徒"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%85%81"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E7%8E%8B%E5%85%81"
+        }
+      ]
+    },
+    "yuan-shao": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "卒于202年"
+        },
+        {
+          "label": "籍贯",
+          "value": "汝南汝阳（今河南商水）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "大将军、邺侯"
+        },
+        {
+          "label": "身份",
+          "value": "东汉末军阀"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E8%A2%81%E7%BB%8D"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E8%A2%81%E7%BB%8D"
+        }
+      ]
+    },
+    "yuan-shu": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "卒于199年"
+        },
+        {
+          "label": "籍贯",
+          "value": "汝南汝阳（今河南商水）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "后将军；僭号仲家"
+        },
+        {
+          "label": "身份",
+          "value": "东汉末军阀"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E8%A2%81%E6%9C%AF"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E8%A2%81%E6%9C%AF"
+        }
+      ]
+    },
+    "liu-biao": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "142年—208年"
+        },
+        {
+          "label": "籍贯",
+          "value": "山阳高平（今山东微山）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "镇南将军、荆州牧、成武侯"
+        },
+        {
+          "label": "身份",
+          "value": "东汉末荆州牧"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%88%98%E8%A1%A8"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%88%98%E8%A1%A8"
+        }
+      ]
+    },
+    "chen-gong": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "卒于199年"
+        },
+        {
+          "label": "籍贯",
+          "value": "东郡（今河南濮阳）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "吕布谋主"
+        },
+        {
+          "label": "身份",
+          "value": "吕布谋士"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E9%99%88%E5%AE%AB"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E9%99%88%E5%AE%AB"
+        }
+      ]
+    },
+    "hua-xiong": {
+      "facts": [
+        {
+          "label": "生卒",
+          "value": "卒于191年"
+        },
+        {
+          "label": "籍贯",
+          "value": "关西（籍贯不详）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "都督"
+        },
+        {
+          "label": "身份",
+          "value": "董卓部将"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%8D%8E%E9%9B%84"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%8D%8E%E9%9B%84"
+        }
+      ]
+    },
+    "meng-huo": {
+      "facts": [
+        {
+          "label": "籍贯",
+          "value": "南中（今云南、贵州一带）"
+        },
+        {
+          "label": "官职 / 爵位",
+          "value": "南蛮王（小说）"
+        },
+        {
+          "label": "身份",
+          "value": "南中首领（小说形象）"
+        },
+        {
+          "label": "说明",
+          "value": "生卒年不详"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%AD%9F%E8%8E%B7"
+        },
+        {
+          "label": "百度百科",
+          "url": "https://baike.baidu.com/item/%E5%AD%9F%E8%8E%B7"
+        }
+      ]
+    }
+  },
+  "events": {
+    "ev-oath": {
+      "facts": [
+        {
+          "label": "性质",
+          "value": "小说情节"
+        },
+        {
+          "label": "史传",
+          "value": "《三国志》只称刘备与关张恩若兄弟"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E6%A1%83%E5%9B%AD%E7%BB%93%E4%B9%89"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E6%A1%83%E5%9B%AD%E7%BB%93%E4%B9%89"
+        }
+      ]
+    },
+    "ev-sword": {
+      "facts": [
+        {
+          "label": "性质",
+          "value": "小说情节"
+        },
+        {
+          "label": "史传",
+          "value": "《三国志》未载曹操献刀"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%AD%9F%E5%BE%B7%E7%8C%AE%E5%88%80"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%AD%9F%E5%BE%B7%E7%8C%AE%E5%88%80"
+        }
+      ]
+    },
+    "ev-hulao": {
+      "facts": [
+        {
+          "label": "性质",
+          "value": "小说情节"
+        },
+        {
+          "label": "史传",
+          "value": "史书未见三英战吕布"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E4%B8%89%E8%8B%B1%E6%88%98%E5%90%95%E5%B8%83"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E4%B8%89%E8%8B%B1%E6%88%98%E5%90%95%E5%B8%83"
+        }
+      ]
+    },
+    "ev-chain": {
+      "facts": [
+        {
+          "label": "性质",
+          "value": "小说铺演"
+        },
+        {
+          "label": "史传",
+          "value": "吕布与董卓侍婢私通；貂蝉、连环计为小说增饰"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E7%8E%8B%E5%85%81%E8%BF%9E%E7%8E%AF%E8%AE%A1"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E7%8E%8B%E5%85%81%E8%BF%9E%E7%8E%AF%E8%AE%A1"
+        }
+      ]
+    },
+    "ev-baiment": {
+      "facts": [
+        {
+          "label": "性质",
+          "value": "史实骨架，小说增饰"
+        },
+        {
+          "label": "史传",
+          "value": "白门楼擒吕布、陈宫拒降基本据史"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E7%99%BD%E9%97%A8%E6%A5%BC%E5%90%95%E5%B8%83%E6%AE%92%E5%91%BD"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E7%99%BD%E9%97%A8%E6%A5%BC%E5%90%95%E5%B8%83%E6%AE%92%E5%91%BD"
+        }
+      ]
+    },
+    "ev-heroes": {
+      "facts": [
+        {
+          "label": "性质",
+          "value": "小说情节"
+        },
+        {
+          "label": "史传",
+          "value": "史书无载"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E7%85%AE%E9%85%92%E8%AE%BA%E8%8B%B1%E9%9B%84"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E7%85%AE%E9%85%92%E8%AE%BA%E8%8B%B1%E9%9B%84"
+        }
+      ]
+    },
+    "ev-journey": {
+      "facts": [
+        {
+          "label": "性质",
+          "value": "史实骨架，小说增饰"
+        },
+        {
+          "label": "史传",
+          "value": "关羽归刘备为史实；过五关斩六将为小说"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%8D%83%E9%87%8C%E8%B5%B0%E5%8D%95%E9%AA%91"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%8D%83%E9%87%8C%E8%B5%B0%E5%8D%95%E9%AA%91"
+        }
+      ]
+    },
+    "ev-guandu": {
+      "facts": [
+        {
+          "label": "交战",
+          "value": "曹操 vs 袁绍"
+        },
+        {
+          "label": "结果",
+          "value": "曹操胜"
+        },
+        {
+          "label": "性质",
+          "value": "史实"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%AE%98%E6%B8%A1%E4%B9%8B%E6%88%98"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%AE%98%E6%B8%A1%E4%B9%8B%E6%88%98"
+        }
+      ]
+    },
+    "ev-visit": {
+      "facts": [
+        {
+          "label": "性质",
+          "value": "史实骨架"
+        },
+        {
+          "label": "史传",
+          "value": "《三国志》载刘备三顾诸葛亮"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E4%B8%89%E9%A1%BE%E8%8C%85%E5%BA%90"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E4%B8%89%E9%A1%BE%E8%8C%85%E5%BA%90"
+        }
+      ]
+    },
+    "ev-longzhong": {
+      "facts": [
+        {
+          "label": "性质",
+          "value": "史实与小说共有"
+        },
+        {
+          "label": "史传",
+          "value": "见《三国志·诸葛亮传》"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E9%9A%86%E4%B8%AD%E5%AF%B9"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E9%9A%86%E4%B8%AD%E5%AF%B9"
+        }
+      ]
+    },
+    "ev-changban": {
+      "facts": [
+        {
+          "label": "性质",
+          "value": "史实骨架，小说增饰"
+        },
+        {
+          "label": "史传",
+          "value": "赵云救阿斗、张飞断桥为史实骨架"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E9%95%BF%E5%9D%82%E5%9D%A1"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E9%95%BF%E5%9D%82%E5%9D%A1"
+        }
+      ]
+    },
+    "ev-debate": {
+      "facts": [
+        {
+          "label": "性质",
+          "value": "小说情节"
+        },
+        {
+          "label": "史传",
+          "value": "史书未见舌战群儒"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E8%88%8C%E6%88%98%E7%BE%A4%E5%84%92"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E8%88%8C%E6%88%98%E7%BE%A4%E5%84%92"
+        }
+      ]
+    },
+    "ev-arrows": {
+      "facts": [
+        {
+          "label": "性质",
+          "value": "小说情节"
+        },
+        {
+          "label": "史传",
+          "value": "史载孙权濡须之战船受箭，非诸葛亮"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E8%8D%89%E8%88%B9%E5%80%9F%E7%AE%AD"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E8%8D%89%E8%88%B9%E5%80%9F%E7%AE%AD"
+        }
+      ]
+    },
+    "ev-bitter": {
+      "facts": [
+        {
+          "label": "性质",
+          "value": "史实骨架，小说增饰"
+        },
+        {
+          "label": "史传",
+          "value": "黄盖诈降火攻为史实；苦肉计为小说"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E8%8B%A6%E8%82%89%E8%AE%A1"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E8%8B%A6%E8%82%89%E8%AE%A1"
+        }
+      ]
+    },
+    "ev-ironchain": {
+      "facts": [
+        {
+          "label": "性质",
+          "value": "小说情节"
+        },
+        {
+          "label": "史传",
+          "value": "庞统献连环计史书无载"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%BA%9E%E7%BB%9F%E8%BF%9E%E7%8E%AF%E8%AE%A1"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%BA%9E%E7%BB%9F%E8%BF%9E%E7%8E%AF%E8%AE%A1"
+        }
+      ]
+    },
+    "ev-wind": {
+      "facts": [
+        {
+          "label": "性质",
+          "value": "小说情节"
+        },
+        {
+          "label": "史传",
+          "value": "借东风为小说增饰"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%80%9F%E4%B8%9C%E9%A3%8E"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%80%9F%E4%B8%9C%E9%A3%8E"
+        }
+      ]
+    },
+    "ev-fire": {
+      "facts": [
+        {
+          "label": "交战",
+          "value": "孙刘联军 vs 曹操"
+        },
+        {
+          "label": "结果",
+          "value": "孙刘联军胜"
+        },
+        {
+          "label": "性质",
+          "value": "史实"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E7%81%AB%E7%83%A7%E8%B5%A4%E5%A3%81"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E7%81%AB%E7%83%A7%E8%B5%A4%E5%A3%81"
+        }
+      ]
+    },
+    "ev-huarong": {
+      "facts": [
+        {
+          "label": "性质",
+          "value": "史实骨架，小说增饰"
+        },
+        {
+          "label": "史传",
+          "value": "曹操败走华容为史实；关羽义释为小说"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%8D%8E%E5%AE%B9%E9%81%93"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%8D%8E%E5%AE%B9%E9%81%93"
+        }
+      ]
+    },
+    "ev-threeq": {
+      "facts": [
+        {
+          "label": "性质",
+          "value": "小说情节"
+        },
+        {
+          "label": "史传",
+          "value": "《三国志》称周瑜性度恢廓"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E4%B8%89%E6%B0%94%E5%91%A8%E7%91%9C"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E4%B8%89%E6%B0%94%E5%91%A8%E7%91%9C"
+        }
+      ]
+    },
+    "ev-singleblade": {
+      "facts": [
+        {
+          "label": "性质",
+          "value": "史实骨架，小说改写"
+        },
+        {
+          "label": "史传",
+          "value": "史载鲁肃邀关羽相会"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%8D%95%E5%88%80%E8%B5%B4%E4%BC%9A"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%8D%95%E5%88%80%E8%B5%B4%E4%BC%9A"
+        }
+      ]
+    },
+    "ev-flood": {
+      "facts": [
+        {
+          "label": "交战",
+          "value": "关羽 vs 于禁"
+        },
+        {
+          "label": "结果",
+          "value": "关羽胜"
+        },
+        {
+          "label": "性质",
+          "value": "史实骨架，小说铺演"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E6%B0%B4%E6%B7%B9%E4%B8%83%E5%86%9B"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E6%B0%B4%E6%B7%B9%E4%B8%83%E5%86%9B"
+        }
+      ]
+    },
+    "ev-maicheng": {
+      "facts": [
+        {
+          "label": "性质",
+          "value": "史实"
+        },
+        {
+          "label": "史传",
+          "value": "关羽败走麦城、被擒杀为史实"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E8%B4%A5%E8%B5%B0%E9%BA%A6%E5%9F%8E"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E8%B4%A5%E8%B5%B0%E9%BA%A6%E5%9F%8E"
+        }
+      ]
+    },
+    "ev-yiling": {
+      "facts": [
+        {
+          "label": "交战",
+          "value": "蜀汉 vs 东吴"
+        },
+        {
+          "label": "结果",
+          "value": "东吴胜"
+        },
+        {
+          "label": "性质",
+          "value": "史实"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%A4%B7%E9%99%B5%E4%B9%8B%E6%88%98"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%A4%B7%E9%99%B5%E4%B9%8B%E6%88%98"
+        }
+      ]
+    },
+    "ev-baidi": {
+      "facts": [
+        {
+          "label": "性质",
+          "value": "史实"
+        },
+        {
+          "label": "史传",
+          "value": "白帝托孤见《三国志·诸葛亮传》"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E7%99%BD%E5%B8%9D%E6%89%98%E5%AD%A4"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E7%99%BD%E5%B8%9D%E6%89%98%E5%AD%A4"
+        }
+      ]
+    },
+    "ev-menghuo": {
+      "facts": [
+        {
+          "label": "性质",
+          "value": "史实骨架，小说铺演"
+        },
+        {
+          "label": "史传",
+          "value": "南中平定为史实；七擒七纵见《华阳国志》等"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E4%B8%83%E6%93%92%E5%AD%9F%E8%8E%B7"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E4%B8%83%E6%93%92%E5%AD%9F%E8%8E%B7"
+        }
+      ]
+    },
+    "ev-jieting": {
+      "facts": [
+        {
+          "label": "交战",
+          "value": "蜀汉 vs 曹魏"
+        },
+        {
+          "label": "结果",
+          "value": "曹魏胜"
+        },
+        {
+          "label": "性质",
+          "value": "史实"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%A4%B1%E8%A1%97%E4%BA%AD"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%A4%B1%E8%A1%97%E4%BA%AD"
+        }
+      ]
+    },
+    "ev-emptycity": {
+      "facts": [
+        {
+          "label": "性质",
+          "value": "小说情节 / 存疑"
+        },
+        {
+          "label": "史传",
+          "value": "史书无载"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E7%A9%BA%E5%9F%8E%E8%AE%A1"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E7%A9%BA%E5%9F%8E%E8%AE%A1"
+        }
+      ]
+    },
+    "ev-wuzhang": {
+      "facts": [
+        {
+          "label": "交战",
+          "value": "蜀汉 vs 曹魏"
+        },
+        {
+          "label": "结果",
+          "value": "诸葛亮病逝，蜀军退"
+        },
+        {
+          "label": "性质",
+          "value": "史实"
+        }
+      ],
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E4%BA%94%E4%B8%88%E5%8E%9F"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E4%BA%94%E4%B8%88%E5%8E%9F"
+        }
+      ]
+    }
+  },
+  "places": {
+    "taoyuan": {
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E6%A1%83%E5%9B%AD"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E6%A1%83%E5%9B%AD"
+        }
+      ]
+    },
+    "luoyang": {
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E6%B4%9B%E9%98%B3"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E6%B4%9B%E9%98%B3"
+        }
+      ]
+    },
+    "hulao": {
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E8%99%8E%E7%89%A2%E5%85%B3"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E8%99%8E%E7%89%A2%E5%85%B3"
+        }
+      ]
+    },
+    "changan": {
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E9%95%BF%E5%AE%89"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E9%95%BF%E5%AE%89"
+        }
+      ]
+    },
+    "xiapi": {
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E4%B8%8B%E9%82%B3"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E4%B8%8B%E9%82%B3"
+        }
+      ]
+    },
+    "xuchang": {
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E8%AE%B8%E9%83%BD"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E8%AE%B8%E9%83%BD"
+        }
+      ]
+    },
+    "guandu": {
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%AE%98%E6%B8%A1"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%AE%98%E6%B8%A1"
+        }
+      ]
+    },
+    "longzhong": {
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E9%9A%86%E4%B8%AD"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E9%9A%86%E4%B8%AD"
+        }
+      ]
+    },
+    "changban": {
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E9%95%BF%E5%9D%82%E5%9D%A1"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E9%95%BF%E5%9D%82%E5%9D%A1"
+        }
+      ]
+    },
+    "chaisang": {
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E6%9F%B4%E6%A1%91"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E6%9F%B4%E6%A1%91"
+        }
+      ]
+    },
+    "chibi": {
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E8%B5%A4%E5%A3%81"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E8%B5%A4%E5%A3%81"
+        }
+      ]
+    },
+    "huarong": {
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%8D%8E%E5%AE%B9%E9%81%93"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%8D%8E%E5%AE%B9%E9%81%93"
+        }
+      ]
+    },
+    "jingzhou": {
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E8%8D%86%E5%B7%9E"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E8%8D%86%E5%B7%9E"
+        }
+      ]
+    },
+    "fancheng": {
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E6%A8%8A%E5%9F%8E"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E6%A8%8A%E5%9F%8E"
+        }
+      ]
+    },
+    "maicheng": {
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E9%BA%A6%E5%9F%8E"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E9%BA%A6%E5%9F%8E"
+        }
+      ]
+    },
+    "yiling": {
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%A4%B7%E9%99%B5"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%A4%B7%E9%99%B5"
+        }
+      ]
+    },
+    "baidicheng": {
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E7%99%BD%E5%B8%9D%E5%9F%8E"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E7%99%BD%E5%B8%9D%E5%9F%8E"
+        }
+      ]
+    },
+    "nanzhong": {
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E5%8D%97%E4%B8%AD"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E5%8D%97%E4%B8%AD"
+        }
+      ]
+    },
+    "jieting": {
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E8%A1%97%E4%BA%AD"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E8%A1%97%E4%BA%AD"
+        }
+      ]
+    },
+    "xicheng": {
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E8%A5%BF%E5%9F%8E"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E8%A5%BF%E5%9F%8E"
+        }
+      ]
+    },
+    "wuzhangyuan": {
+      "refs": [
+        {
+          "label": "维基百科检索",
+          "url": "https://zh.wikipedia.org/w/index.php?search=%E4%BA%94%E4%B8%88%E5%8E%9F"
+        },
+        {
+          "label": "百度百科检索",
+          "url": "https://baike.baidu.com/search/word?word=%E4%BA%94%E4%B8%88%E5%8E%9F"
+        }
+      ]
+    }
+  },
+  "factSource": "人物生卒、籍贯、官职与事件性质依《三国志》本传及通行辞书整理；百科链接仅作延伸阅读，未复制百科正文。"
+}
