@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="zh-CN" data-work="xiyou">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>西游记 · 法脉与西行路线图谱 | Chinese Classics Atlas</title>
+<meta name="description" content="《西游记》人物关系、法脉师承、西行路线、八十一难簿对照与名号隐语：从花果山到灵山，逐条标注回目与判定。">
+<meta property="og:title" content="西游记 · 法脉与西行路线图谱">
+<meta property="og:description" content="六界人物关系图、西行路线示意、难簿与经过对照、名号隐语分级；每条都标回目，判定区分通行、一说、存疑。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://iihao.github.io/chinese-classics-atlas/works/xiyou/">
+<meta property="og:image" content="https://iihao.github.io/chinese-classics-atlas/docs/screenshot-xiyou-graph.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://iihao.github.io/chinese-classics-atlas/docs/screenshot-xiyou-graph.png">
+<link rel="stylesheet" href="../../css/xiyou.css">
+<link rel="stylesheet" href="../../css/atlas.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="../../" aria-label="返回中国古典名著图谱">
+    <span class="seal">西</span>
+    <span class="brand-text"><strong>西游记</strong><small>CHINESE CLASSICS ATLAS</small></span>
+  </a>
+  <nav class="workswitch" aria-label="切换作品">
+    <a class="ws-honglou" href="../../works/honglou/" title="红楼梦">红</a>
+    <a class="ws-sanguo" href="../../works/sanguo/" title="三国演义">三</a>
+    <a class="ws-xiyou" href="../../works/xiyou/" title="西游记" aria-current="page">西</a>
+    <a class="ws-shuihu" href="../../works/shuihu/" title="水浒传">水</a>
+  </nav>
+  <nav class="mainnav" aria-label="视图切换">
+    <button type="button" data-view="graph" class="on">图谱</button>
+    <button type="button" data-view="route">西行</button>
+    <button type="button" data-view="trials">难簿</button>
+    <button type="button" data-view="wordplay">隐语</button>
+    <button type="button" data-view="people">人物</button>
+    <button type="button" data-view="events">行程</button>
+  </nav>
+  <a class="back" href="../../">全部作品 ↗</a>
+</header>
+
+<main>
+  <section class="hero">
+    <p class="eyebrow">JOURNEY TO THE WEST · 法脉 · 路线 · 难簿</p>
+    <h1>西游记<small id="subTitle">从花果山到灵山</small></h1>
+    <p class="lead" id="scopeText"></p>
+    <div class="stats" aria-label="数据规模">
+      <div class="stat"><b id="statChars">—</b><span>人物</span></div>
+      <div class="stat"><b id="statRels">—</b><span>关系</span></div>
+      <div class="stat"><b id="statPlaces">—</b><span>地点</span></div>
+      <div class="stat"><b id="statEvents">—</b><span>事件</span></div>
+      <div class="stat"><b id="statTrials">—</b><span>难簿对照</span></div>
+      <div class="stat"><b id="statWords">—</b><span>隐语</span></div>
+    </div>
+    <p class="notice"><b>读法</b><span>本页以《西游记》通行一百回本的小说叙事为准。凡涉及名号寓意与难簿判定，一律分三级：<em>通行</em>（有回目或正文硬证）、<em>一说</em>（评点与学界常见，无硬证）、<em>存疑</em>（牵强，列出仅为完整）。情节名为项目自撰概括，不冒充回目原文。</span></p>
+    <div id="readRefs"></div>
+  </section>
+
+  <!-- ============ 关系图谱 ============ -->
+  <section class="panel view" id="view-graph">
+    <div class="toolbar">
+      <div class="seg" id="gViewSeg" role="group" aria-label="图谱或列表">
+        <button type="button" data-gview="graph" class="on">图谱</button>
+        <button type="button" data-gview="list">列表</button>
+      </div>
+      <div class="fbar" id="gGroup" role="group" aria-label="按界筛选"></div>
+      <div class="gsearch">
+        <input id="gSearch" type="search" placeholder="搜姓名或别号，如 心猿" autocomplete="off" spellcheck="false" aria-label="搜索人物">
+        <div class="slist" id="gSearchList" role="listbox" hidden></div>
+      </div>
+      <button type="button" class="chip" id="evToggle">显示事件节点</button>
+      <button type="button" class="chip" id="fsBtn">全屏</button>
+    </div>
+    <div class="relbar" id="gRelBar" role="group" aria-label="按关系类型筛选"></div>
+    <div class="graph-stage" id="graphStage">
+      <svg id="gSvg" viewBox="0 0 1120 760" role="img" aria-label="西游记人物关系图"></svg>
+      <div class="tip" id="gTip" hidden></div>
+      <div class="edge-panel" id="gEdgePanel" hidden></div>
+      <div class="stage-tools" id="stageTools">
+        <span class="st-hint">拖动平移 · 滚轮/双指缩放 · ESC 退出</span>
+        <button type="button" data-zoom="out" aria-label="缩小">−</button>
+        <span id="fsZoomLabel">100%</span>
+        <button type="button" data-zoom="in" aria-label="放大">＋</button>
+        <button type="button" id="fsExit" class="st-exit">退出全屏 ✕</button>
+      </div>
+    </div>
+    <div class="glist" id="gList" hidden>
+      <div class="glist-bar">
+        <input id="gListSearch" type="search" placeholder="检索关系：人物名或关系名（如 悟空 / 坐骑下界）" autocomplete="off" aria-label="检索关系">
+        <span id="gListCount"></span>
+      </div>
+      <div class="glist-body" id="gListBody"></div>
+      <p class="glist-foot">按关系类型分组；点一行看两人的关系卡与共同事件。</p>
+    </div>
+    <div class="graph-foot">
+      <div>
+        <div class="legend" id="gLegend"></div>
+        <p id="gHint">同一对人物有多重关系时，图上只画主关系（师承 &gt; 亲族 &gt; 统属 &gt; 护持 &gt; 结义 &gt; 敌对），其余在详情里并列。</p>
+      </div>
+      <div class="gf-tools">
+        <div class="zoom" id="gZoom">
+          <button type="button" data-zoom="out" aria-label="缩小">−</button>
+          <span id="gZoomLabel">100%</span>
+          <button type="button" data-zoom="in" aria-label="放大">＋</button>
+          <button type="button" data-zoom="reset" class="fit">重置</button>
+        </div>
+        <span id="gCount"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 西行路线 ============ -->
+  <section class="panel view" id="view-route" hidden>
+    <div class="toolbar">
+      <div class="fbar" id="rLeg" role="group" aria-label="按路段筛选"></div>
+      <span class="hint" id="rCount"></span>
+    </div>
+    <div class="route-stage">
+      <svg id="rSvg" viewBox="0 0 1000 720" role="img" aria-label="西天取经路线示意图"></svg>
+    </div>
+    <div class="route-legend" id="rLegend"></div>
+    <p class="scroll-hint">左右滑动可看全图</p>
+    <div class="route-list" id="rList"></div>
+    <div class="route-note" id="rNote"></div>
+  </section>
+
+  <!-- ============ 难簿 ============ -->
+  <section class="panel view" id="view-trials" hidden>
+    <div class="toolbar">
+      <div class="fbar" id="tVerdict" role="group" aria-label="按判定筛选"></div>
+      <span class="hint" id="tCount"></span>
+    </div>
+    <div class="trial-sum" id="tSum"></div>
+    <div class="trial-list" id="tList"></div>
+    <div class="trial-note" id="tNote"></div>
+  </section>
+
+  <!-- ============ 隐语 ============ -->
+  <section class="panel view" id="view-wordplay" hidden>
+    <div class="toolbar">
+      <div class="fbar" id="wKind" role="group" aria-label="按类型筛选"></div>
+      <span class="hint" id="wCount"></span>
+    </div>
+    <div class="word-grid" id="wGrid"></div>
+  </section>
+
+  <!-- ============ 人物 ============ -->
+  <section class="panel view" id="view-people" hidden>
+    <div class="toolbar">
+      <div class="fbar" id="pGroup" role="group" aria-label="按界筛选人物"></div>
+      <input class="psearch" id="peopleSearch" type="search" placeholder="搜姓名、别号或简介" autocomplete="off" aria-label="搜索人物">
+      <span id="peopleCount"></span>
+    </div>
+    <div class="pgrid" id="peopleGrid"></div>
+  </section>
+
+  <!-- ============ 行程 ============ -->
+  <section class="panel view" id="view-events" hidden>
+    <div class="toolbar">
+      <div class="fbar" id="eGroup" role="group" aria-label="按界筛选事件"></div>
+      <span id="eventCount"></span>
+    </div>
+    <div class="timeline" id="timeline"></div>
+  </section>
+</main>
+
+<footer class="foot">
+  <span class="foot-src" id="sourceText"></span>
+  <span>Chinese Classics Atlas · 西游记</span>
+  <span><a href="../../">系列首页</a> · <a href="../honglou/">红楼梦</a> · <a href="../sanguo/">三国演义</a></span>
+</footer>
+
+<div class="modal" id="modal" hidden>
+  <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button type="button" class="modal-close" id="modalClose" aria-label="关闭">✕</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<script src="../../js/works/xiyou.js"></script>
+</body>
+</html>
