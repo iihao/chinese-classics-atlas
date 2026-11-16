@@ -5,9 +5,9 @@
 
 结构：
     dist/index.html
-    dist/css/style.css  dist/js/app.js
+    dist/css/atlas.css  dist/css/style.css  dist/js/app.js
     dist/works/catalog.json  dist/works/honglou/index.html
-    dist/api/works/honglou.json     按作品加载的数据
+    dist/api/works/<id>.json       按作品加载的数据
     dist/404.html
 """
 import json
@@ -17,6 +17,9 @@ import sqlite3
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(ROOT, "tools"))
+import sanguo_data  # noqa: E402
+
 DB = os.path.join(ROOT, "db", "honglou.db")
 OUT = os.path.join(ROOT, "dist")
 
@@ -92,11 +95,38 @@ def build():
 
     for f in ("index.html",):
         shutil.copy2(os.path.join(ROOT, f), os.path.join(OUT, f))
-    for d in ("css", "js", "works", "en"):
+    for d in ("css", "js", "en"):
         shutil.copytree(os.path.join(ROOT, d), os.path.join(OUT, d))
-    # 英文页引用的演示图及社交预览图（不打包内部发布素材）。
+    # 作品清单以 catalog 为准：新增作品只改 catalog 与校验器，不动构建器。
+    catalog = json.loads(open(os.path.join(ROOT, "works", "catalog.json"), encoding="utf-8").read())
+    os.makedirs(os.path.join(OUT, "works"), exist_ok=True)
+    shutil.copy2(os.path.join(ROOT, "works", "catalog.json"),
+                 os.path.join(OUT, "works", "catalog.json"))
+    def _skip_source(_dir, names):
+        # 源数据只走 /api/works/*.json，不在作品目录里重复发布。
+        drop = {"data.json", "encyclopedia.json", "wikidata.json"}
+        return [n for n in names if n in drop]
+
+    for w in catalog["works"]:
+        wid = w["id"]
+        shutil.copytree(os.path.join(ROOT, "works", wid),
+                        os.path.join(OUT, "works", wid),
+                        dirs_exist_ok=True, ignore=_skip_source)
+        # 作品数据包：红楼由上面的 SQLite 结果写出；三国有百科档案层，需合并；
+        # 其余作品直接复制各自的源 data.json。
+        pkg = os.path.join(OUT, "api", "works", wid + ".json")
+        src = os.path.join(ROOT, "works", wid, "data.json")
+        if wid == "sanguo":
+            with open(pkg, "w", encoding="utf-8") as f:
+                json.dump(sanguo_data.load(ROOT), f, ensure_ascii=False, separators=(",", ":"))
+        elif wid != "honglou":
+            if not os.path.exists(src):
+                sys.exit(f"作品 {wid} 缺少源数据 {src}；先运行对应的 tools/build_{wid}.py")
+            shutil.copy2(src, pkg)
+    # 英文页引用的演示图、社交预览图与各作品的 og:image（不打包内部发布素材）。
     os.makedirs(os.path.join(OUT, "docs"))
-    for f in ("demo.gif", "screenshot-graph.png", "social-preview.png"):
+    for f in ("demo.gif", "screenshot-graph.png", "social-preview.png",
+              "screenshot-sanguo.png", "screenshot-xiyou-graph.png"):
         shutil.copy2(os.path.join(ROOT, "docs", f), os.path.join(OUT, "docs", f))
 
     with open(os.path.join(OUT, "api", "works", "honglou.json"), "w", encoding="utf-8") as f:
@@ -110,7 +140,28 @@ def build():
         f.write(html)
 
     print(f"✓ 静态站点已生成：{OUT}")
-    print(f"  条目 {len(items)} · 关系 {len(rels)} · 谱系 {len(gen)} · 数据 {round(os.path.getsize(os.path.join(OUT,'api','works','honglou.json'))/1024)} KB")
+    print(f"  红楼 {len(items)} 条目 · {len(rels)} 关系 · {len(gen)} 谱系 · "
+          f"数据 {round(os.path.getsize(os.path.join(OUT, 'api', 'works', 'honglou.json')) / 1024)} KB")
+    # 其余作品按 catalog 顺序报告自己的 counts（各作品字段略有差别，不做硬编码）。
+    for w in catalog["works"]:
+        if w["id"] == "honglou":
+            continue
+        pkg = json.load(open(os.path.join(OUT, "api", "works", w["id"] + ".json"), encoding="utf-8"))
+        c = pkg.get("counts") or {
+            "characters": len(pkg.get("characters", [])),
+            "relations": len(pkg.get("relations", [])),
+            "events": len(pkg.get("events", [])),
+            "places": len(pkg.get("places", [])),
+        }
+        extra = ""
+        if c.get("ranked"):
+            extra += f" · 座次 {c['ranked']}"
+        if c.get("trials"):
+            extra += f" · 难簿 {c['trials']}"
+        if c.get("wordplay"):
+            extra += f" · 隐语 {c['wordplay']}"
+        print(f"  {w['name']} {c.get('characters', 0)} 人物 · {c.get('relations', 0)} 关系 · "
+              f"{c.get('events', 0)} 事件 · {c.get('places', 0)} 地点{extra}")
 
 
 if __name__ == "__main__":
