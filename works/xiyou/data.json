@@ -1,0 +1,4686 @@
+{
+ "version": 1,
+ "workId": "xiyou",
+ "title": "西游记",
+ "subtitle": "从花果山到灵山",
+ "scope": "《西游记》小说叙事切片：石猴出世、大闹天宫、取经团队组建、西行九九难至灵山成真。含六类内容：法脉师承、人物关系、西行路线、难簿对照、名号隐语、情节事件。不是全书索引，也不做版本校勘。",
+ "source": "《西游记》通行一百回本（世德堂本系统）。唐僧出身故事在世德堂本被删并，通行本以第 9 回附录补入，涉及处已标注。难簿名目见第 99 回，字句各本有异。",
+ "layer": "novel",
+ "refs": [
+  "《西游记》世德堂本（新刻出像官板大字《西游记》，明万历二十年）与人民文学出版社校注本",
+  "李天飞《西游记校注》（上海古籍出版社）——第 9 回唐僧出身故事的版本差异即据校注",
+  "鲁迅《中国小说史略》第十七篇《明之神魔小说（中）》",
+  "胡适《〈西游记〉考证》、郑振铎《〈西游记〉的演化》",
+  "《西游记大辞典》类工具书（人名、地名、难簿条目）",
+  "刘一明《西游原旨》等清代评点——内丹代号（心猿、木母、黄婆）之说的主要来源"
+ ],
+ "groups": [
+  {
+   "id": "tu",
+   "name": "取经团队",
+   "color": "#8c1f28",
+   "note": "唐僧师徒五众（含白龙马），小说的叙事主轴。"
+  },
+  {
+   "id": "fo",
+   "name": "西方佛国",
+   "color": "#a8823c",
+   "note": "灵山诸佛菩萨与护法；取经工程的发起者与验收方。"
+  },
+  {
+   "id": "tian",
+   "name": "天庭",
+   "color": "#3f6480",
+   "note": "玉帝统属的神将天官；对悟空先剿后抚，对取经多配合。"
+  },
+  {
+   "id": "dao",
+   "name": "仙真有道",
+   "color": "#5f5580",
+   "note": "菩提、老君、镇元一类不受天庭调遣的地仙与道祖。"
+  },
+  {
+   "id": "yao",
+   "name": "妖魔",
+   "color": "#6b6458",
+   "note": "取经路上的阻力；大半有天上或佛前的来历。"
+  },
+  {
+   "id": "ren",
+   "name": "人间",
+   "color": "#2f6457",
+   "note": "唐王、唐僧俗家与沿途国主、居士。"
+  }
+ ],
+ "groupOrder": [
+  "tu",
+  "fo",
+  "tian",
+  "dao",
+  "yao",
+  "ren"
+ ],
+ "characters": [
+  {
+   "id": "wu-kong",
+   "name": "孙悟空",
+   "group": "tu",
+   "role": "大弟子",
+   "chapters": [
+    1,
+    2,
+    3,
+    4,
+    7,
+    14,
+    27,
+    34,
+    58,
+    61,
+    77,
+    98,
+    100
+   ],
+   "summary": "花果山石猴，须菩提祖师门下得名悟空；护唐僧西行，封斗战胜佛。",
+   "alias": "行者 · 美猴王 · 齐天大圣 · 心猿 · 金公",
+   "detail": "仙石迸出，入水帘洞称王，渡海拜菩提，学七十二变与筋斗云；闹龙宫、地府、天宫，被压五行山五百年，第14回「心猿归正」后一路降魔。金箍儿是外部约束，成佛是约束内化——小说给他的称号「心猿」把这条线说尽了。",
+   "tags": [
+    "心猿",
+    "金公",
+    "齐天大圣",
+    "斗战胜佛"
+   ]
+  },
+  {
+   "id": "sha-seng",
+   "name": "沙悟净",
+   "group": "tu",
+   "role": "三弟子",
+   "chapters": [
+    8,
+    22,
+    23,
+    56,
+    98
+   ],
+   "summary": "原灵霄殿下卷帘大将，失手碎玻璃盏被贬流沙河；法名悟净。",
+   "alias": "悟净 · 沙僧 · 卷帘大将 · 黄婆",
+   "detail": "流沙河吃人九次，以九骷髅结法船渡唐僧；入队后担行李、守师父，话最少。小说诗词以「黄婆」（内丹中属土的媒合者）称他。第98回封金身罗汉。",
+   "tags": [
+    "黄婆",
+    "卷帘大将",
+    "金身罗汉"
+   ]
+  },
+  {
+   "id": "tang-seng",
+   "name": "唐僧",
+   "group": "tu",
+   "role": "行者·师父",
+   "chapters": [
+    9,
+    12,
+    13,
+    27,
+    31,
+    57,
+    79,
+    98,
+    99,
+    100
+   ],
+   "summary": "俗名江流儿，法名玄奘，唐王赐号「三藏」。金蝉子转世，取经工程的当事人。",
+   "alias": "玄奘 · 三藏 · 御弟 · 江流儿",
+   "detail": "陈光蕊之子，出生即遭抛江，后被寺院抚养；奉唐王旨西行，一路不识妖魔，以肉眼凡胎判是非，因此与悟空的冲突构成全书主要张力。第98回于灵山封「檀功德佛」。",
+   "tags": [
+    "金蝉子",
+    "十世修行的好人",
+    "肉眼凡胎"
+   ]
+  },
+  {
+   "id": "bai-long-ma",
+   "name": "白龙马",
+   "group": "tu",
+   "role": "坐骑·师弟",
+   "chapters": [
+    15,
+    30,
+    77,
+    98
+   ],
+   "summary": "西海龙王三太子，纵火烧毁明珠，鹰愁涧化马，驮唐僧至灵山。",
+   "alias": "意马 · 三太子 · 八部天龙",
+   "detail": "第15回鹰愁涧吞马后被观音锯角退鳞，化身白马；第30回宝象国黄袍怪一役中化人救师，是他唯一一次主动出手。回目「鹰愁涧意马收缰」即指此。",
+   "tags": [
+    "意马",
+    "八部天龙广力菩萨"
+   ]
+  },
+  {
+   "id": "ba-jie",
+   "name": "猪八戒",
+   "group": "tu",
+   "role": "二弟子",
+   "chapters": [
+    18,
+    19,
+    23,
+    32,
+    47,
+    55,
+    72,
+    83,
+    98
+   ],
+   "summary": "原天庭天蓬元帅，因罪错投猪胎；法名悟能，取经队里的退堂鼓手。",
+   "alias": "悟能 · 八戒 · 猪刚鬣 · 木母 · 天蓬",
+   "detail": "高老庄强婚被降，随行西行。贪、懒、怕死、想分行李，却也是干脏活的（稀柿衕拱路、水下诱敌）。回目与诗词中以「木母」称他，属内丹术语。第98回封净坛使者。",
+   "tags": [
+    "木母",
+    "天蓬元帅",
+    "净坛使者"
+   ]
+  },
+  {
+   "id": "guan-yin",
+   "name": "观音",
+   "group": "fo",
+   "role": "菩萨",
+   "chapters": [
+    6,
+    8,
+    12,
+    15,
+    17,
+    22,
+    26,
+    42,
+    49,
+    52,
+    57,
+    66,
+    99
+   ],
+   "summary": "观世音菩萨，普陀落伽山；取经工程的实际执行总监。",
+   "alias": "观世音 · 落伽山 · 毗蓝婆之母?",
+   "detail": "领旨寻取经人，安排三个徒弟与白马，赠锦襕袈裟、九环锡杖与金箍儿；途中多次救场（收红孩儿、辨真假、降黑熊）。全书出手最勤的神佛。",
+   "tags": [
+    "执行者",
+    "金箍"
+   ]
+  },
+  {
+   "id": "ru-lai",
+   "name": "如来",
+   "group": "fo",
+   "role": "佛祖",
+   "chapters": [
+    7,
+    8,
+    49,
+    58,
+    63,
+    77,
+    98,
+    99
+   ],
+   "summary": "释迦牟尼佛，灵鹫山极乐世界；定取经之议，也是最后验收的人。",
+   "alias": "世尊 · 释迦如来",
+   "detail": "第7回以手掌压悟空于五行山，第8回发起取经；一路对悟空的底细了如指掌，第58回辨六耳猕猴时说出「周天之内有四猴混世」。第98回传经，第99回列难簿。",
+   "tags": [
+    "灵山",
+    "四猴混世"
+   ]
+  },
+  {
+   "id": "jin-chan-zi",
+   "name": "金蝉子",
+   "group": "fo",
+   "role": "前生",
+   "chapters": [
+    12,
+    100
+   ],
+   "summary": "如来二弟子，因轻慢大教被贬转世即唐僧。",
+   "detail": "第12回如来自述其来历；「金蝉」取蝉蜕之意——脱壳重生，正是唐僧出身故事的隐喻骨架（出胎几杀、满月抛江、寻亲报冤）。此解属评点常见，标一说。",
+   "verdict_note": "金蝉脱壳之解为评点家语，非正文明言。"
+  },
+  {
+   "id": "ling-gi",
+   "name": "灵吉菩萨",
+   "group": "fo",
+   "role": "菩萨",
+   "chapters": [
+    21
+   ],
+   "summary": "小须弥山灵吉菩萨，受如来遗旨专帮悟空：定风丹、飞龙杖收黄风怪。"
+  },
+  {
+   "id": "wen-shu",
+   "name": "文殊",
+   "group": "fo",
+   "role": "菩萨",
+   "chapters": [
+    39,
+    77
+   ],
+   "summary": "五台山文殊菩萨；青狮是其坐骑，下界为乌鸡国假王、狮驼岭老魔。"
+  },
+  {
+   "id": "mi-le",
+   "name": "弥勒",
+   "group": "fo",
+   "role": "佛",
+   "chapters": [
+    66
+   ],
+   "summary": "东来佛祖，小西天雷音寺之主；黄眉看钞童子偷他后天人种袋下界。",
+   "alias": "东来佛祖 · 未来佛"
+  },
+  {
+   "id": "bi-lan-po",
+   "name": "毗蓝婆",
+   "group": "fo",
+   "role": "菩萨",
+   "chapters": [
+    73
+   ],
+   "summary": "黎山老母邻舍，昴日星官之母；以绣花针收多目怪（蜈蚣精）。"
+  },
+  {
+   "id": "pu-xian",
+   "name": "普贤",
+   "group": "fo",
+   "role": "菩萨",
+   "chapters": [
+    77
+   ],
+   "summary": "峨眉山普贤菩萨；白象是其坐骑，下界为狮驼岭二魔。"
+  },
+  {
+   "id": "e-nuo",
+   "name": "阿傩迦叶",
+   "group": "fo",
+   "role": "尊者",
+   "chapters": [
+    98
+   ],
+   "summary": "二尊者奉如来之命传经，先索要「人事」，无字真经与残缺真经都出自他们之手。",
+   "alias": "阿傩 · 迦叶"
+  },
+  {
+   "id": "ran-deng",
+   "name": "燃灯古佛",
+   "group": "fo",
+   "role": "古佛",
+   "chapters": [
+    98
+   ],
+   "summary": "过去佛；见阿傩迦叶传无字经，命金顶大仙赶回，才换得有字真经。",
+   "detail": "第98回是全书最后一次「佛自己出面纠错」：无字真经本是最上，但东土众生顽钝，故燃灯安排换经——把「法不可轻传」与「法本无字」同时说尽。"
+  },
+  {
+   "id": "wu-bai-luo-han",
+   "name": "五百罗汉",
+   "group": "fo",
+   "role": "护法",
+   "chapters": [
+    98
+   ],
+   "summary": "灵山法会的座下罗汉群像，传经与列班时同现。"
+  },
+  {
+   "id": "jin-ding-da-xian",
+   "name": "金顶大仙",
+   "group": "fo",
+   "role": "山门守者",
+   "chapters": [
+    98
+   ],
+   "summary": "灵山脚下玉真观守者；自说在此等了多少年，才等到取经人。",
+   "detail": "第98回他在山门接引唐僧沐浴换衣，是「最后一里路」的向导。燃灯命他赶回换经一事，也落在他身上。"
+  },
+  {
+   "id": "ba-da-jin-gang",
+   "name": "八大金刚",
+   "group": "fo",
+   "role": "护法",
+   "chapters": [
+    99
+   ],
+   "summary": "奉如来之命送唐僧东归，并在半空点出难簿数不足，故补最后一难。"
+  },
+  {
+   "id": "yu-di",
+   "name": "玉帝",
+   "group": "tian",
+   "role": "天帝",
+   "chapters": [
+    3,
+    4,
+    5,
+    7,
+    87
+   ],
+   "summary": "张百忍之身，统三界；对悟空从招安到求助如来，是小说里最尴尬的权力。",
+   "alias": "大天尊"
+  },
+  {
+   "id": "tai-bai",
+   "name": "太白金星",
+   "group": "tian",
+   "role": "天师",
+   "chapters": [
+    3,
+    4,
+    13,
+    20,
+    74
+   ],
+   "summary": "天庭的招安派与和事佬；第13回双叉岭救唐僧，一路暗中护持。"
+  },
+  {
+   "id": "si-zhi-gong-cao",
+   "name": "四值功曹",
+   "group": "tian",
+   "role": "护教神",
+   "chapters": [
+    3
+   ],
+   "summary": "值年、月、日、时四曹，暗中随侍唐僧，记其功行；第99回难簿由他们与揭谛等同查。"
+  },
+  {
+   "id": "tuo-ta",
+   "name": "托塔李天王",
+   "group": "tian",
+   "role": "主帅",
+   "chapters": [
+    4,
+    5,
+    6,
+    27,
+    52,
+    61,
+    83
+   ],
+   "summary": "降魔大元帅，带哪吒征花果山；后多次奉调擒妖。",
+   "alias": "李靖"
+  },
+  {
+   "id": "na-zha",
+   "name": "哪吒",
+   "group": "tian",
+   "role": "三太子",
+   "chapters": [
+    4,
+    5,
+    6,
+    52,
+    61,
+    83
+   ],
+   "summary": "三头六臂、斩妖剑与火轮；与悟空打平，第83回斩金鼻白毛老鼠精之父。"
+  },
+  {
+   "id": "ju-ling-shen",
+   "name": "巨灵神",
+   "group": "tian",
+   "role": "先锋",
+   "chapters": [
+    4
+   ],
+   "summary": "天庭征花果山的先锋，一柄宣花斧被悟空掰成两半。"
+  },
+  {
+   "id": "qian-li-yan",
+   "name": "千里眼",
+   "group": "tian",
+   "role": "天文官",
+   "chapters": [
+    4
+   ],
+   "summary": "玉帝驾前的观测二官之一；悟空拜师学艺、称王闹事皆由他们上报。"
+  },
+  {
+   "id": "shun-feng-er",
+   "name": "顺风耳",
+   "group": "tian",
+   "role": "天文官",
+   "chapters": [
+    4
+   ],
+   "summary": "与千里眼同司奏报，是小说里「天庭什么都看得见，就是管不住」的具体形象。"
+  },
+  {
+   "id": "si-da-tian-shi",
+   "name": "四大天师",
+   "group": "tian",
+   "role": "引奏官",
+   "chapters": [
+    4
+   ],
+   "summary": "张道陵、葛仙翁、许旌阳、丘弘济；天庭的传旨与引见之官。"
+  },
+  {
+   "id": "jiu-yao-xing-guan",
+   "name": "九曜星官",
+   "group": "tian",
+   "role": "天将",
+   "chapters": [
+    4
+   ],
+   "summary": "九位星君奉调征花果山，被悟空一口一个「女儿」戏骂，败阵而回。"
+  },
+  {
+   "id": "wang-mu",
+   "name": "王母娘娘",
+   "group": "tian",
+   "role": "女帝",
+   "chapters": [
+    5
+   ],
+   "summary": "蟠桃会之主；悟空定住她、偷尽仙酒奇果，是闹天宫的顶点。"
+  },
+  {
+   "id": "zeng-chang",
+   "name": "增长天王",
+   "group": "tian",
+   "role": "四大天王",
+   "chapters": [
+    5
+   ],
+   "summary": "持宝剑的南方天王；兄弟四人同守天门，被悟空杀败。"
+  },
+  {
+   "id": "er-lang",
+   "name": "二郎神",
+   "group": "tian",
+   "role": "显圣真君",
+   "chapters": [
+    6
+   ],
+   "summary": "灌口二郎，第6回与悟空斗变化，梅山六兄弟与细犬助擒。",
+   "alias": "小圣 · 显圣大圣"
+  },
+  {
+   "id": "mei-shan-liu",
+   "name": "梅山六兄弟",
+   "group": "tian",
+   "role": "部从",
+   "chapters": [
+    6
+   ],
+   "summary": "康、张、姚、李四太尉与郭申、直健二将军，佐二郎神擒悟空，并细犬咬其腿。"
+  },
+  {
+   "id": "wu-fang-jie-di",
+   "name": "五方揭谛",
+   "group": "tian",
+   "role": "护教神",
+   "chapters": [
+    13
+   ],
+   "summary": "奉佛旨暗中护持取经人的五位；每次悟空上天入地求援，多有他们引路。"
+  },
+  {
+   "id": "liu-ding-liu-jia",
+   "name": "六丁六甲",
+   "group": "tian",
+   "role": "护教神",
+   "chapters": [
+    13
+   ],
+   "summary": "与功曹、揭谛同列的护教班组，负责在妖洞中暗护唐僧性命。"
+  },
+  {
+   "id": "mao-ri",
+   "name": "昴日星官",
+   "group": "tian",
+   "role": "宿",
+   "chapters": [
+    55,
+    73
+   ],
+   "summary": "本相双冠公鸡，长鸣制蝎子精；毗蓝婆之子。"
+  },
+  {
+   "id": "si-mu-xing",
+   "name": "四木禽星",
+   "group": "tian",
+   "role": "宿",
+   "chapters": [
+    92
+   ],
+   "summary": "角、亢、奎、壁四宿，属木克土，奉玉帝旨收辟寒暑尘三犀牛精。"
+  },
+  {
+   "id": "pu-ti",
+   "name": "菩提祖师",
+   "group": "dao",
+   "role": "祖师",
+   "chapters": [
+    1,
+    2
+   ],
+   "summary": "灵台方寸山斜月三星洞；教悟空七十二变、筋斗云，并赐名「悟空」。",
+   "detail": "名号与居所全是禅机：灵台、方寸皆指「心」，斜月三星是「心」字的拆写。他既通道也通佛，教成后逐徒，嘱其不得提起师承。"
+  },
+  {
+   "id": "tai-shang",
+   "name": "太上老君",
+   "group": "dao",
+   "role": "道祖",
+   "chapters": [
+    5,
+    6,
+    7,
+    14,
+    35,
+    44,
+    52
+   ],
+   "summary": "兜率宫，炼九转金丹、金刚琢与紫金红葫芦；悟空被他炼了四十九天反炼出火眼金睛。",
+   "detail": "青牛（独角兕）与金角银角都是他的下属/坐骑下界；第44回车迟国斗法时被悟空当作「奴才」唤来。小说对道祖的戏谑，是「三教」议题最直白的部分。"
+  },
+  {
+   "id": "chi-jiao-da-xian",
+   "name": "赤脚大仙",
+   "group": "dao",
+   "role": "赴会仙",
+   "chapters": [
+    5,
+    65
+   ],
+   "summary": "赴蟠桃会的老仙；第65回被黄眉设计哄到小雷音，几乎与被擒的悟空同劫。"
+  },
+  {
+   "id": "yuan-shoucheng",
+   "name": "袁守诚",
+   "group": "dao",
+   "role": "术士",
+   "chapters": [
+    9,
+    10
+   ],
+   "summary": "长安神算，断泾河龙王行雨时辰，由此引出太宗地府还魂与取经因缘。"
+  },
+  {
+   "id": "wu-chao",
+   "name": "乌巢禅师",
+   "group": "dao",
+   "role": "禅师",
+   "chapters": [
+    20
+   ],
+   "summary": "浮屠山香桧巢中，口授《摩诃般若波罗蜜多心经》五十四字，是唐僧一路持诵的功课。"
+  },
+  {
+   "id": "zhen-yuan",
+   "name": "镇元大仙",
+   "group": "dao",
+   "role": "地仙之祖",
+   "chapters": [
+    24,
+    25,
+    26
+   ],
+   "summary": "五庄观主人，与天庭同辈；人参果一役，悟空请观音医树方了结。"
+  },
+  {
+   "id": "nan-ji",
+   "name": "南极仙翁",
+   "group": "dao",
+   "role": "星君",
+   "chapters": [
+    79
+   ],
+   "summary": "寿星，白鹿精（比丘国国丈）之主；以拐杖收坐骑。",
+   "alias": "寿星"
+  },
+  {
+   "id": "tai-yi",
+   "name": "太乙救苦天尊",
+   "group": "dao",
+   "role": "天尊",
+   "chapters": [
+    90
+   ],
+   "summary": "九头狮（九灵元圣）之主；唤一声「天尊」即下界收妖。"
+  },
+  {
+   "id": "hun-shi-mo-wang",
+   "name": "混世魔王",
+   "group": "yao",
+   "role": "妖王",
+   "chapters": [
+    2,
+    3
+   ],
+   "summary": "占水帘洞、抢猴猴辈的妖魔；悟空学成归来第一战就剖开他，是「回家清账」的一场。",
+   "detail": "第2回末悟空在菩提处学成分身变化，回山即见混世魔王占洞抢物；不用宝贝、不请救兵，一把刀砍了个手无寸铁的妖——小说用这一战交代悟空的成长已经落地。"
+  },
+  {
+   "id": "niu-mo",
+   "name": "牛魔王",
+   "group": "yao",
+   "role": "平天大圣",
+   "chapters": [
+    3,
+    4,
+    59,
+    60,
+    61
+   ],
+   "summary": "悟空七结义之首，积雷山摩云洞纳玉面公主；现原形力战天兵，被哪吒牵降。",
+   "alias": "大力王 · 平天大圣"
+  },
+  {
+   "id": "du-jiao-gui-wang",
+   "name": "独角鬼王",
+   "group": "yao",
+   "role": "部从",
+   "chapters": [
+    3
+   ],
+   "summary": "投奔花果山的鬼王，献赭黄旗与袍，并第一个提出「与天齐等」的说法。",
+   "detail": "「齐天大圣」的名号由他提议、悟空采纳，天庭的封号体系从此被戏仿。"
+  },
+  {
+   "id": "hei-xiong",
+   "name": "黑熊精",
+   "group": "yao",
+   "role": "妖王",
+   "chapters": [
+    16,
+    17
+   ],
+   "summary": "观音禅院近邻，趁火盗锦襕袈裟；被观音收为落伽山守山大神。",
+   "alias": "熊罴怪"
+  },
+  {
+   "id": "huang-feng",
+   "name": "黄风怪",
+   "group": "yao",
+   "role": "妖王",
+   "chapters": [
+    20,
+    21
+   ],
+   "summary": "黄风岭黄风洞，三吹飞沙把悟空火眼金睛弄瞎；本相灵山脚下得道的黄毛貂鼠。"
+  },
+  {
+   "id": "bai-gu",
+   "name": "白骨夫人",
+   "group": "yao",
+   "role": "尸魔",
+   "chapters": [
+    27
+   ],
+   "summary": "白虎岭三变（村姑、老母、老翁），被悟空三次识破打死；唐僧因此逐悟空。",
+   "alias": "三打白骨精"
+  },
+  {
+   "id": "huang-pao",
+   "name": "黄袍怪",
+   "group": "yao",
+   "role": "妖王",
+   "chapters": [
+    28,
+    29,
+    30,
+    31
+   ],
+   "summary": "碗子山波月洞，本相奎木狼；把唐僧变虎，是全书唯一让师父「非人」的一难。",
+   "alias": "奎木狼 · 波月洞"
+  },
+  {
+   "id": "jin-jiao",
+   "name": "金角大王",
+   "group": "yao",
+   "role": "妖王",
+   "chapters": [
+    32,
+    33,
+    34,
+    35
+   ],
+   "summary": "平顶山莲花洞，太上老君烧火童子；持紫金红葫芦、羊脂玉净瓶。"
+  },
+  {
+   "id": "yin-jiao",
+   "name": "银角大王",
+   "group": "yao",
+   "role": "妖王",
+   "chapters": [
+    33,
+    34,
+    35
+   ],
+   "summary": "与金角同来；「我叫你一声你敢答应吗」的葫芦之戏出自他。"
+  },
+  {
+   "id": "hu-a-zhang",
+   "name": "狐阿章",
+   "group": "yao",
+   "role": "亲眷",
+   "chapters": [
+    34
+   ],
+   "summary": "金角银角的娘舅（老狐精），被悟空一口一个「娘舅」戏耍，压死在洞中。"
+  },
+  {
+   "id": "jing-xi-gui",
+   "name": "精细鬼与伶俐虫",
+   "group": "yao",
+   "role": "小妖",
+   "chapters": [
+    34
+   ],
+   "summary": "带葫芦、净瓶去装人的两个小妖，被悟空用「装天的葫芦」骗走两件宝贝。",
+   "detail": "这一段的乐趣全在名目：小妖的名字本身就是「精细」的反写。"
+  },
+  {
+   "id": "ba-shan-hu",
+   "name": "巴山虎与倚海龙",
+   "group": "yao",
+   "role": "小妖",
+   "chapters": [
+    34
+   ],
+   "summary": "莲花洞传帖的小妖，被悟空在半路打死并冒名赴宴。"
+  },
+  {
+   "id": "jia-wu-ji-guo-wang",
+   "name": "乌鸡国假王",
+   "group": "yao",
+   "role": "假冒",
+   "chapters": [
+    38,
+    39
+   ],
+   "summary": "文殊坐骑青狮所变的假国王，占国三年，与真王形貌无二。",
+   "detail": "辨真假靠的不是武力而是证据：悟空请出太子、如来道破来历。"
+  },
+  {
+   "id": "hong-hai",
+   "name": "红孩儿",
+   "group": "yao",
+   "role": "圣婴大王",
+   "chapters": [
+    40,
+    41,
+    42
+   ],
+   "summary": "牛魔王与铁扇公主之子，号山火云洞；三昧真火几乎烧死悟空，被观音收为善财童子。"
+  },
+  {
+   "id": "xiao-tuo-long",
+   "name": "小鼍龙",
+   "group": "yao",
+   "role": "驸马",
+   "chapters": [
+    43
+   ],
+   "summary": "黑水河妖，西海龙王的外甥，摄唐僧；被摩昂太子奉父命擒回。"
+  },
+  {
+   "id": "hu-li",
+   "name": "虎力大仙",
+   "group": "yao",
+   "role": "国师",
+   "chapters": [
+    44,
+    45,
+    46
+   ],
+   "summary": "车迟国三国师之首（鹿力、羊力为其弟）：求雨、坐禅、砍头、剖腹、下油锅三场斗法皆败。",
+   "alias": "羊力 · 鹿力"
+  },
+  {
+   "id": "ling-gan",
+   "name": "灵感大王",
+   "group": "yao",
+   "role": "妖王",
+   "chapters": [
+    47,
+    48,
+    49
+   ],
+   "summary": "通天河陈家庄，观音莲花池金鱼；要童男童女，后被鱼篮收。",
+   "alias": "金鱼精"
+  },
+  {
+   "id": "qing-niu",
+   "name": "独角兕大王",
+   "group": "yao",
+   "role": "妖王",
+   "chapters": [
+    50,
+    51,
+    52
+   ],
+   "summary": "金兜山金兜洞，太上老君青牛；金刚琢套尽天上神兵与江河淮济之水。",
+   "alias": "青牛精"
+  },
+  {
+   "id": "ru-yi-zhen-xian",
+   "name": "如意真仙",
+   "group": "yao",
+   "role": "道人",
+   "chapters": [
+    53,
+    54
+   ],
+   "summary": "解阳山破儿亭主，霸占落胎泉水；红孩儿之叔，为侄报仇而拦路。"
+  },
+  {
+   "id": "xie-zi",
+   "name": "蝎子精",
+   "group": "yao",
+   "role": "妖",
+   "chapters": [
+    55
+   ],
+   "summary": "毒敌山琵琶洞，倒马毒桩蛰了如来也疼；死于昴日星官长鸣。"
+  },
+  {
+   "id": "liu-er",
+   "name": "六耳猕猴",
+   "group": "yao",
+   "role": "假行者",
+   "chapters": [
+    57,
+    58
+   ],
+   "summary": "与悟空一模一样：同词同音、兵器分身俱备；如来道破四猴混世，悟空一棒打死「二心」。"
+  },
+  {
+   "id": "tie-shan",
+   "name": "铁扇公主",
+   "group": "yao",
+   "role": "罗刹女",
+   "chapters": [
+    59,
+    60,
+    61
+   ],
+   "summary": "芭蕉扇之主；一扇熄火、二扇生风、三扇下雨，被悟空钻腹逼扇。"
+  },
+  {
+   "id": "yu-mian-gong-zhu",
+   "name": "玉面公主",
+   "group": "yao",
+   "role": "妾",
+   "chapters": [
+    60,
+    61
+   ],
+   "summary": "积雷山摩云洞的狐精，招牛魔王为夫；被八戒打死，狐族尽灭。",
+   "alias": "玉面狐狸"
+  },
+  {
+   "id": "jiu-tou-chong",
+   "name": "九头虫",
+   "group": "yao",
+   "role": "驸马",
+   "chapters": [
+    62,
+    63
+   ],
+   "summary": "乱石山碧波潭，万圣龙王之婿；偷金光寺塔顶舍利，被哮天犬咬一头而逃。",
+   "alias": "九头驸马"
+  },
+  {
+   "id": "ben-bo-er-ba",
+   "name": "奔波儿灞与灞波儿奔",
+   "group": "yao",
+   "role": "小妖",
+   "chapters": [
+    62,
+    63
+   ],
+   "summary": "乱石山碧波潭守塔的两条鱼精，被悟空八戒拿下，供出九头驸马。",
+   "alias": "奔波儿灞 · 灞波儿奔",
+   "detail": "名字谐「奔波儿霸/奔波儿奔」，是水府最出圈的两个小妖；他们的供词是祭赛国一案的突破口。"
+  },
+  {
+   "id": "xing-xian",
+   "name": "杏仙与木仙庵四仙",
+   "group": "yao",
+   "role": "树魅",
+   "chapters": [
+    64
+   ],
+   "summary": "荆棘岭十八公（松）、孤直公（柏）、凌空子（桧）、拂云叟（竹）与杏仙，月下谈诗欲配唐僧。",
+   "alias": "十八公 · 孤直公 · 凌空子 · 拂云叟",
+   "detail": "全书唯一不动手的难：悟净一耙把树根拱倒，方见本相。名目全是木字谜（十八公＝松）。"
+  },
+  {
+   "id": "huang-mei",
+   "name": "黄眉大王",
+   "group": "yao",
+   "role": "假佛",
+   "chapters": [
+    65,
+    66
+   ],
+   "summary": "小雷音寺自称佛祖，后天人种袋装尽天神；弥勒座下看钞童子。",
+   "alias": "小雷音"
+  },
+  {
+   "id": "mang-she-jing",
+   "name": "蟒蛇精",
+   "group": "yao",
+   "role": "妖",
+   "chapters": [
+    67
+   ],
+   "summary": "七绝山驼罗庄的大蟒，口吞人畜；悟空八戒剖其腹而出。"
+  },
+  {
+   "id": "sai-tai-sui",
+   "name": "赛太岁",
+   "group": "yao",
+   "role": "妖王",
+   "chapters": [
+    70,
+    71
+   ],
+   "summary": "朱紫国麒麟殿妖，观音座下金毛犼；紫金铃三放火烟沙。"
+  },
+  {
+   "id": "you-lai-you-qu",
+   "name": "有来有去",
+   "group": "yao",
+   "role": "小妖",
+   "chapters": [
+    70,
+    71
+   ],
+   "summary": "赛太岁的心腹牌印小妖，被悟空一棒打死并冒名进洞。",
+   "detail": "名字即命运——「有来有去」这次有来无回，是小说拿名号开玩笑的一例。"
+  },
+  {
+   "id": "zhi-zhu",
+   "name": "蜘蛛精",
+   "group": "yao",
+   "role": "七女",
+   "chapters": [
+    72,
+    73
+   ],
+   "summary": "盘丝洞七姊妹，肚脐吐丝结罩；濯垢泉澡洗。"
+  },
+  {
+   "id": "wu-gong",
+   "name": "多目怪",
+   "group": "yao",
+   "role": "道",
+   "chapters": [
+    72,
+    73
+   ],
+   "summary": "黄花观道士，本赤脚大蜈蚣；两胁千眼放金光罩困悟空，毗蓝婆以针收之。",
+   "alias": "蜈蚣精"
+  },
+  {
+   "id": "qing-shi",
+   "name": "青狮精",
+   "group": "yao",
+   "role": "老魔",
+   "chapters": [
+    74,
+    75,
+    76,
+    77
+   ],
+   "summary": "狮驼岭大王，文殊坐骑；一口吞十万天兵之说。"
+  },
+  {
+   "id": "da-peng",
+   "name": "大鹏金翅雕",
+   "group": "yao",
+   "role": "三魔",
+   "chapters": [
+    74,
+    75,
+    76,
+    77
+   ],
+   "summary": "狮驼岭三魔王，如来之舅（凤凰所生）；扇一扇赶上悟空筋斗云，最后被如来亲手收。",
+   "alias": "云程万里鹏"
+  },
+  {
+   "id": "bai-xiang",
+   "name": "白象精",
+   "group": "yao",
+   "role": "二魔",
+   "chapters": [
+    74,
+    75,
+    77
+   ],
+   "summary": "狮驼岭二魔王，普贤坐骑；长鼻卷人。"
+  },
+  {
+   "id": "lao-shu",
+   "name": "金鼻白毛老鼠精",
+   "group": "yao",
+   "role": "半截观音",
+   "chapters": [
+    80,
+    81,
+    82,
+    83
+   ],
+   "summary": "陷空山无底洞；曾偷香花宝烛，认托塔李天王、哪吒为父兄，故称「半截观音」「地涌夫人」。"
+  },
+  {
+   "id": "nan-shan-da-wang",
+   "name": "南山大王",
+   "group": "yao",
+   "role": "妖王",
+   "chapters": [
+    85,
+    86
+   ],
+   "summary": "隐雾山折岳连环洞的艾叶花皮豹子精，用「分瓣梅花计」分兵诱敌摄走唐僧。",
+   "detail": "这一难的特别处在于妖怪用了兵法：三个小妖替头、分头拖住三徒，是全书唯一以计谋取胜的妖。"
+  },
+  {
+   "id": "jiu-ling",
+   "name": "九灵元圣",
+   "group": "yao",
+   "role": "祖翁",
+   "chapters": [
+    88,
+    89,
+    90
+   ],
+   "summary": "竹节山九曲盘桓洞九头狮，太乙救苦天尊坐骑；一口衔两人与兵器，是少数不战而擒悟空的妖。"
+  },
+  {
+   "id": "huang-shi-jing",
+   "name": "黄狮精",
+   "group": "yao",
+   "role": "妖",
+   "chapters": [
+    88,
+    89
+   ],
+   "summary": "豹头山虎口洞黄狮，摄走玉华州三件兵器；不食人、还买猪羊办会，是「体面」的妖。"
+  },
+  {
+   "id": "xi-niu",
+   "name": "辟寒大王",
+   "group": "yao",
+   "role": "三犀牛",
+   "chapters": [
+    91,
+    92
+   ],
+   "summary": "金平府青龙山玄英洞三犀（辟寒、辟暑、辟尘），假作佛像偷酥合香油。"
+  },
+  {
+   "id": "yu-tu",
+   "name": "玉兔精",
+   "group": "yao",
+   "role": "假公主",
+   "chapters": [
+    93,
+    94,
+    95
+   ],
+   "summary": "天竺国抛绣球招亲，真公主被其摄于布金禅寺；太阴星君收之。"
+  },
+  {
+   "id": "tang-tai-zong",
+   "name": "唐太宗",
+   "group": "ren",
+   "role": "帝王",
+   "chapters": [
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "summary": "李世民；地府还魂后出水陆大会选僧西行，与唐僧结为御弟。"
+  },
+  {
+   "id": "chen-guang-rui",
+   "name": "陈光蕊",
+   "group": "ren",
+   "role": "状元",
+   "chapters": [
+    9
+   ],
+   "summary": "唐僧生父，赴任途中被水贼刘洪所害，尸沉江底，后赖龙王与殷公救活。"
+  },
+  {
+   "id": "yin-wen-jiao",
+   "name": "殷温娇",
+   "group": "ren",
+   "role": "母亲",
+   "chapters": [
+    9
+   ],
+   "summary": "丞相殷开山之女，刘洪逼婚忍辱十八年；咬指写血书，将婴儿抛江保全。",
+   "alias": "满堂娇"
+  },
+  {
+   "id": "liu-hong",
+   "name": "刘洪",
+   "group": "ren",
+   "role": "水贼",
+   "chapters": [
+    9
+   ],
+   "summary": "杀陈光蕊、冒名上任霸占殷氏；后被殷开山擒斩祭女。"
+  },
+  {
+   "id": "wei-zheng",
+   "name": "魏征",
+   "group": "ren",
+   "role": "唐相",
+   "chapters": [
+    9,
+    10
+   ],
+   "summary": "大唐丞相；在长安午睡中梦斩泾河龙王，由此结下太宗地府之债。"
+  },
+  {
+   "id": "yin-kai-shan",
+   "name": "殷开山",
+   "group": "ren",
+   "role": "丞相",
+   "chapters": [
+    9
+   ],
+   "summary": "殷温娇之父、唐僧外祖父；后擒刘洪祭女，认回外孙。"
+  },
+  {
+   "id": "cui-jue",
+   "name": "崔珏",
+   "group": "ren",
+   "role": "判官",
+   "chapters": [
+    10
+   ],
+   "summary": "阴司崔判官，念旧情为太宗添阳寿一纪，并放其还魂。",
+   "detail": "第10回：魏征斩龙后龙王诉冤，太宗魂至阴司；崔珏查簿私改数目，是「官册可改」的一次演示。"
+  },
+  {
+   "id": "qin-yu-chi",
+   "name": "秦叔恭与尉迟敬德",
+   "group": "ren",
+   "role": "门神",
+   "chapters": [
+    10
+   ],
+   "summary": "唐太宗寝宫守门的二将；夜闻鬼泣，绘像贴门，遂为后世门神。",
+   "alias": "秦琼 · 尉迟恭"
+  },
+  {
+   "id": "liu-bo-qin",
+   "name": "刘伯钦",
+   "group": "ren",
+   "role": "猎户",
+   "chapters": [
+    13,
+    14
+   ],
+   "summary": "镇山太保，双叉岭护唐僧至两界山；其父魂在地府受崔珏照管。"
+  },
+  {
+   "id": "gao-tai-gong",
+   "name": "高太公",
+   "group": "ren",
+   "role": "庄主",
+   "chapters": [
+    18,
+    19
+   ],
+   "summary": "高老庄招婿，三女儿被猪妖强占，请悟空降之。"
+  },
+  {
+   "id": "gao-cui-lan",
+   "name": "高翠兰",
+   "group": "ren",
+   "role": "庄女",
+   "chapters": [
+    18,
+    19
+   ],
+   "summary": "高太公三女，被猪妖强占二载；悟空变其身戏婿。"
+  },
+  {
+   "id": "wu-ji-guo-wang",
+   "name": "乌鸡国王",
+   "group": "ren",
+   "role": "国主",
+   "chapters": [
+    36,
+    37,
+    38,
+    39
+   ],
+   "summary": "被推入御井浸三年，鬼魂托梦唐僧；悟空伏假王，文殊收青狮。"
+  },
+  {
+   "id": "jie-sai-guo-wang",
+   "name": "祭赛国王",
+   "group": "ren",
+   "role": "国主",
+   "chapters": [
+    62,
+    63
+   ],
+   "summary": "金光寺塔顶舍利被窃，僧众受屈；悟空扫塔辨冤。"
+  },
+  {
+   "id": "zhu-zhi-guo-wang",
+   "name": "朱紫国王",
+   "group": "ren",
+   "role": "国主",
+   "chapters": [
+    68,
+    69,
+    70,
+    71
+   ],
+   "summary": "因金圣宫被赛太岁摄去，忧结成病；悟空悬丝诊脉、降妖复后。"
+  },
+  {
+   "id": "jin-sheng-gong",
+   "name": "金圣宫",
+   "group": "ren",
+   "role": "王后",
+   "chapters": [
+    70,
+    71
+   ],
+   "summary": "朱紫国王后，被赛太岁摄去三载；紫阳真人以棕衣护身，妖不能近。"
+  },
+  {
+   "id": "bi-qiu-guo-wang",
+   "name": "比丘国王",
+   "group": "ren",
+   "role": "国主",
+   "chapters": [
+    78,
+    79
+   ],
+   "summary": "听国丈（白鹿）言，取一千一百一十一个小儿心肝做药引；悟空救小儿，寿星收鹿。"
+  },
+  {
+   "id": "mie-fa-guo-wang",
+   "name": "灭法国王",
+   "group": "ren",
+   "role": "国主",
+   "chapters": [
+    84,
+    85
+   ],
+   "summary": "发愿杀一万个和尚，已杀九千九百九十六；悟空一夜剃满城头，国王悔悟改名「兴国」。"
+  },
+  {
+   "id": "feng-xian-jun-shou",
+   "name": "凤仙郡守",
+   "group": "ren",
+   "role": "地方官",
+   "chapters": [
+    87
+   ],
+   "summary": "因推倒斋天素供、喂狗，触玉帝立米山面山金锁三事，致郡中大旱三年。",
+   "detail": "第87回：他是全书唯一「得罪天帝」的凡人；回天之路不是降妖，是劝善。"
+  },
+  {
+   "id": "yu-hua-zhou-wang",
+   "name": "玉华州王与三王子",
+   "group": "ren",
+   "role": "藩王",
+   "chapters": [
+    88,
+    89,
+    90
+   ],
+   "summary": "荆山郡玉华州；三王子拜悟空、八戒、沙僧学棍钯杖，兵刃随后被黄狮精摄去。"
+  },
+  {
+   "id": "tian-zhu-gong-zhu",
+   "name": "天竺公主",
+   "group": "ren",
+   "role": "真公主",
+   "chapters": [
+    93,
+    94,
+    95
+   ],
+   "summary": "十三年前被玉兔摄走，匿于布金禅寺；塔上抛球招亲的是假身。"
+  },
+  {
+   "id": "tian-zhu-guo-wang",
+   "name": "天竺国王",
+   "group": "ren",
+   "role": "国主",
+   "chapters": [
+    93,
+    94,
+    95
+   ],
+   "summary": "天竺国主；不知抛球招亲的公主是假身，事明后认唐僧为御弟之婿。"
+  },
+  {
+   "id": "kou-hong",
+   "name": "寇员外",
+   "group": "ren",
+   "role": "居士",
+   "chapters": [
+    97
+   ],
+   "summary": "铜台府地灵县寇洪，斋僧满万，苦留唐僧；送别当夜被强盗所杀，魂告官诬僧。"
+  },
+  {
+   "id": "kou-liang",
+   "name": "寇梁与刘氏",
+   "group": "ren",
+   "role": "家属",
+   "chapters": [
+    97
+   ],
+   "summary": "铜台府寇员外之子与妻；父亡后听信诬告，将取经人送官。",
+   "alias": "寇梁 · 刘氏"
+  }
+ ],
+ "relations": [
+  {
+   "a": "pu-ti",
+   "b": "wu-kong",
+   "label": "弟子",
+   "group": "master",
+   "chapter": 2,
+   "inv": "师父"
+  },
+  {
+   "a": "hun-shi-mo-wang",
+   "b": "wu-kong",
+   "label": "占其洞府",
+   "group": "rival",
+   "chapter": 2,
+   "inv": "占其洞府"
+  },
+  {
+   "a": "yu-di",
+   "b": "tai-bai",
+   "label": "君",
+   "group": "serve",
+   "chapter": 3,
+   "inv": "臣"
+  },
+  {
+   "a": "du-jiao-gui-wang",
+   "b": "wu-kong",
+   "label": "投奔·献策",
+   "group": "serve",
+   "chapter": 3,
+   "inv": "投奔·献策"
+  },
+  {
+   "a": "si-zhi-gong-cao",
+   "b": "tang-seng",
+   "label": "记其功行",
+   "group": "ally",
+   "chapter": 3,
+   "inv": "记其功行"
+  },
+  {
+   "a": "wu-kong",
+   "b": "hun-shi-mo-wang",
+   "label": "剖其首",
+   "group": "rival",
+   "chapter": 3,
+   "inv": "剖其首"
+  },
+  {
+   "a": "yu-di",
+   "b": "tuo-ta",
+   "label": "君",
+   "group": "serve",
+   "chapter": 4,
+   "inv": "臣（挂帅）"
+  },
+  {
+   "a": "tuo-ta",
+   "b": "na-zha",
+   "label": "父",
+   "group": "serve",
+   "chapter": 4,
+   "inv": "子"
+  },
+  {
+   "a": "yu-di",
+   "b": "si-da-tian-shi",
+   "label": "君",
+   "group": "serve",
+   "chapter": 4,
+   "inv": "臣（引奏）"
+  },
+  {
+   "a": "yu-di",
+   "b": "jiu-yao-xing-guan",
+   "label": "君",
+   "group": "serve",
+   "chapter": 4,
+   "inv": "臣（征花果山）"
+  },
+  {
+   "a": "yu-di",
+   "b": "qian-li-yan",
+   "label": "君",
+   "group": "serve",
+   "chapter": 4,
+   "inv": "臣（观奏）"
+  },
+  {
+   "a": "yu-di",
+   "b": "shun-feng-er",
+   "label": "君",
+   "group": "serve",
+   "chapter": 4,
+   "inv": "臣（听奏）"
+  },
+  {
+   "a": "tuo-ta",
+   "b": "ju-ling-shen",
+   "label": "先锋",
+   "group": "serve",
+   "chapter": 4,
+   "inv": "先锋"
+  },
+  {
+   "a": "wu-kong",
+   "b": "niu-mo",
+   "label": "兄",
+   "group": "friend",
+   "chapter": 4,
+   "inv": "弟（七结义）"
+  },
+  {
+   "a": "qian-li-yan",
+   "b": "shun-feng-er",
+   "label": "同司观测",
+   "group": "friend",
+   "chapter": 4,
+   "inv": "同司观测"
+  },
+  {
+   "a": "tuo-ta",
+   "b": "wu-kong",
+   "label": "奉调征花果山",
+   "group": "rival",
+   "chapter": 4,
+   "inv": "奉调征花果山"
+  },
+  {
+   "a": "na-zha",
+   "b": "wu-kong",
+   "label": "前战·后并肩",
+   "group": "rival",
+   "chapter": 4,
+   "inv": "前战·后并肩"
+  },
+  {
+   "a": "yu-di",
+   "b": "wu-kong",
+   "label": "齐天之乱",
+   "group": "rival",
+   "chapter": 4,
+   "inv": "齐天之乱"
+  },
+  {
+   "a": "ju-ling-shen",
+   "b": "wu-kong",
+   "label": "斧被掰断",
+   "group": "rival",
+   "chapter": 4,
+   "inv": "斧被掰断"
+  },
+  {
+   "a": "jiu-yao-xing-guan",
+   "b": "wu-kong",
+   "label": "败阵而回",
+   "group": "rival",
+   "chapter": 4,
+   "inv": "败阵而回"
+  },
+  {
+   "a": "yu-di",
+   "b": "wang-mu",
+   "label": "蟠桃会之主",
+   "group": "kin",
+   "chapter": 5,
+   "inv": "蟠桃会之主"
+  },
+  {
+   "a": "yu-di",
+   "b": "zeng-chang",
+   "label": "君",
+   "group": "serve",
+   "chapter": 5,
+   "inv": "臣（守天门）"
+  },
+  {
+   "a": "zeng-chang",
+   "b": "tuo-ta",
+   "label": "同征花果山",
+   "group": "friend",
+   "chapter": 5,
+   "inv": "同征花果山"
+  },
+  {
+   "a": "wang-mu",
+   "b": "wu-kong",
+   "label": "定其会·偷其桃",
+   "group": "rival",
+   "chapter": 5,
+   "inv": "定其会·偷其桃"
+  },
+  {
+   "a": "yu-di",
+   "b": "er-lang",
+   "label": "君",
+   "group": "serve",
+   "chapter": 6,
+   "inv": "臣（调遣）"
+  },
+  {
+   "a": "er-lang",
+   "b": "mei-shan-liu",
+   "label": "部从",
+   "group": "serve",
+   "chapter": 6,
+   "inv": "部从"
+  },
+  {
+   "a": "er-lang",
+   "b": "wu-kong",
+   "label": "斗变化",
+   "group": "rival",
+   "chapter": 6,
+   "inv": "斗变化"
+  },
+  {
+   "a": "tai-shang",
+   "b": "wu-kong",
+   "label": "金刚琢打·炼丹炉",
+   "group": "rival",
+   "chapter": 6,
+   "inv": "金刚琢打·炼丹炉"
+  },
+  {
+   "a": "mei-shan-liu",
+   "b": "wu-kong",
+   "label": "合力擒之",
+   "group": "rival",
+   "chapter": 6,
+   "inv": "合力擒之"
+  },
+  {
+   "a": "ru-lai",
+   "b": "wu-kong",
+   "label": "掌中赌赛·压五行山",
+   "group": "rival",
+   "chapter": 7,
+   "inv": "掌中赌赛·压五行山"
+  },
+  {
+   "a": "guan-yin",
+   "b": "ba-jie",
+   "label": "受戒者",
+   "group": "master",
+   "chapter": 8,
+   "inv": "授戒师"
+  },
+  {
+   "a": "guan-yin",
+   "b": "sha-seng",
+   "label": "受戒者",
+   "group": "master",
+   "chapter": 8,
+   "inv": "授戒师"
+  },
+  {
+   "a": "ru-lai",
+   "b": "guan-yin",
+   "label": "受付嘱者",
+   "group": "master",
+   "chapter": 8,
+   "inv": "付嘱者"
+  },
+  {
+   "a": "chen-guang-rui",
+   "b": "yin-wen-jiao",
+   "label": "夫",
+   "group": "kin",
+   "chapter": 9,
+   "inv": "妻"
+  },
+  {
+   "a": "chen-guang-rui",
+   "b": "tang-seng",
+   "label": "父",
+   "group": "kin",
+   "chapter": 9,
+   "inv": "子"
+  },
+  {
+   "a": "yin-wen-jiao",
+   "b": "tang-seng",
+   "label": "母",
+   "group": "kin",
+   "chapter": 9,
+   "inv": "子"
+  },
+  {
+   "a": "liu-hong",
+   "b": "chen-guang-rui",
+   "label": "害命",
+   "group": "kin",
+   "chapter": 9,
+   "inv": "害命"
+  },
+  {
+   "a": "liu-hong",
+   "b": "yin-wen-jiao",
+   "label": "逼婚",
+   "group": "kin",
+   "chapter": 9,
+   "inv": "逼婚"
+  },
+  {
+   "a": "yin-kai-shan",
+   "b": "yin-wen-jiao",
+   "label": "父",
+   "group": "kin",
+   "chapter": 9,
+   "inv": "子"
+  },
+  {
+   "a": "yin-kai-shan",
+   "b": "tang-seng",
+   "label": "外祖父",
+   "group": "kin",
+   "chapter": 9,
+   "inv": "外孙"
+  },
+  {
+   "a": "wei-zheng",
+   "b": "yu-di",
+   "label": "奉旨斩龙",
+   "group": "serve",
+   "chapter": 9,
+   "inv": "君"
+  },
+  {
+   "a": "yin-kai-shan",
+   "b": "liu-hong",
+   "label": "擒斩祭女",
+   "group": "rival",
+   "chapter": 9,
+   "inv": "擒斩祭女"
+  },
+  {
+   "a": "wei-zheng",
+   "b": "tang-tai-zong",
+   "label": "臣",
+   "group": "serve",
+   "chapter": 10,
+   "inv": "君"
+  },
+  {
+   "a": "qin-yu-chi",
+   "b": "tang-tai-zong",
+   "label": "守门之将",
+   "group": "serve",
+   "chapter": 10,
+   "inv": "君"
+  },
+  {
+   "a": "yuan-shoucheng",
+   "b": "tang-tai-zong",
+   "label": "算断龙劫·引出还魂",
+   "group": "ally",
+   "chapter": 10,
+   "inv": "算断龙劫·引出还魂"
+  },
+  {
+   "a": "cui-jue",
+   "b": "tang-tai-zong",
+   "label": "添注阳寿",
+   "group": "ally",
+   "chapter": 10,
+   "inv": "添注阳寿"
+  },
+  {
+   "a": "guan-yin",
+   "b": "tang-seng",
+   "label": "所护持者",
+   "group": "master",
+   "chapter": 12,
+   "inv": "护持者"
+  },
+  {
+   "a": "ru-lai",
+   "b": "jin-chan-zi",
+   "label": "前世弟子",
+   "group": "master",
+   "chapter": 12,
+   "inv": "前世之师"
+  },
+  {
+   "a": "jin-chan-zi",
+   "b": "tang-seng",
+   "label": "转世",
+   "group": "master",
+   "chapter": 12,
+   "inv": "转世"
+  },
+  {
+   "a": "tang-seng",
+   "b": "tang-tai-zong",
+   "label": "御弟·结拜",
+   "group": "friend",
+   "chapter": 12,
+   "inv": "御弟·结拜"
+  },
+  {
+   "a": "guan-yin",
+   "b": "wu-fang-jie-di",
+   "label": "奉旨暗护",
+   "group": "serve",
+   "chapter": 13,
+   "inv": "奉旨暗护"
+  },
+  {
+   "a": "tai-bai",
+   "b": "tang-seng",
+   "label": "双叉岭解厄",
+   "group": "ally",
+   "chapter": 13,
+   "inv": "双叉岭解厄"
+  },
+  {
+   "a": "wu-fang-jie-di",
+   "b": "tang-seng",
+   "label": "暗护取经人",
+   "group": "ally",
+   "chapter": 13,
+   "inv": "暗护取经人"
+  },
+  {
+   "a": "liu-ding-liu-jia",
+   "b": "tang-seng",
+   "label": "妖洞暗护",
+   "group": "ally",
+   "chapter": 13,
+   "inv": "妖洞暗护"
+  },
+  {
+   "a": "tang-tai-zong",
+   "b": "wu-kong",
+   "label": "御弟之徒",
+   "group": "friend",
+   "chapter": 13,
+   "inv": "御弟的徒弟"
+  },
+  {
+   "a": "liu-bo-qin",
+   "b": "tang-seng",
+   "label": "护送至两界山",
+   "group": "friend",
+   "chapter": 13,
+   "inv": "护送至两界山"
+  },
+  {
+   "a": "tang-seng",
+   "b": "wu-kong",
+   "label": "弟子",
+   "group": "master",
+   "chapter": 14,
+   "inv": "师父"
+  },
+  {
+   "a": "guan-yin",
+   "b": "wu-kong",
+   "label": "所赐箍者",
+   "group": "master",
+   "chapter": 14,
+   "inv": "赐箍者"
+  },
+  {
+   "a": "tang-seng",
+   "b": "bai-long-ma",
+   "label": "师",
+   "group": "master",
+   "chapter": 15,
+   "inv": "坐骑·师弟"
+  },
+  {
+   "a": "wu-kong",
+   "b": "bai-long-ma",
+   "label": "兄",
+   "group": "friend",
+   "chapter": 15,
+   "inv": "弟（同门）"
+  },
+  {
+   "a": "guan-yin",
+   "b": "hei-xiong",
+   "label": "弟子·守山大神",
+   "group": "master",
+   "chapter": 17,
+   "inv": "收伏我者"
+  },
+  {
+   "a": "wu-kong",
+   "b": "hei-xiong",
+   "label": "夺袈裟",
+   "group": "rival",
+   "chapter": 17,
+   "inv": "夺袈裟"
+  },
+  {
+   "a": "gao-tai-gong",
+   "b": "ba-jie",
+   "label": "岳父",
+   "group": "kin",
+   "chapter": 18,
+   "inv": "女婿"
+  },
+  {
+   "a": "gao-tai-gong",
+   "b": "gao-cui-lan",
+   "label": "父",
+   "group": "kin",
+   "chapter": 18,
+   "inv": "子"
+  },
+  {
+   "a": "ba-jie",
+   "b": "gao-cui-lan",
+   "label": "强婚之夫",
+   "group": "kin",
+   "chapter": 18,
+   "inv": "妻"
+  },
+  {
+   "a": "tang-seng",
+   "b": "gao-tai-gong",
+   "label": "降婿之请",
+   "group": "friend",
+   "chapter": 18,
+   "inv": "降婿之请"
+  },
+  {
+   "a": "tang-seng",
+   "b": "ba-jie",
+   "label": "弟子",
+   "group": "master",
+   "chapter": 19,
+   "inv": "师父"
+  },
+  {
+   "a": "ba-jie",
+   "b": "wu-kong",
+   "label": "兄",
+   "group": "friend",
+   "chapter": 19,
+   "inv": "弟（同门）"
+  },
+  {
+   "a": "wu-chao",
+   "b": "tang-seng",
+   "label": "受经者",
+   "group": "master",
+   "chapter": 20,
+   "inv": "传经者"
+  },
+  {
+   "a": "si-zhi-gong-cao",
+   "b": "wu-kong",
+   "label": "报信与揭谛",
+   "group": "ally",
+   "chapter": 20,
+   "inv": "报信与揭谛"
+  },
+  {
+   "a": "ling-gi",
+   "b": "huang-feng",
+   "label": "飞龙杖定风",
+   "group": "ally",
+   "chapter": 21,
+   "inv": "飞龙杖定风"
+  },
+  {
+   "a": "ling-gi",
+   "b": "wu-kong",
+   "label": "所助者",
+   "group": "friend",
+   "chapter": 21,
+   "inv": "奉旨相助者"
+  },
+  {
+   "a": "wu-kong",
+   "b": "huang-feng",
+   "label": "吹瞎火眼",
+   "group": "rival",
+   "chapter": 21,
+   "inv": "吹瞎火眼"
+  },
+  {
+   "a": "tang-seng",
+   "b": "sha-seng",
+   "label": "弟子",
+   "group": "master",
+   "chapter": 22,
+   "inv": "师父"
+  },
+  {
+   "a": "ba-jie",
+   "b": "sha-seng",
+   "label": "兄",
+   "group": "friend",
+   "chapter": 22,
+   "inv": "弟（同门）"
+  },
+  {
+   "a": "wu-kong",
+   "b": "sha-seng",
+   "label": "兄",
+   "group": "friend",
+   "chapter": 22,
+   "inv": "弟（同门）"
+  },
+  {
+   "a": "wu-kong",
+   "b": "zhen-yuan",
+   "label": "结拜（医树之后）",
+   "group": "friend",
+   "chapter": 26,
+   "inv": "结拜（医树之后）"
+  },
+  {
+   "a": "wu-kong",
+   "b": "bai-gu",
+   "label": "三打尸魔",
+   "group": "rival",
+   "chapter": 27,
+   "inv": "三打尸魔"
+  },
+  {
+   "a": "tang-seng",
+   "b": "bai-gu",
+   "label": "肉眼不识·逐悟空",
+   "group": "rival",
+   "chapter": 27,
+   "inv": "肉眼不识·逐悟空"
+  },
+  {
+   "a": "tang-seng",
+   "b": "huang-pao",
+   "label": "被变黑虎",
+   "group": "rival",
+   "chapter": 30,
+   "inv": "被变黑虎"
+  },
+  {
+   "a": "wu-kong",
+   "b": "huang-pao",
+   "label": "变虎囚师",
+   "group": "rival",
+   "chapter": 31,
+   "inv": "变虎囚师"
+  },
+  {
+   "a": "jin-jiao",
+   "b": "yin-jiao",
+   "label": "兄弟同下界",
+   "group": "serve",
+   "chapter": 32,
+   "inv": "兄弟同下界"
+  },
+  {
+   "a": "jin-jiao",
+   "b": "hu-a-zhang",
+   "label": "娘舅",
+   "group": "kin",
+   "chapter": 34,
+   "inv": "娘舅"
+  },
+  {
+   "a": "yin-jiao",
+   "b": "hu-a-zhang",
+   "label": "娘舅",
+   "group": "kin",
+   "chapter": 34,
+   "inv": "娘舅"
+  },
+  {
+   "a": "tai-shang",
+   "b": "jin-jiao",
+   "label": "主",
+   "group": "serve",
+   "chapter": 34,
+   "inv": "烧火童子"
+  },
+  {
+   "a": "tai-shang",
+   "b": "yin-jiao",
+   "label": "主",
+   "group": "serve",
+   "chapter": 34,
+   "inv": "烧火童子"
+  },
+  {
+   "a": "jin-jiao",
+   "b": "jing-xi-gui",
+   "label": "遣其装人",
+   "group": "serve",
+   "chapter": 34,
+   "inv": "遣其装人"
+  },
+  {
+   "a": "yin-jiao",
+   "b": "jing-xi-gui",
+   "label": "遣其装人",
+   "group": "serve",
+   "chapter": 34,
+   "inv": "遣其装人"
+  },
+  {
+   "a": "jin-jiao",
+   "b": "ba-shan-hu",
+   "label": "传帖小妖",
+   "group": "serve",
+   "chapter": 34,
+   "inv": "传帖小妖"
+  },
+  {
+   "a": "wu-kong",
+   "b": "yin-jiao",
+   "label": "假名戏斗",
+   "group": "rival",
+   "chapter": 34,
+   "inv": "假名戏斗"
+  },
+  {
+   "a": "wu-kong",
+   "b": "jing-xi-gui",
+   "label": "骗走葫芦",
+   "group": "rival",
+   "chapter": 34,
+   "inv": "骗走葫芦"
+  },
+  {
+   "a": "wu-kong",
+   "b": "ba-shan-hu",
+   "label": "冒名赴宴",
+   "group": "rival",
+   "chapter": 34,
+   "inv": "冒名赴宴"
+  },
+  {
+   "a": "wu-kong",
+   "b": "jin-jiao",
+   "label": "葫芦装人",
+   "group": "rival",
+   "chapter": 35,
+   "inv": "葫芦装人"
+  },
+  {
+   "a": "wu-ji-guo-wang",
+   "b": "hu-li",
+   "label": "假王占国",
+   "group": "rival",
+   "chapter": 37,
+   "inv": "假王占国"
+  },
+  {
+   "a": "tang-seng",
+   "b": "wu-ji-guo-wang",
+   "label": "托梦辨冤",
+   "group": "rival",
+   "chapter": 38,
+   "inv": "托梦辨冤"
+  },
+  {
+   "a": "jia-wu-ji-guo-wang",
+   "b": "wu-ji-guo-wang",
+   "label": "占国三年",
+   "group": "rival",
+   "chapter": 38,
+   "inv": "占国三年"
+  },
+  {
+   "a": "wen-shu",
+   "b": "hu-li",
+   "label": "主",
+   "group": "serve",
+   "chapter": 39,
+   "inv": "坐骑下界"
+  },
+  {
+   "a": "jia-wu-ji-guo-wang",
+   "b": "wen-shu",
+   "label": "坐骑所变",
+   "group": "serve",
+   "chapter": 39,
+   "inv": "坐骑所变"
+  },
+  {
+   "a": "wu-ji-guo-wang",
+   "b": "wen-shu",
+   "label": "浸井三年",
+   "group": "rival",
+   "chapter": 39,
+   "inv": "浸井三年"
+  },
+  {
+   "a": "wu-kong",
+   "b": "jia-wu-ji-guo-wang",
+   "label": "伏假王",
+   "group": "rival",
+   "chapter": 39,
+   "inv": "伏假王"
+  },
+  {
+   "a": "niu-mo",
+   "b": "hong-hai",
+   "label": "父",
+   "group": "kin",
+   "chapter": 40,
+   "inv": "子"
+  },
+  {
+   "a": "tie-shan",
+   "b": "hong-hai",
+   "label": "母",
+   "group": "kin",
+   "chapter": 41,
+   "inv": "子"
+  },
+  {
+   "a": "wu-kong",
+   "b": "hong-hai",
+   "label": "火困悟空",
+   "group": "rival",
+   "chapter": 41,
+   "inv": "火困悟空"
+  },
+  {
+   "a": "guan-yin",
+   "b": "hong-hai",
+   "label": "弟子·善财童子",
+   "group": "master",
+   "chapter": 42,
+   "inv": "收我为徒者"
+  },
+  {
+   "a": "guan-yin",
+   "b": "hong-hai",
+   "label": "天罡刀收",
+   "group": "rival",
+   "chapter": 42,
+   "inv": "天罡刀收"
+  },
+  {
+   "a": "xiao-tuo-long",
+   "b": "wu-kong",
+   "label": "摄师",
+   "group": "rival",
+   "chapter": 43,
+   "inv": "摄师"
+  },
+  {
+   "a": "wu-kong",
+   "b": "hu-li",
+   "label": "求雨·砍头·油锅",
+   "group": "rival",
+   "chapter": 46,
+   "inv": "求雨·砍头·油锅"
+  },
+  {
+   "a": "guan-yin",
+   "b": "ling-gan",
+   "label": "主",
+   "group": "serve",
+   "chapter": 49,
+   "inv": "池中金鱼"
+  },
+  {
+   "a": "wu-kong",
+   "b": "ling-gan",
+   "label": "冰冻沉河",
+   "group": "rival",
+   "chapter": 49,
+   "inv": "冰冻沉河"
+  },
+  {
+   "a": "tai-shang",
+   "b": "qing-niu",
+   "label": "主",
+   "group": "serve",
+   "chapter": 50,
+   "inv": "坐骑（偷琢下界）"
+  },
+  {
+   "a": "wu-kong",
+   "b": "na-zha",
+   "label": "并肩降妖",
+   "group": "friend",
+   "chapter": 52,
+   "inv": "并肩降妖"
+  },
+  {
+   "a": "wu-kong",
+   "b": "qing-niu",
+   "label": "套尽神兵",
+   "group": "rival",
+   "chapter": 52,
+   "inv": "套尽神兵"
+  },
+  {
+   "a": "tai-shang",
+   "b": "qing-niu",
+   "label": "芭蕉扇现形",
+   "group": "rival",
+   "chapter": 52,
+   "inv": "芭蕉扇现形"
+  },
+  {
+   "a": "hong-hai",
+   "b": "ru-yi-zhen-xian",
+   "label": "叔侄",
+   "group": "kin",
+   "chapter": 54,
+   "inv": "叔侄"
+  },
+  {
+   "a": "ru-yi-zhen-xian",
+   "b": "ba-jie",
+   "label": "拦路夺泉",
+   "group": "rival",
+   "chapter": 54,
+   "inv": "拦路夺泉"
+  },
+  {
+   "a": "yu-di",
+   "b": "mao-ri",
+   "label": "君",
+   "group": "serve",
+   "chapter": 55,
+   "inv": "臣（星官）"
+  },
+  {
+   "a": "mao-ri",
+   "b": "xie-zi",
+   "label": "长鸣制蝎",
+   "group": "ally",
+   "chapter": 55,
+   "inv": "长鸣制蝎"
+  },
+  {
+   "a": "wu-kong",
+   "b": "xie-zi",
+   "label": "毒桩蛰佛",
+   "group": "rival",
+   "chapter": 55,
+   "inv": "毒桩蛰佛"
+  },
+  {
+   "a": "wu-kong",
+   "b": "liu-er",
+   "label": "二心之争",
+   "group": "rival",
+   "chapter": 58,
+   "inv": "二心之争"
+  },
+  {
+   "a": "niu-mo",
+   "b": "tie-shan",
+   "label": "夫",
+   "group": "kin",
+   "chapter": 59,
+   "inv": "妻"
+  },
+  {
+   "a": "niu-mo",
+   "b": "yu-mian-gong-zhu",
+   "label": "夫（招赘摩云洞）",
+   "group": "kin",
+   "chapter": 60,
+   "inv": "妻"
+  },
+  {
+   "a": "wu-kong",
+   "b": "tie-shan",
+   "label": "扇熄火焰山",
+   "group": "rival",
+   "chapter": 60,
+   "inv": "扇熄火焰山"
+  },
+  {
+   "a": "wu-kong",
+   "b": "niu-mo",
+   "label": "三借芭蕉扇",
+   "group": "rival",
+   "chapter": 61,
+   "inv": "三借芭蕉扇"
+  },
+  {
+   "a": "ba-jie",
+   "b": "yu-mian-gong-zhu",
+   "label": "打死",
+   "group": "rival",
+   "chapter": 61,
+   "inv": "打死"
+  },
+  {
+   "a": "jie-sai-guo-wang",
+   "b": "jiu-tou-chong",
+   "label": "塔失舍利·僧受屈",
+   "group": "rival",
+   "chapter": 62,
+   "inv": "塔失舍利·僧受屈"
+  },
+  {
+   "a": "wu-kong",
+   "b": "ben-bo-er-ba",
+   "label": "拿下供出驸马",
+   "group": "rival",
+   "chapter": 62,
+   "inv": "拿下供出驸马"
+  },
+  {
+   "a": "jiu-tou-chong",
+   "b": "ben-bo-er-ba",
+   "label": "水府部从",
+   "group": "serve",
+   "chapter": 63,
+   "inv": "水府部从"
+  },
+  {
+   "a": "wu-kong",
+   "b": "er-lang",
+   "label": "不打不相识（合力擒九头虫）",
+   "group": "friend",
+   "chapter": 63,
+   "inv": "不打不相识（合力擒九头虫）"
+  },
+  {
+   "a": "wu-kong",
+   "b": "jiu-tou-chong",
+   "label": "盗塔顶舍利",
+   "group": "rival",
+   "chapter": 63,
+   "inv": "盗塔顶舍利"
+  },
+  {
+   "a": "er-lang",
+   "b": "jiu-tou-chong",
+   "label": "细犬咬其一首",
+   "group": "rival",
+   "chapter": 63,
+   "inv": "细犬咬其一首"
+  },
+  {
+   "a": "xing-xian",
+   "b": "tang-seng",
+   "label": "月下欲配",
+   "group": "rival",
+   "chapter": 64,
+   "inv": "月下欲配"
+  },
+  {
+   "a": "sha-seng",
+   "b": "xing-xian",
+   "label": "一耙拱倒本相",
+   "group": "rival",
+   "chapter": 64,
+   "inv": "一耙拱倒本相"
+  },
+  {
+   "a": "chi-jiao-da-xian",
+   "b": "huang-mei",
+   "label": "被哄赴假会",
+   "group": "rival",
+   "chapter": 65,
+   "inv": "被哄赴假会"
+  },
+  {
+   "a": "mi-le",
+   "b": "huang-mei",
+   "label": "主",
+   "group": "serve",
+   "chapter": 66,
+   "inv": "看钞童子"
+  },
+  {
+   "a": "wu-kong",
+   "b": "huang-mei",
+   "label": "假雷音·人种袋",
+   "group": "rival",
+   "chapter": 66,
+   "inv": "假雷音·人种袋"
+  },
+  {
+   "a": "mi-le",
+   "b": "huang-mei",
+   "label": "设计收童子",
+   "group": "rival",
+   "chapter": 66,
+   "inv": "设计收童子"
+  },
+  {
+   "a": "mang-she-jing",
+   "b": "wu-kong",
+   "label": "剖腹而出",
+   "group": "rival",
+   "chapter": 67,
+   "inv": "剖腹而出"
+  },
+  {
+   "a": "mang-she-jing",
+   "b": "ba-jie",
+   "label": "同战于驼罗庄",
+   "group": "rival",
+   "chapter": 67,
+   "inv": "同战于驼罗庄"
+  },
+  {
+   "a": "zhu-zhi-guo-wang",
+   "b": "sai-tai-sui",
+   "label": "夺后之仇",
+   "group": "kin",
+   "chapter": 70,
+   "inv": "夺后之仇"
+  },
+  {
+   "a": "zhu-zhi-guo-wang",
+   "b": "jin-sheng-gong",
+   "label": "夫妻",
+   "group": "kin",
+   "chapter": 70,
+   "inv": "配偶"
+  },
+  {
+   "a": "sai-tai-sui",
+   "b": "you-lai-you-qu",
+   "label": "心腹牌印",
+   "group": "serve",
+   "chapter": 70,
+   "inv": "心腹牌印"
+  },
+  {
+   "a": "zhu-zhi-guo-wang",
+   "b": "sai-tai-sui",
+   "label": "失后成疾",
+   "group": "rival",
+   "chapter": 70,
+   "inv": "失后成疾"
+  },
+  {
+   "a": "wu-kong",
+   "b": "you-lai-you-qu",
+   "label": "打死冒名",
+   "group": "rival",
+   "chapter": 70,
+   "inv": "打死冒名"
+  },
+  {
+   "a": "sai-tai-sui",
+   "b": "jin-sheng-gong",
+   "label": "摄去三载",
+   "group": "rival",
+   "chapter": 70,
+   "inv": "摄去三载"
+  },
+  {
+   "a": "guan-yin",
+   "b": "sai-tai-sui",
+   "label": "主",
+   "group": "serve",
+   "chapter": 71,
+   "inv": "座下金毛犼"
+  },
+  {
+   "a": "wu-kong",
+   "b": "sai-tai-sui",
+   "label": "摄后三载",
+   "group": "rival",
+   "chapter": 71,
+   "inv": "摄后三载"
+  },
+  {
+   "a": "wu-kong",
+   "b": "zhi-zhu",
+   "label": "吐丝结罩",
+   "group": "rival",
+   "chapter": 72,
+   "inv": "吐丝结罩"
+  },
+  {
+   "a": "bi-lan-po",
+   "b": "mao-ri",
+   "label": "母",
+   "group": "master",
+   "chapter": 73,
+   "inv": "子"
+  },
+  {
+   "a": "bi-lan-po",
+   "b": "wu-gong",
+   "label": "金针破金光",
+   "group": "ally",
+   "chapter": 73,
+   "inv": "金针破金光"
+  },
+  {
+   "a": "wu-kong",
+   "b": "bi-lan-po",
+   "label": "请兵降蜈蚣",
+   "group": "friend",
+   "chapter": 73,
+   "inv": "请兵降蜈蚣"
+  },
+  {
+   "a": "wu-kong",
+   "b": "wu-gong",
+   "label": "金光罩困",
+   "group": "rival",
+   "chapter": 73,
+   "inv": "金光罩困"
+  },
+  {
+   "a": "wen-shu",
+   "b": "qing-shi",
+   "label": "主",
+   "group": "serve",
+   "chapter": 74,
+   "inv": "坐骑下界"
+  },
+  {
+   "a": "pu-xian",
+   "b": "bai-xiang",
+   "label": "主",
+   "group": "serve",
+   "chapter": 74,
+   "inv": "坐骑下界"
+  },
+  {
+   "a": "qing-shi",
+   "b": "bai-xiang",
+   "label": "结义兄弟",
+   "group": "friend",
+   "chapter": 74,
+   "inv": "结义兄弟"
+  },
+  {
+   "a": "bai-xiang",
+   "b": "da-peng",
+   "label": "结义兄弟",
+   "group": "friend",
+   "chapter": 74,
+   "inv": "结义兄弟"
+  },
+  {
+   "a": "qing-shi",
+   "b": "da-peng",
+   "label": "结义兄弟",
+   "group": "friend",
+   "chapter": 74,
+   "inv": "结义兄弟"
+  },
+  {
+   "a": "wu-kong",
+   "b": "qing-shi",
+   "label": "吞十万兵",
+   "group": "rival",
+   "chapter": 75,
+   "inv": "吞十万兵"
+  },
+  {
+   "a": "wu-kong",
+   "b": "bai-xiang",
+   "label": "长鼻卷人",
+   "group": "rival",
+   "chapter": 75,
+   "inv": "长鼻卷人"
+  },
+  {
+   "a": "ru-lai",
+   "b": "da-peng",
+   "label": "舅",
+   "group": "serve",
+   "chapter": 77,
+   "inv": "甥"
+  },
+  {
+   "a": "wu-kong",
+   "b": "da-peng",
+   "label": "阴阳二气瓶",
+   "group": "rival",
+   "chapter": 77,
+   "inv": "阴阳二气瓶"
+  },
+  {
+   "a": "ru-lai",
+   "b": "da-peng",
+   "label": "亲往收之",
+   "group": "rival",
+   "chapter": 77,
+   "inv": "亲往收之"
+  },
+  {
+   "a": "tang-seng",
+   "b": "bi-qiu-guo-wang",
+   "label": "救小儿心肝",
+   "group": "rival",
+   "chapter": 78,
+   "inv": "救小儿心肝"
+  },
+  {
+   "a": "nan-ji",
+   "b": "bi-qiu-guo-wang",
+   "label": "被惑之君",
+   "group": "serve",
+   "chapter": 79,
+   "inv": "白鹿之主"
+  },
+  {
+   "a": "nan-ji",
+   "b": "bi-qiu-guo-wang",
+   "label": "收鹿救小儿",
+   "group": "rival",
+   "chapter": 79,
+   "inv": "收鹿救小儿"
+  },
+  {
+   "a": "wu-kong",
+   "b": "lao-shu",
+   "label": "逼婚成亲",
+   "group": "rival",
+   "chapter": 82,
+   "inv": "逼婚成亲"
+  },
+  {
+   "a": "na-zha",
+   "b": "lao-shu",
+   "label": "兄（曾赦其命）",
+   "group": "serve",
+   "chapter": 83,
+   "inv": "义妹"
+  },
+  {
+   "a": "tuo-ta",
+   "b": "lao-shu",
+   "label": "父（曾赦其命）",
+   "group": "serve",
+   "chapter": 83,
+   "inv": "义女"
+  },
+  {
+   "a": "na-zha",
+   "b": "lao-shu",
+   "label": "照妖现形·牵降",
+   "group": "rival",
+   "chapter": 83,
+   "inv": "照妖现形·牵降"
+  },
+  {
+   "a": "tang-seng",
+   "b": "mie-fa-guo-wang",
+   "label": "一夜剃满城",
+   "group": "rival",
+   "chapter": 85,
+   "inv": "一夜剃满城"
+  },
+  {
+   "a": "nan-shan-da-wang",
+   "b": "tang-seng",
+   "label": "分瓣梅花计摄之",
+   "group": "rival",
+   "chapter": 86,
+   "inv": "分瓣梅花计摄之"
+  },
+  {
+   "a": "nan-shan-da-wang",
+   "b": "wu-kong",
+   "label": "计困三徒",
+   "group": "rival",
+   "chapter": 86,
+   "inv": "计困三徒"
+  },
+  {
+   "a": "tang-seng",
+   "b": "feng-xian-jun-shou",
+   "label": "劝善回天",
+   "group": "ally",
+   "chapter": 87,
+   "inv": "劝善回天"
+  },
+  {
+   "a": "feng-xian-jun-shou",
+   "b": "yu-di",
+   "label": "推倒素供·立三事",
+   "group": "rival",
+   "chapter": 87,
+   "inv": "推倒素供·立三事"
+  },
+  {
+   "a": "yu-hua-zhou-wang",
+   "b": "wu-kong",
+   "label": "拜师传棍",
+   "group": "master",
+   "chapter": 88,
+   "inv": "弟子"
+  },
+  {
+   "a": "yu-hua-zhou-wang",
+   "b": "ba-jie",
+   "label": "拜师传钯",
+   "group": "master",
+   "chapter": 88,
+   "inv": "弟子"
+  },
+  {
+   "a": "yu-hua-zhou-wang",
+   "b": "sha-seng",
+   "label": "拜师传杖",
+   "group": "master",
+   "chapter": 88,
+   "inv": "弟子"
+  },
+  {
+   "a": "jiu-ling",
+   "b": "huang-shi-jing",
+   "label": "师祖与干孙",
+   "group": "kin",
+   "chapter": 89,
+   "inv": "师祖与干孙"
+  },
+  {
+   "a": "wu-kong",
+   "b": "jiu-ling",
+   "label": "衔走师徒",
+   "group": "rival",
+   "chapter": 89,
+   "inv": "衔走师徒"
+  },
+  {
+   "a": "huang-shi-jing",
+   "b": "wu-kong",
+   "label": "夺兵器",
+   "group": "rival",
+   "chapter": 89,
+   "inv": "夺兵器"
+  },
+  {
+   "a": "tai-yi",
+   "b": "jiu-ling",
+   "label": "主",
+   "group": "serve",
+   "chapter": 90,
+   "inv": "坐骑下界"
+  },
+  {
+   "a": "tai-yi",
+   "b": "jiu-ling",
+   "label": "唤狮归洞",
+   "group": "rival",
+   "chapter": 90,
+   "inv": "唤狮归洞"
+  },
+  {
+   "a": "yu-di",
+   "b": "si-mu-xing",
+   "label": "君",
+   "group": "serve",
+   "chapter": 92,
+   "inv": "臣（星官）"
+  },
+  {
+   "a": "si-mu-xing",
+   "b": "xi-niu",
+   "label": "木克土收三犀",
+   "group": "ally",
+   "chapter": 92,
+   "inv": "木克土收三犀"
+  },
+  {
+   "a": "wu-kong",
+   "b": "xi-niu",
+   "label": "假佛偷油",
+   "group": "rival",
+   "chapter": 92,
+   "inv": "假佛偷油"
+  },
+  {
+   "a": "tian-zhu-gong-zhu",
+   "b": "yu-tu",
+   "label": "真假一身",
+   "group": "kin",
+   "chapter": 93,
+   "inv": "真假一身"
+  },
+  {
+   "a": "tian-zhu-guo-wang",
+   "b": "tian-zhu-gong-zhu",
+   "label": "父",
+   "group": "kin",
+   "chapter": 93,
+   "inv": "子"
+  },
+  {
+   "a": "tian-zhu-gong-zhu",
+   "b": "yu-tu",
+   "label": "被摄十三年",
+   "group": "rival",
+   "chapter": 93,
+   "inv": "被摄十三年"
+  },
+  {
+   "a": "wu-kong",
+   "b": "yu-tu",
+   "label": "抛球招亲",
+   "group": "rival",
+   "chapter": 94,
+   "inv": "抛球招亲"
+  },
+  {
+   "a": "tian-zhu-guo-wang",
+   "b": "yu-tu",
+   "label": "假女乱真",
+   "group": "rival",
+   "chapter": 94,
+   "inv": "假女乱真"
+  },
+  {
+   "a": "niu-mo",
+   "b": "yu-tu",
+   "label": "旧亲（假公主欲招为婿）",
+   "group": "friend",
+   "chapter": 95,
+   "inv": "旧亲（假公主欲招为婿）"
+  },
+  {
+   "a": "kou-hong",
+   "b": "kou-liang",
+   "label": "父子",
+   "group": "kin",
+   "chapter": 97,
+   "inv": "子"
+  },
+  {
+   "a": "tang-seng",
+   "b": "kou-hong",
+   "label": "斋僧留宿之缘",
+   "group": "friend",
+   "chapter": 97,
+   "inv": "斋僧留宿之缘"
+  },
+  {
+   "a": "kou-hong",
+   "b": "liu-hong",
+   "label": "强盗诬僧",
+   "group": "rival",
+   "chapter": 97,
+   "inv": "强盗诬僧"
+  },
+  {
+   "a": "kou-liang",
+   "b": "tang-seng",
+   "label": "诬僧送官",
+   "group": "rival",
+   "chapter": 97,
+   "inv": "诬僧送官"
+  },
+  {
+   "a": "e-nuo",
+   "b": "ru-lai",
+   "label": "奉命传经",
+   "group": "master",
+   "chapter": 98,
+   "inv": "奉命传经"
+  },
+  {
+   "a": "tang-seng",
+   "b": "ru-lai",
+   "label": "师",
+   "group": "master",
+   "chapter": 98,
+   "inv": "归依之佛"
+  },
+  {
+   "a": "ru-lai",
+   "b": "wu-bai-luo-han",
+   "label": "座下罗汉",
+   "group": "serve",
+   "chapter": 98,
+   "inv": "座下罗汉"
+  },
+  {
+   "a": "ran-deng",
+   "b": "jin-ding-da-xian",
+   "label": "命其换经",
+   "group": "ally",
+   "chapter": 98,
+   "inv": "命其换经"
+  },
+  {
+   "a": "jin-ding-da-xian",
+   "b": "tang-seng",
+   "label": "山门接引",
+   "group": "ally",
+   "chapter": 98,
+   "inv": "山门接引"
+  },
+  {
+   "a": "wu-kong",
+   "b": "e-nuo",
+   "label": "索「人事」之辱",
+   "group": "rival",
+   "chapter": 98,
+   "inv": "索「人事」之辱"
+  },
+  {
+   "a": "ran-deng",
+   "b": "e-nuo",
+   "label": "纠错无字经",
+   "group": "rival",
+   "chapter": 98,
+   "inv": "纠错无字经"
+  },
+  {
+   "a": "ru-lai",
+   "b": "ba-da-jin-gang",
+   "label": "奉命送归",
+   "group": "serve",
+   "chapter": 99,
+   "inv": "奉命送归"
+  },
+  {
+   "a": "ba-da-jin-gang",
+   "b": "tang-seng",
+   "label": "送归东土",
+   "group": "ally",
+   "chapter": 99,
+   "inv": "送归东土"
+  }
+ ],
+ "places": [
+  {
+   "id": "huaguo-shan",
+   "name": "花果山",
+   "kind": "mountain",
+   "chapter": 1,
+   "leg": 0,
+   "summary": "海外仙山，石猴出世与水帘洞称王处；悟空的「家」，取经成功后回山终老。"
+  },
+  {
+   "id": "shuiliang-dong",
+   "name": "水帘洞",
+   "kind": "cave",
+   "chapter": 1,
+   "leg": 0,
+   "summary": "花果山瀑布内的石房，群猴立美猴王之处；第3回被混世魔王暂占。",
+   "owner": "wu-kong"
+  },
+  {
+   "id": "fangcun-shan",
+   "name": "灵台方寸山",
+   "kind": "mountain",
+   "chapter": 2,
+   "leg": 0,
+   "summary": "须菩提祖师道场，斜月三星洞在焉。地名即禅机：灵台、方寸、斜月三星，三处都指一个「心」。"
+  },
+  {
+   "id": "long-gong",
+   "name": "龙宫",
+   "kind": "river",
+   "chapter": 3,
+   "leg": 0,
+   "summary": "东海敖广处，悟空取走定海神针（如意金箍棒）与披挂。",
+   "owner": "wu-kong"
+  },
+  {
+   "id": "wuxing-shan",
+   "name": "五行山",
+   "kind": "mountain",
+   "chapter": 7,
+   "leg": 0,
+   "summary": "如来五指所化，压悟空五百年；第14回唐僧揭帖，山名改「两界山」——大唐与西域的分界。",
+   "renamed": "两界山"
+  },
+  {
+   "id": "changan",
+   "name": "长安",
+   "kind": "city",
+   "chapter": 13,
+   "leg": 1,
+   "summary": "取经起点：唐王驾送，玄奘出城；也是全书「人间秩序」的坐标原点。",
+   "owner": "tang-tai-zong"
+  },
+  {
+   "id": "shuangcha-ling",
+   "name": "双叉岭",
+   "kind": "mountain",
+   "chapter": 13,
+   "leg": 1,
+   "summary": "出城第一难：从者与二从被虎、蛇、长虫所食，太白金星救之。凡人与妖魔的第一次接触。",
+   "owner": "tai-bai"
+  },
+  {
+   "id": "liangjie-shan",
+   "name": "两界山",
+   "kind": "mountain",
+   "chapter": 14,
+   "leg": 1,
+   "summary": "即五行山；唐僧收悟空，「心猿归正」。",
+   "owner": "wu-kong"
+  },
+  {
+   "id": "yingchou-jian",
+   "name": "鹰愁涧",
+   "kind": "river",
+   "chapter": 15,
+   "leg": 1,
+   "summary": "蛇盘山诸神暗佑，鹰愁涧意马收缰：龙吞马，观音来，白马成。",
+   "owner": "bai-long-ma"
+  },
+  {
+   "id": "guanyin-chan-yuan",
+   "name": "观音禅院",
+   "kind": "temple",
+   "chapter": 16,
+   "leg": 2,
+   "summary": "唐僧悟空投宿处，老僧贪锦襕袈裟而纵火；近邻即黑风山黑风院。",
+   "owner": "hei-xiong"
+  },
+  {
+   "id": "hei-feng-shan",
+   "name": "黑风山",
+   "kind": "mountain",
+   "chapter": 17,
+   "leg": 2,
+   "summary": "观音禅院旧院火灾，近邻黑风院熊罴趁火盗走锦襕袈裟；后被收为落伽山守山大神。",
+   "owner": "hei-xiong"
+  },
+  {
+   "id": "gaolao-zhuang",
+   "name": "高老庄",
+   "kind": "villa",
+   "chapter": 19,
+   "leg": 2,
+   "summary": "高太公三女被猪妖强占；悟空降之，收悟能。",
+   "owner": "ba-jie"
+  },
+  {
+   "id": "futuo-shan",
+   "name": "浮屠山",
+   "kind": "mountain",
+   "chapter": 20,
+   "leg": 2,
+   "summary": "乌巢禅师传《摩诃般若波罗蜜多心经》五十四字——全书唯一一次「经」的直接传授。",
+   "owner": "wu-chao"
+  },
+  {
+   "id": "huangfeng-ling",
+   "name": "黄风岭",
+   "kind": "ridge",
+   "chapter": 21,
+   "leg": 2,
+   "summary": "黄风怪三吹飞沙，悟空火眼金睛被弄瞎；灵吉菩萨以定风丹、飞龙杖收之。",
+   "owner": "huang-feng"
+  },
+  {
+   "id": "liusha-he",
+   "name": "流沙河",
+   "kind": "river",
+   "chapter": 22,
+   "leg": 2,
+   "summary": "八百流沙界，三千弱水深；沙僧吃人九次，以九骷髅结法船渡唐僧。",
+   "owner": "sha-seng"
+  },
+  {
+   "id": "wuzhuang-guan",
+   "name": "五庄观",
+   "kind": "temple",
+   "chapter": 24,
+   "leg": 3,
+   "summary": "镇元大仙道场，人参果一树三千；悟空偷果推树，观音甘露医树方了。",
+   "owner": "zhen-yuan"
+  },
+  {
+   "id": "baihu-ling",
+   "name": "白虎岭",
+   "kind": "mountain",
+   "chapter": 27,
+   "leg": 3,
+   "summary": "三打白骨精：尸魔三变，唐僧逐悟空。取经团队第一次内部破裂。",
+   "owner": "bai-gu"
+  },
+  {
+   "id": "baoxiang-guo",
+   "name": "宝象国",
+   "kind": "city",
+   "chapter": 31,
+   "leg": 3,
+   "summary": "黄袍怪把唐僧变黑虎，白龙马化人救师；八戒请回悟空。",
+   "owner": "huang-pao"
+  },
+  {
+   "id": "pingdingshan",
+   "name": "平顶山",
+   "kind": "mountain",
+   "chapter": 35,
+   "leg": 3,
+   "summary": "莲花洞金角银角，五件宝贝；「我叫你一声你敢答应吗」的假名之戏。",
+   "owner": "jin-jiao"
+  },
+  {
+   "id": "wuji-guo",
+   "name": "乌鸡国",
+   "kind": "city",
+   "chapter": 39,
+   "leg": 3,
+   "summary": "国王被推入御井浸三年，假王篡位；鬼魂托梦，悟空伏假，文殊收青狮。",
+   "owner": "wu-ji-guo-wang"
+  },
+  {
+   "id": "haoshan",
+   "name": "号山",
+   "kind": "mountain",
+   "chapter": 42,
+   "leg": 3,
+   "summary": "火云洞红孩儿，三昧真火几乎烧死悟空；观音以天罡刀、金箍收为善财童子。",
+   "owner": "hong-hai"
+  },
+  {
+   "id": "heishui-he",
+   "name": "黑水河",
+   "kind": "river",
+   "chapter": 43,
+   "leg": 3,
+   "summary": "西海龙王外甥小鼍龙摄唐僧；摩昂太子奉父命收之。"
+  },
+  {
+   "id": "chechi-guo",
+   "name": "车迟国",
+   "kind": "city",
+   "chapter": 46,
+   "leg": 3,
+   "summary": "三国师崇道灭僧；求雨、坐禅、砍头、剖腹、下油锅五场斗法，妖尽死。",
+   "owner": "hu-li"
+  },
+  {
+   "id": "tongtian-he",
+   "name": "通天河",
+   "kind": "river",
+   "chapter": 49,
+   "leg": 4,
+   "summary": "陈家庄年年献童男童女；观音未梳装即来，以鱼篮收金鱼。第100回东返又在此遇老鼋落水。",
+   "owner": "ling-gan"
+  },
+  {
+   "id": "jindou-shan",
+   "name": "金兜山",
+   "kind": "mountain",
+   "chapter": 52,
+   "leg": 4,
+   "summary": "金兜洞独角兕大王，青牛持金刚琢，套尽天上神兵与江河之水；老君芭蕉扇收之。",
+   "owner": "qing-niu"
+  },
+  {
+   "id": "zimu-he",
+   "name": "子母河",
+   "kind": "river",
+   "chapter": 53,
+   "leg": 4,
+   "summary": "喝水即孕；解阳山破儿亭落胎泉被如意真仙霸占。全书最「身体性」的一难。"
+  },
+  {
+   "id": "xieyang-shan",
+   "name": "解阳山",
+   "kind": "mountain",
+   "chapter": 54,
+   "leg": 4,
+   "summary": "破儿亭落胎泉所在，被如意真仙霸占；八戒沙僧取水不得。",
+   "owner": "ru-yi-zhen-xian"
+  },
+  {
+   "id": "dudi-shan",
+   "name": "毒敌山",
+   "kind": "mountain",
+   "chapter": 55,
+   "leg": 4,
+   "summary": "琵琶洞蝎子精，倒马毒桩连如来也蛰；昴日星官长鸣，蝎仆洞前。",
+   "owner": "xie-zi"
+  },
+  {
+   "id": "zhenkong-si",
+   "name": "镇国寺",
+   "kind": "temple",
+   "chapter": 57,
+   "leg": 4,
+   "summary": "真假美猴王起处：悟空打死强盗被逐，六耳猕猴趁机假冒。",
+   "owner": "liu-er"
+  },
+  {
+   "id": "jilei-shan",
+   "name": "积雷山",
+   "kind": "cave",
+   "chapter": 60,
+   "leg": 4,
+   "summary": "摩云洞玉面公主处，牛魔王招赘之所；芭蕉扇一案的第二战场。",
+   "owner": "yu-mian-gong-zhu"
+  },
+  {
+   "id": "huoyan-shan",
+   "name": "火焰山",
+   "kind": "mountain",
+   "chapter": 61,
+   "leg": 4,
+   "summary": "八百里火焰，无芭蕉扇不能过；三借扇、钻腹、现原形，牛魔王被哪吒牵降。",
+   "owner": "tie-shan"
+  },
+  {
+   "id": "jiesai-guo",
+   "name": "祭赛国",
+   "kind": "city",
+   "chapter": 63,
+   "leg": 5,
+   "summary": "金光寺塔顶舍利被乱石山碧波潭万圣驸马所窃；悟空扫塔辨冤，二郎神助擒九头虫。",
+   "owner": "jie-sai-guo-wang"
+  },
+  {
+   "id": "jingji-ling",
+   "name": "荆棘岭",
+   "kind": "mountain",
+   "chapter": 64,
+   "leg": 5,
+   "summary": "木仙庵十八公、孤直公等树精与唐僧谈诗——全书唯一「不动手」的一难。"
+  },
+  {
+   "id": "xiao-leiyin",
+   "name": "小雷音寺",
+   "kind": "temple",
+   "chapter": 65,
+   "leg": 5,
+   "summary": "黄眉假立的「雷音」：金铙与人种袋在此困尽天神与五台山二十八宿。",
+   "owner": "huang-mei"
+  },
+  {
+   "id": "qijue-shan",
+   "name": "七绝山",
+   "kind": "mountain",
+   "chapter": 67,
+   "leg": 5,
+   "summary": "驼罗庄蟒蛇精；八戒变巨猪拱开稀柿衕，为全队开路。"
+  },
+  {
+   "id": "zhuzi-guo",
+   "name": "朱紫国",
+   "kind": "city",
+   "chapter": 71,
+   "leg": 5,
+   "summary": "国王失后成疾，悟空悬丝诊脉、配乌金丹；赛太岁（金毛犼）被观音收。",
+   "owner": "zhu-zhi-guo-wang"
+  },
+  {
+   "id": "pansi-dong",
+   "name": "盘丝洞",
+   "kind": "cave",
+   "chapter": 73,
+   "leg": 5,
+   "summary": "七蜘蛛吐丝结罩，濯垢泉澡洗；黄花观多目怪两胁千眼放金光，毗蓝婆以针收。",
+   "owner": "zhi-zhu"
+  },
+  {
+   "id": "shituo-ling",
+   "name": "狮驼岭",
+   "kind": "ridge",
+   "chapter": 77,
+   "leg": 5,
+   "summary": "三魔八万四千小妖、狮驼国尽吞其民；阴阳二气瓶、三斗三停，如来亲率文殊普贤方了。",
+   "owner": "qing-shi"
+  },
+  {
+   "id": "biqiu-guo",
+   "name": "比丘国",
+   "kind": "city",
+   "chapter": 79,
+   "leg": 6,
+   "summary": "国丈进「小儿心肝」冷热药引；悟空救一千一百一十一个婴儿，寿星收白鹿。",
+   "owner": "bi-qiu-guo-wang"
+  },
+  {
+   "id": "xiangkong-shan",
+   "name": "陷空山",
+   "kind": "cave",
+   "chapter": 83,
+   "leg": 6,
+   "summary": "无底洞金鼻白毛老鼠精逼婚成亲；天王父子照妖现形，悟空请旨拆洞。",
+   "owner": "lao-shu"
+  },
+  {
+   "id": "miefa-guo",
+   "name": "灭法国",
+   "kind": "city",
+   "chapter": 85,
+   "leg": 6,
+   "summary": "愿杀万僧，已杀九千九百九十六；悟空一夜剃满城，国王悔悟改名「兴国」。",
+   "owner": "mie-fa-guo-wang",
+   "renamed": "兴国"
+  },
+  {
+   "id": "yiwu-shan",
+   "name": "隐雾山",
+   "kind": "cave",
+   "chapter": 86,
+   "leg": 6,
+   "summary": "折岳连环洞，南山大王用「分瓣梅花计」分兵摄走唐僧。",
+   "owner": "nan-shan-da-wang"
+  },
+  {
+   "id": "fengxian-jun",
+   "name": "凤仙郡",
+   "kind": "city",
+   "chapter": 87,
+   "leg": 6,
+   "summary": "郡守推倒斋天素供，玉帝立米山、面山、金锁三事；三年大旱，劝善回天才下雨。",
+   "owner": "yu-di"
+  },
+  {
+   "id": "baotou-shan",
+   "name": "豹头山",
+   "kind": "cave",
+   "chapter": 89,
+   "leg": 6,
+   "summary": "虎口洞黄狮精处，摄走玉华州三件兵器，办「钉耙会」。",
+   "owner": "huang-shi-jing"
+  },
+  {
+   "id": "yuhua-zhou",
+   "name": "玉华州",
+   "kind": "city",
+   "chapter": 90,
+   "leg": 6,
+   "summary": "三个小王子拜悟空师徒学棍钯杖；九灵元圣衔走国王父子，太乙收九头狮。",
+   "owner": "jiu-ling"
+  },
+  {
+   "id": "zhuojie-shan",
+   "name": "竹节山",
+   "kind": "cave",
+   "chapter": 90,
+   "leg": 6,
+   "summary": "九曲盘桓洞，九灵元圣师祖与黄狮精干孙同居一处。",
+   "owner": "jiu-ling"
+  },
+  {
+   "id": "jinping-fu",
+   "name": "金平府",
+   "kind": "city",
+   "chapter": 92,
+   "leg": 6,
+   "summary": "元宵观灯，三犀牛精假佛偷酥合香油；四木禽星与悟空、八戒追至西洋布天街收之。",
+   "owner": "xi-niu"
+  },
+  {
+   "id": "tianzhu-guo",
+   "name": "天竺国",
+   "kind": "city",
+   "chapter": 95,
+   "leg": 6,
+   "summary": "布金禅寺闻知公主被摄十三年；绣球招亲是假身，太阴星君收玉兔。",
+   "owner": "yu-tu"
+  },
+  {
+   "id": "tongtai-fu",
+   "name": "铜台府",
+   "kind": "city",
+   "chapter": 97,
+   "leg": 6,
+   "summary": "寇员外斋僧满万，苦留唐僧；送别当夜被强盗所杀，魂告官诬僧——「善」也有一难。",
+   "owner": "kou-hong"
+  },
+  {
+   "id": "lingshan",
+   "name": "灵山",
+   "kind": "temple",
+   "chapter": 98,
+   "leg": 6,
+   "summary": "灵鹫山极乐世界：阿傩迦叶索人事，先传无字，再传五十五部有字真经；师徒五众正果。",
+   "owner": "ru-lai"
+  },
+  {
+   "id": "shaijing-shi",
+   "name": "晒经石",
+   "kind": "river",
+   "chapter": 100,
+   "leg": 6,
+   "summary": "东返再渡通天河，老鼋因未问寿数怒沉经书，经卷沾石遂残缺——结尾把「圆满」自己拆了一角。"
+  },
+  {
+   "id": "tian-ting",
+   "name": "凌霄殿",
+   "kind": "city",
+   "chapter": 3,
+   "leg": 9,
+   "summary": "玉帝统三界之处；招安、调兵、求助如来都在此发生。"
+  },
+  {
+   "id": "you-ming",
+   "name": "幽冥地府",
+   "kind": "city",
+   "chapter": 3,
+   "leg": 9,
+   "summary": "十代阎王之所；悟空勾账、太宗还魂、寇洪诉冤三度发生于此。"
+  },
+  {
+   "id": "doushuai-gong",
+   "name": "兜率宫",
+   "kind": "temple",
+   "chapter": 5,
+   "leg": 9,
+   "summary": "太上老君所居，九转金丹与五件宝贝的库房；悟空偷丹、青牛偷琢都出于此。"
+  },
+  {
+   "id": "luojia-shan",
+   "name": "普陀落伽山",
+   "kind": "temple",
+   "chapter": 8,
+   "leg": 9,
+   "summary": "观音道场；紫竹禅林、净瓶杨柳，取经工程的实际指挥部。",
+   "owner": "guan-yin"
+  },
+  {
+   "id": "bo-bo-tan",
+   "name": "乱石山碧波潭",
+   "kind": "cave",
+   "chapter": 63,
+   "leg": 9,
+   "summary": "万圣龙王与九头驸马的水府，金光寺塔顶舍利藏处。"
+  }
+ ],
+ "events": [
+  {
+   "id": "ev-born",
+   "name": "仙石迸出·水帘洞称王",
+   "chapter": 1,
+   "place": "huaguo-shan",
+   "cast": [
+    "wu-kong"
+   ],
+   "summary": "花果山顶仙石自开，产一石猴；因钻瀑布寻源被众猴立为美猴王。",
+   "note": "「石猴」无父无母，是小说给「心」安排的出身：不入十类之种，超出三界之外。"
+  },
+  {
+   "id": "ev-master",
+   "name": "渡海拜师·得名悟空",
+   "chapter": 2,
+   "place": "fangcun-shan",
+   "cast": [
+    "pu-ti",
+    "wu-kong"
+   ],
+   "summary": "十年扫地挑水，祖师三更传道，授七十二般变化与筋斗云，并赐名「悟空」。",
+   "detail": "祖师见「悟空」二字喜道「今名你姓姓孙，与你起个法名，叫做孙悟空」，门下「悟、圆、觉、普」辈分并列；临别嘱其不可说出师承。"
+  },
+  {
+   "id": "ev-arm",
+   "name": "龙宫得棒·地府除名",
+   "chapter": 3,
+   "place": "long-gong",
+   "cast": [
+    "wu-kong"
+   ],
+   "summary": "索得定海神针为兵器，闯幽冥勾掉猴属死籍。",
+   "note": "两件事构成「不服管」的资本：兵器与寿命。"
+  },
+  {
+   "id": "ev-monarch",
+   "name": "混世魔王占洞",
+   "chapter": 3,
+   "place": "shuiliang-dong",
+   "cast": [
+    "wu-kong",
+    "hun-shi-mo-wang"
+   ],
+   "summary": "悟空学艺归山，见魔王已占水帘洞、抢去猴辈与家火；徒手夺刀剖其首。",
+   "note": "这一战不请救兵、不用宝贝，是小说给「心猿已成」的一次验收。"
+  },
+  {
+   "id": "ev-tian",
+   "name": "两度招安·齐天大圣",
+   "chapter": 4,
+   "place": "tian-ting",
+   "cast": [
+    "wu-kong",
+    "yu-di",
+    "tai-bai",
+    "tuo-ta",
+    "na-zha"
+   ],
+   "summary": "先封弼马温，嫌官小回山；再招安，与天庭七圣结义，自号齐天大圣。",
+   "detail": "太白金星主招安，李天王哪吒征讨失利。结义七圣中牛魔王为兄，这条旧情在第59—61回火焰山一役上翻出账来。"
+  },
+  {
+   "id": "ev-rebel",
+   "name": "闹天宫·炼丹炉·掌中赌",
+   "chapter": 5,
+   "place": "doushuai-gong",
+   "cast": [
+    "wu-kong",
+    "tai-shang",
+    "er-lang",
+    "ru-lai"
+   ],
+   "summary": "偷丹乱蟠桃，败于二郎神与金刚琢，四十九天炼出火眼金睛；如来以手掌赌赛收之。",
+   "note": "老君、二郎、如来三方接力，是小说对「悟空无敌」的一次系统性拆解。"
+  },
+  {
+   "id": "ev-press",
+   "name": "五行山下定心猿",
+   "chapter": 7,
+   "place": "wuxing-shan",
+   "cast": [
+    "ru-lai",
+    "wu-kong"
+   ],
+   "summary": "如来翻掌压悟空于两界之间，贴六字真言帖；五百年后候取经人。",
+   "detail": "第7回回目作「八卦炉中逃大圣 五行山下定心猿」——「心猿」二字即回目原文，是全书把悟空读作「心」最硬的证据。"
+  },
+  {
+   "id": "ev-who-comes",
+   "name": "观音寻取经人",
+   "chapter": 8,
+   "place": "luojia-shan",
+   "cast": [
+    "guan-yin",
+    "ru-lai",
+    "sha-seng",
+    "ba-jie",
+    "bai-long-ma"
+   ],
+   "summary": "如来付金箍三事，观音领旨东上长安，沿途收服沙悟净、猪悟能、小白龙为护持。",
+   "note": "取经团队在唐僧出发前就已组好——「难」是安排好的，这是全书的结构秘密。"
+  },
+  {
+   "id": "ev-tang",
+   "name": "玄奘出身·江流复仇",
+   "chapter": 9,
+   "place": "changan",
+   "cast": [
+    "chen-guang-rui",
+    "yin-wen-jiao",
+    "liu-hong",
+    "tang-seng"
+   ],
+   "summary": "陈光蕊赴任被刘洪害命，殷温娇忍辱十八年，咬指写血书抛子江中；子长成报冤认母。",
+   "note": "世德堂本无此回，通行本以第 9 回附录补入。难簿把「出胎几杀、满月抛江、寻亲报冤」三难全算在取经之前，是「补列」最集中的一处。"
+  },
+  {
+   "id": "ev-hell",
+   "name": "太宗地府还魂",
+   "chapter": 10,
+   "place": "you-ming",
+   "cast": [
+    "tang-tai-zong",
+    "yuan-shoucheng"
+   ],
+   "summary": "泾河龙王索命，太宗魂入阴司；崔判官改注阳寿，还魂后出水陆大会选僧西行。",
+   "note": "取经的人间合法性由此而来：帝王朝旨 + 御弟之名。"
+  },
+  {
+   "id": "ev-start",
+   "name": "双叉岭第一难",
+   "chapter": 13,
+   "place": "shuangcha-ling",
+   "cast": [
+    "tang-seng",
+    "tai-bai",
+    "liu-bo-qin"
+   ],
+   "summary": "两从者与猎户被虎蛇所食，太白金星解厄；刘伯钦护送至两界山。",
+   "detail": "第13回回目「陷虎穴金星解厄 双叉岭伯钦留僧」，难簿却作「出城逢虎」「双叉岭上」两条。"
+  },
+  {
+   "id": "ev-monkey",
+   "name": "心猿归正",
+   "chapter": 14,
+   "place": "liangjie-shan",
+   "cast": [
+    "tang-seng",
+    "wu-kong"
+   ],
+   "summary": "揭帖救悟空，拜师；途中打死六个毛贼（眼看喜、耳听怒…），受金箍。",
+   "detail": "第14回回目「心猿归正 六贼无踪」：六贼即六根，是小说把取经读作修心的第一处明示。"
+  },
+  {
+   "id": "ev-horse",
+   "name": "鹰愁涧换马",
+   "chapter": 15,
+   "place": "yingchou-jian",
+   "cast": [
+    "bai-long-ma",
+    "guan-yin",
+    "wu-kong"
+   ],
+   "summary": "龙吞凡马，观音来降，锯角退鳞化白马。",
+   "note": "回目「鹰愁涧意马收缰」——「意马」与「心猿」配对，白龙马在象征系统里是「意」。"
+  },
+  {
+   "id": "ev-robe",
+   "name": "禅院火·袈裟失",
+   "chapter": 17,
+   "place": "hei-feng-shan",
+   "cast": [
+    "hei-xiong",
+    "wu-kong",
+    "guan-yin",
+    "tang-seng"
+   ],
+   "summary": "老僧贪宝纵火，悟空借避火诀反烧其屋；黑熊盗走锦襕袈裟，观音设计收之。",
+   "note": "难簿分作「夜被火烧」「失却袈裟」两条，实为第16—17回一件事的两面。"
+  },
+  {
+   "id": "ev-pig",
+   "name": "高老庄收八戒",
+   "chapter": 19,
+   "place": "gaolao-zhuang",
+   "cast": [
+    "ba-jie",
+    "gao-tai-gong",
+    "wu-kong"
+   ],
+   "summary": "悟空变高小姐戏婿，现出猪身；悟能随行，法名八戒。",
+   "detail": "第23回回目与诗词以「木母」称八戒，「黄婆」称沙僧，属内丹五行代号。"
+  },
+  {
+   "id": "ev-heart-sutra",
+   "name": "浮屠山授心经",
+   "chapter": 20,
+   "place": "futuo-shan",
+   "cast": [
+    "wu-chao",
+    "tang-seng"
+   ],
+   "summary": "乌巢禅师口授《多心经》五十四字，唐僧一路持诵。",
+   "note": "全书唯一直接「传经」的场面，且传的正是「心」——与「灵台方寸」首尾呼应。"
+  },
+  {
+   "id": "ev-four-holy",
+   "name": "四圣试禅心",
+   "chapter": 23,
+   "place": "liusha-he",
+   "cast": [
+    "ba-jie",
+    "tang-seng",
+    "wu-kong",
+    "sha-seng"
+   ],
+   "summary": "黎山老母等四圣化庄招婿，八戒撞天婚被绷一夜。",
+   "detail": "难簿「木母怀怨」「黄婆匹配」二条即指此回：名目直接用内丹代号。"
+  },
+  {
+   "id": "ev-ginseng",
+   "name": "五庄观人参果",
+   "chapter": 26,
+   "place": "wuzhuang-guan",
+   "cast": [
+    "zhen-yuan",
+    "wu-kong",
+    "ba-jie",
+    "guan-yin"
+   ],
+   "summary": "悟空偷果、推树、逃遁；镇元大仙袖尽师徒，观音以甘露医树，与悟空结拜。",
+   "note": "唯一以「讲和」收场的一难：对手是地仙之祖，不在降妖谱系里。"
+  },
+  {
+   "id": "ev-bone",
+   "name": "三打白骨精",
+   "chapter": 27,
+   "place": "baihu-ling",
+   "cast": [
+    "bai-gu",
+    "wu-kong",
+    "tang-seng"
+   ],
+   "summary": "尸魔三变村姑、老母、老翁，悟空三打；唐僧写贬书逐之。",
+   "detail": "白骨夫人无洞府、无宝贝、无后台，是唯一「全凭自己」的妖；而团队第一次破裂恰恰由这一难造成。"
+  },
+  {
+   "id": "ev-tiger",
+   "name": "宝象国·师变虎",
+   "chapter": 31,
+   "place": "baoxiang-guo",
+   "cast": [
+    "huang-pao",
+    "tang-seng",
+    "ba-jie",
+    "bai-long-ma",
+    "wu-kong"
+   ],
+   "summary": "黄袍怪把唐僧变成黑虎囚于殿，白龙马化人战伤，八戒沙僧请回悟空；奎木狼归班。",
+   "note": "全书唯一一次唐僧被夺「人身」；也是悟空被逐后主动回归的转折。"
+  },
+  {
+   "id": "ev-gourd",
+   "name": "平顶山假名之戏",
+   "chapter": 35,
+   "place": "pingdingshan",
+   "cast": [
+    "jin-jiao",
+    "yin-jiao",
+    "wu-kong",
+    "tai-shang"
+   ],
+   "summary": "紫金红葫芦、羊脂玉净瓶、幌金绳、芭蕉扇、七星剑五件宝贝；悟空以「者行孙」「孙行者」反装。",
+   "detail": "「我叫你一声你敢答应吗」——名字在这里成为可被利用的把柄，与全书「名号即权力」的主题相扣。"
+  },
+  {
+   "id": "ev-wuji",
+   "name": "乌鸡国井中王",
+   "chapter": 39,
+   "place": "wuji-guo",
+   "cast": [
+    "wu-ji-guo-wang",
+    "wen-shu",
+    "wu-kong"
+   ],
+   "summary": "国王被推入御井浸三年，鬼魂托梦；悟空伏假王，文殊收青狮。",
+   "note": "第36—39回。全难起于佛与道的一次「赌气」：文殊化僧被浸，故有此报。"
+  },
+  {
+   "id": "ev-fire",
+   "name": "号山三昧真火",
+   "chapter": 42,
+   "place": "haoshan",
+   "cast": [
+    "hong-hai",
+    "wu-kong",
+    "guan-yin",
+    "niu-mo",
+    "tie-shan"
+   ],
+   "summary": "红孩儿以烟困悟空，观音天罡刀、金箍收为善财童子。",
+   "detail": "悟空平生唯一「被烟熏坏」的败法；牛魔王一家自此与取经结下亲仇两重账。"
+  },
+  {
+   "id": "ev-blackriver",
+   "name": "黑水河摄僧",
+   "chapter": 43,
+   "place": "heishui-he",
+   "cast": [
+    "xiao-tuo-long",
+    "wu-kong",
+    "sha-seng"
+   ],
+   "summary": "小鼍龙摄唐僧；摩昂太子奉西海龙王命擒回，是少数由自家清理门户的一难。"
+  },
+  {
+   "id": "ev-debate",
+   "name": "车迟国五场斗法",
+   "chapter": 46,
+   "place": "chechi-guo",
+   "cast": [
+    "hu-li",
+    "wu-kong",
+    "tang-seng"
+   ],
+   "summary": "求雨、云梯显圣、隔板猜物、砍头、剖腹、下油锅；三国师尽死，国王悔悟。",
+   "note": "难簿作「僧道辨供」。这是全书佛道之争最直白的一段，老君被唤作「奴才」。"
+  },
+  {
+   "id": "ev-river",
+   "name": "通天河童男童女",
+   "chapter": 49,
+   "place": "tongtian-he",
+   "cast": [
+    "ling-gan",
+    "guan-yin",
+    "wu-kong",
+    "ba-jie"
+   ],
+   "summary": "灵感大王岁吃孩童，悟空八戒变童男女；观音未梳装即来，鱼篮收之。",
+   "detail": "第47—49回跨一个冬天，结冰时沉河，故难簿有「冰通天地」一类名目。"
+  },
+  {
+   "id": "ev-ring",
+   "name": "金兜洞金刚琢",
+   "chapter": 52,
+   "place": "jindou-shan",
+   "cast": [
+    "qing-niu",
+    "wu-kong",
+    "tai-shang",
+    "tuo-ta",
+    "na-zha"
+   ],
+   "summary": "青牛以金刚琢套尽神兵、火部与水部之援；如来亦不敢道破其主，老君芭蕉扇收之。",
+   "note": "唯一一次连如来都「怕说出来」的妖：背景越硬，越要请自家主人来。"
+  },
+  {
+   "id": "ev-water",
+   "name": "子母河怀胎",
+   "chapter": 54,
+   "place": "xieyang-shan",
+   "cast": [
+    "tang-seng",
+    "ba-jie",
+    "ru-yi-zhen-xian"
+   ],
+   "summary": "唐僧八戒饮水成胎；解阳山破儿亭落胎泉又被如意真仙霸占，沙僧斗之方得水。",
+   "detail": "全书唯一把「修行」写成身体反应的一难：腹中痛、要生产，滑稽之下是很硬的生理困境。"
+  },
+  {
+   "id": "ev-scorpion",
+   "name": "琵琶洞毒桩",
+   "chapter": 55,
+   "place": "dudi-shan",
+   "cast": [
+    "xie-zi",
+    "wu-kong",
+    "mao-ri"
+   ],
+   "summary": "蝎子精倒马毒桩蛰得悟空八戒头疼，连如来也曾在灵山被蛰而疼痛；昴日星官现本相长鸣而败。"
+  },
+  {
+   "id": "ev-twins",
+   "name": "真假美猴王",
+   "chapter": 58,
+   "place": "zhenkong-si",
+   "cast": [
+    "liu-er",
+    "wu-kong",
+    "tang-seng",
+    "guan-yin",
+    "ru-lai"
+   ],
+   "summary": "六耳猕猴同词同音、兵器分身俱备；谛听不敢闻，如来道破四猴，悟空一棒打死。",
+   "detail": "第57—58回回目与评点常以「二心」解之：难簿「猿熟马驯」一类名目即指心猿意马调伏。"
+  },
+  {
+   "id": "ev-fan",
+   "name": "三借芭蕉扇",
+   "chapter": 61,
+   "place": "huoyan-shan",
+   "cast": [
+    "tie-shan",
+    "niu-mo",
+    "wu-kong",
+    "na-zha",
+    "tuo-ta"
+   ],
+   "summary": "一扇假、二扇真却反扇、三扇钻腹；牛魔王现原形，力战天兵方被牵降。",
+   "note": "火焰山本是第7回悟空踢翻丹炉落下的火——旧账在新难里兑现，全书结构最严丝合缝处。"
+  },
+  {
+   "id": "ev-tower",
+   "name": "祭赛国扫塔辨冤",
+   "chapter": 63,
+   "place": "jiesai-guo",
+   "cast": [
+    "jiu-tou-chong",
+    "jie-sai-guo-wang",
+    "er-lang",
+    "wu-kong"
+   ],
+   "summary": "金光寺塔顶舍利被碧波潭驸马所窃，僧众受屈；悟空二郎合力，细犬咬其一首。",
+   "note": "九头虫中箭逃往乱石山，是少数「没被收编也没被打死」的妖。"
+  },
+  {
+   "id": "ev-poet",
+   "name": "木仙庵谈诗",
+   "chapter": 64,
+   "place": "jingji-ling",
+   "cast": [
+    "tang-seng"
+   ],
+   "summary": "荆棘岭十八公、孤直公、凌空子、拂云叟四树精与唐僧月下谈诗，旦方知为木魅。",
+   "note": "全书唯一无暴力的一难；难簿是否计入各本不一，故本栏不强行配难数。"
+  },
+  {
+   "id": "ev-falsebuddha",
+   "name": "小雷音假佛",
+   "chapter": 66,
+   "place": "xiao-leiyin",
+   "cast": [
+    "huang-mei",
+    "wu-kong",
+    "mi-le",
+    "guan-yin"
+   ],
+   "summary": "黄眉自立雷音、假扮佛祖，金铙困悟空、人种袋装尽天神；弥勒设计方收童子。",
+   "detail": "第65回赤脚大仙被哄去「赴会」，是这一难的名目来源；妖敢仿灵山建制，是全书对「形式即佛法」最狠的一次讽刺。"
+  },
+  {
+   "id": "ev-pork",
+   "name": "七绝山稀柿衕",
+   "chapter": 67,
+   "place": "qijue-shan",
+   "cast": [
+    "ba-jie",
+    "wu-kong"
+   ],
+   "summary": "驼罗庄蟒蛇精吞人，悟空八戒剖其腹；八戒变巨猪拱开八百里稀柿衕。",
+   "detail": "脏活由八戒完成——这是小说给他最实在的一次功劳。"
+  },
+  {
+   "id": "ev-doctor",
+   "name": "朱紫国悬丝诊脉",
+   "chapter": 71,
+   "place": "zhuzi-guo",
+   "cast": [
+    "zhu-zhi-guo-wang",
+    "sai-tai-sui",
+    "guan-yin",
+    "wu-kong"
+   ],
+   "summary": "国王因后被摄忧结成病，悟空悬丝诊脉、配乌金丹；赛太岁紫金铃三放火烟沙，观音收金毛犼。",
+   "note": "「赛太岁」是妖的自号——比太岁更强，名号本身即反语。"
+  },
+  {
+   "id": "ev-spider",
+   "name": "盘丝洞与黄花观",
+   "chapter": 73,
+   "place": "pansi-dong",
+   "cast": [
+    "zhi-zhu",
+    "wu-gong",
+    "bi-lan-po",
+    "wu-kong"
+   ],
+   "summary": "七蜘蛛吐丝结罩、濯垢泉澡洗；黄花观道两胁千眼放金光，毗蓝婆以绣花针收之。",
+   "note": "多目怪即蜈蚣，与蜘蛛同属「毒虫」谱系；昴日星官之母在此出场。"
+  },
+  {
+   "id": "ev-lion",
+   "name": "狮驼岭三魔",
+   "chapter": 77,
+   "place": "shituo-ling",
+   "cast": [
+    "qing-shi",
+    "bai-xiang",
+    "da-peng",
+    "ru-lai",
+    "wen-shu",
+    "pu-xian"
+   ],
+   "summary": "八万四千小妖、狮驼国已被吞尽；阴阳二气瓶、三斗三停，如来亲率文殊普贤方了。",
+   "detail": "全书规模最大的一难，也是唯一把「妖吃尽一城」写实的地方——如来说大鹏是其妹丈，故不敢收，须亲往。"
+  },
+  {
+   "id": "ev-child",
+   "name": "比丘国小儿心肝",
+   "chapter": 79,
+   "place": "biqiu-guo",
+   "cast": [
+    "bi-qiu-guo-wang",
+    "nan-ji",
+    "wu-kong"
+   ],
+   "summary": "国丈进冷药引，取一千一百一十一个小儿心肝；悟空摄婴儿笼于城上，寿星收白鹿。",
+   "note": "「比丘」义为乞士，却行食婴之事——名与实相反，是地名反语最露骨的一处。"
+  },
+  {
+   "id": "ev-cave",
+   "name": "无底洞逼婚",
+   "chapter": 83,
+   "place": "xiangkong-shan",
+   "cast": [
+    "lao-shu",
+    "wu-kong",
+    "tuo-ta",
+    "na-zha"
+   ],
+   "summary": "老鼠精摄唐僧成亲，陷空山无底洞；悟空告御状，天王父子照妖，拆洞擒妖。",
+   "detail": "她曾偷香花宝烛、被李天王哪吒擒而赦，故认二人如父兄——旧恩变成新账。"
+  },
+  {
+   "id": "ev-shave",
+   "name": "灭法国一夜剃城",
+   "chapter": 85,
+   "place": "miefa-guo",
+   "cast": [
+    "mie-fa-guo-wang",
+    "wu-kong"
+   ],
+   "summary": "国王愿杀万僧，已杀九千九百九十六；悟空一夜剃满城君臣发，国王悔悟改名「兴国」。",
+   "note": "第84—85回。以「灭法」起、以「兴国」终，国名本身就是情节的判决。"
+  },
+  {
+   "id": "ev-leopard",
+   "name": "隐雾山分瓣梅花计",
+   "chapter": 86,
+   "place": "yiwu-shan",
+   "cast": [
+    "nan-shan-da-wang",
+    "tang-seng",
+    "wu-kong"
+   ],
+   "summary": "南山大王以三个小妖替头、分头拖住三徒，趁隙摄走唐僧；八戒一钯筑死豹精。",
+   "note": "唯一以兵法取胜的妖：不靠宝贝、不靠后台，靠分兵。"
+  },
+  {
+   "id": "ev-drought",
+   "name": "凤仙郡三事",
+   "chapter": 87,
+   "place": "fengxian-jun",
+   "cast": [
+    "yu-di",
+    "tang-seng",
+    "wu-kong"
+   ],
+   "summary": "郡守推倒斋天素供，玉帝立米山、面山、金锁；劝善回天，三年大旱得雨。",
+   "note": "全书唯一「凡人得罪天帝、由取经团队代为忏悔」的一难，与灭法国同为「改过」型。"
+  },
+  {
+   "id": "ev-prince",
+   "name": "玉华州传艺·竹节山",
+   "chapter": 90,
+   "place": "yuhua-zhou",
+   "cast": [
+    "jiu-ling",
+    "tai-yi",
+    "wu-kong",
+    "ba-jie",
+    "sha-seng"
+   ],
+   "summary": "三小王子拜师徒学棍钯杖，兵刃被黄狮精摄去；九灵元圣衔走国王父子，太乙救苦天尊收九头狮。",
+   "note": "唯一一次师徒三人正式「收徒传艺」，也是九头狮一口衔两人而不战的威势。"
+  },
+  {
+   "id": "ev-lamp",
+   "name": "金平府酥合香油",
+   "chapter": 92,
+   "place": "jinping-fu",
+   "cast": [
+    "xi-niu",
+    "si-mu-xing",
+    "wu-kong",
+    "ba-jie"
+   ],
+   "summary": "元宵观灯，三犀假佛偷油；四木禽星木克土，追至西洋布天街斩之。",
+   "detail": "辟寒、辟暑、辟尘三名即功能名；此难把「假佛受供」写到底——佛像是妖，油是真被吃。"
+  },
+  {
+   "id": "ev-ball",
+   "name": "天竺国抛球招亲",
+   "chapter": 95,
+   "place": "tianzhu-guo",
+   "cast": [
+    "yu-tu",
+    "tian-zhu-gong-zhu",
+    "guan-yin",
+    "tang-seng"
+   ],
+   "summary": "假公主绣球打中唐僧；布金禅寺知真公主被摄十三年，太阴星君收玉兔。",
+   "note": "「布金」用须达多布金铺地买祇园之典，是全书地名用佛典最实的一处。"
+  },
+  {
+   "id": "ev-keu",
+   "name": "铜台府寇员外",
+   "chapter": 97,
+   "place": "tongtai-fu",
+   "cast": [
+    "kou-hong",
+    "tang-seng",
+    "wu-kong"
+   ],
+   "summary": "寇洪斋僧满万，苦留半年；送别当夜被盗所杀，魂告官诬僧，悟空还魂断案。",
+   "note": "善人不得好死、还被取经人背锅——这一难的功能是拆「行善即福报」的简单账。"
+  },
+  {
+   "id": "ev-sutra",
+   "name": "灵山传经：无字与有字",
+   "chapter": 98,
+   "place": "lingshan",
+   "cast": [
+    "ru-lai",
+    "e-nuo",
+    "tang-seng",
+    "wu-kong"
+   ],
+   "summary": "阿傩迦叶索人事，先传无字真经；燃灯古佛命金顶大仙赶回，换五十五部有字真经。",
+   "detail": "如来说「经不可轻传，亦不可以空取」——把「无字高于有字」的教义，紧接着用一次交易戳破。全书最锋利的一段。"
+  },
+  {
+   "id": "ev-eightyone",
+   "name": "难簿补足·通天河落水",
+   "chapter": 100,
+   "place": "shaijing-shi",
+   "cast": [
+    "guan-yin",
+    "tang-seng",
+    "wu-kong",
+    "ling-gan"
+   ],
+   "summary": "八大金刚送归东土，查难簿止于八十，故补足一难；渡通天河时老鼋怒沉经书，晒经石上字迹遂缺。",
+   "note": "小说把「凑九九」的过程写进正文：先算不足、再补一难，而补的代价是经书永久残缺。这是全书对自家结构最锋利的一次自我拆台。"
+  }
+ ],
+ "trials": {
+  "title": "九九归真：难簿与经过对照",
+  "note": "难簿全文见第 99 回「八大金刚揭出难簿」，共八十一难。本栏不逐条抄录，只选 21 条做「名目 ↔ 实际经过」的对照，并给出判定。名目文字依通行本摘录，字句各本有异——本栏的重点是对应关系与结构，不是校勘。",
+  "refs": [
+   "《西游记》第 99 回难簿；第 9 回（通行本附录）唐僧出身；第 100 回晒经石",
+   "鲁迅《中国小说史略》、郑振铎论《西游记》「九九难」之编排",
+   "《西游记大辞典》类工具书「难簿」条"
+  ],
+  "items": [
+   {
+    "name": "出胎几杀",
+    "chapter": 9,
+    "omen": "婴儿出生即遭杀身之祸",
+    "actual": "第9回（附录）：刘洪欲杀新生儿，殷温娇苦劝方留一命。",
+    "verdict": "补列",
+    "note": "",
+    "who": [
+     "tang-seng",
+     "liu-hong",
+     "yin-wen-jiao"
+    ]
+   },
+   {
+    "name": "满月抛江",
+    "chapter": 9,
+    "omen": "月内被抛于江上",
+    "actual": "第9回（附录）：咬指写血书，将婴儿绑在板上顺流而下，被金山寺僧救起，取名「江流儿」。",
+    "verdict": "补列",
+    "note": "与上条同属一回，且发生在取经之前。",
+    "who": [
+     "tang-seng",
+     "yin-wen-jiao"
+    ]
+   },
+   {
+    "name": "寻亲报冤",
+    "chapter": 9,
+    "omen": "长成后认母报仇",
+    "actual": "第9回（附录）：玄奘寻外祖父殷开山，擒刘洪祭父；殷温娇自尽一节各本处理不同。",
+    "verdict": "补列",
+    "note": "「一难」其实是整段出身故事；把它拆成三条，是凑九十九之数的明显痕迹。",
+    "who": [
+     "tang-seng",
+     "liu-hong",
+     "yin-wen-jiao",
+     "chen-guang-rui"
+    ]
+   },
+   {
+    "name": "金蝉遭贬",
+    "chapter": 12,
+    "omen": "如来二弟子轻慢大教，贬入东土",
+    "actual": "第12回如来自述：「汝因不悟大教，贬汝下界，以全汝本真」；贯穿全书的「十世修行」由此起算。",
+    "verdict": "照应",
+    "note": "此难不在路上，是整个工程的前提，却被列为第一难——难数从「成佛之前」算起。",
+    "who": [
+     "jin-chan-zi",
+     "tang-seng",
+     "ru-lai"
+    ]
+   },
+   {
+    "name": "出城逢虎",
+    "chapter": 13,
+    "omen": "出长安即逢虎灾",
+    "actual": "第13回：两从者与猎户被长虫、虎、蛇所食，唯唐僧得脱。",
+    "verdict": "照应",
+    "note": "",
+    "who": [
+     "tang-seng"
+    ]
+   },
+   {
+    "name": "双叉岭上",
+    "chapter": 13,
+    "omen": "双叉岭遇险",
+    "actual": "第13回同段：太白金星化老叟解厄，刘伯钦护送至两界山。",
+    "verdict": "拆分",
+    "note": "与「出城逢虎」同回同事，一分为二。",
+    "who": [
+     "tang-seng",
+     "tai-bai",
+     "liu-bo-qin"
+    ]
+   },
+   {
+    "name": "两界山头",
+    "chapter": 14,
+    "omen": "两界山收心猿",
+    "actual": "第14回：揭六字真言帖，悟空拜师；「心猿归正 六贼无踪」。",
+    "verdict": "照应",
+    "note": "",
+    "who": [
+     "tang-seng",
+     "wu-kong"
+    ]
+   },
+   {
+    "name": "陡涧换马",
+    "chapter": 15,
+    "omen": "陡涧易马",
+    "actual": "第15回鹰愁涧：龙吞凡马，观音降龙化白马。",
+    "verdict": "照应",
+    "note": "",
+    "who": [
+     "bai-long-ma",
+     "guan-yin"
+    ]
+   },
+   {
+    "name": "夜被火烧",
+    "chapter": 16,
+    "omen": "夜中遭火",
+    "actual": "第16回观音禅院：老僧贪锦襕袈裟，放火焚寺，悟空借避火诀反使其自烧。",
+    "verdict": "拆分",
+    "note": "与「失却袈裟」同为第16—17回一件事的两面。",
+    "who": [
+     "tang-seng",
+     "wu-kong"
+    ]
+   },
+   {
+    "name": "失却袈裟",
+    "chapter": 17,
+    "omen": "佛衣被盗",
+    "actual": "第17回黑风院：黑熊精趁火盗衣，悟空请观音设计收回，熊罴做了守山大神。",
+    "verdict": "拆分",
+    "note": "",
+    "who": [
+     "hei-xiong",
+     "guan-yin",
+     "wu-kong"
+    ]
+   },
+   {
+    "name": "黄风阻阻",
+    "chapter": 21,
+    "omen": "黄风阻路",
+    "actual": "第20—21回黄风岭：三吹飞沙弄瞎悟空火眼金睛，灵吉菩萨以定风丹、飞龙杖收貂鼠。",
+    "verdict": "照应",
+    "note": "",
+    "who": [
+     "huang-feng",
+     "ling-gi",
+     "wu-kong"
+    ]
+   },
+   {
+    "name": "流沙失遇",
+    "chapter": 22,
+    "omen": "流沙河失所遇之人",
+    "actual": "第22回流沙河：沙僧九度吃人，以九骷髅结法船渡唐僧，归依为三徒。",
+    "verdict": "存疑",
+    "note": "名目作「失遇」，正文写的却是「得遇」——评点多以为名目沿袭旧本，与今本文字对不上，故不强行判为照应。",
+    "who": [
+     "sha-seng",
+     "tang-seng"
+    ]
+   },
+   {
+    "name": "木母怀怨",
+    "chapter": 23,
+    "omen": "木母（八戒）生怨",
+    "actual": "第23回四圣试禅心：八戒撞天婚，被琶钉绷在树上一夜；口中叫「娘」。",
+    "verdict": "照应",
+    "note": "名目直接用内丹代号「木母」，是心猿—木母—黄婆这套符号在难簿里留下的证据。",
+    "who": [
+     "ba-jie"
+    ]
+   },
+   {
+    "name": "黄婆匹配",
+    "chapter": 23,
+    "omen": "黄婆（沙僧）配婚",
+    "actual": "第23回同段：四圣以驪、良、贞、旺四女许配，唯八戒求配，悟空沙僧不动。",
+    "verdict": "照应",
+    "note": "与「木母怀怨」同回；沙僧属土，故称黄婆（内丹中为媒合者）。",
+    "who": [
+     "sha-seng",
+     "ba-jie"
+    ]
+   },
+   {
+    "name": "释身作囚",
+    "chapter": 31,
+    "omen": "佛身被囚",
+    "actual": "第28—31回宝象国：黄袍怪把唐僧变成黑虎囚于殿中，白龙马化人救师。",
+    "verdict": "照应",
+    "note": "全书唯一一次师父被夺「人身」，名目说得极重，正文也接得住。",
+    "who": [
+     "tang-seng",
+     "huang-pao",
+     "bai-long-ma",
+     "wu-kong"
+    ]
+   },
+   {
+    "name": "僧道辨供",
+    "chapter": 46,
+    "omen": "僧与道辨法供",
+    "actual": "第44—46回车迟国：求雨、云梯显圣、隔板猜物、砍头、剖腹、下油锅五场斗法。",
+    "verdict": "照应",
+    "note": "",
+    "who": [
+     "hu-li",
+     "wu-kong",
+     "tang-seng"
+    ]
+   },
+   {
+    "name": "冰通天地",
+    "chapter": 49,
+    "omen": "冬冰连天接地",
+    "actual": "第47—49回通天河：结冰时唐僧踏冰过河，冰下裂而沉河；观音未梳装即来，鱼篮收金鱼。",
+    "verdict": "照应",
+    "note": "名目写节候，正文写埋伏——这一难的机关正在于「冰」。",
+    "who": [
+     "ling-gan",
+     "guan-yin",
+     "tang-seng"
+    ]
+   },
+   {
+    "name": "禅主吞餐",
+    "chapter": 54,
+    "omen": "禅主（唐僧）进食而孕",
+    "actual": "第53—54回子母河：唐僧八戒饮水成胎，解阳山破儿亭取落胎泉水，与如意真仙争斗。",
+    "verdict": "照应",
+    "note": "",
+    "who": [
+     "tang-seng",
+     "ba-jie"
+    ]
+   },
+   {
+    "name": "猿熟马驯",
+    "chapter": 58,
+    "omen": "心猿纯熟、意马调伏",
+    "actual": "第57—58回真假美猴王：六耳猕猴同词同音，如来道破四猴，悟空一棒打死「二心」。",
+    "verdict": "照应",
+    "note": "名目是内丹语，正文是情节——小说把修行术语写成了打戏。",
+    "who": [
+     "liu-er",
+     "wu-kong",
+     "ru-lai"
+    ]
+   },
+   {
+    "name": "国逢灭法",
+    "chapter": 85,
+    "omen": "遇灭法之国",
+    "actual": "第84—85回灭法国：愿杀万僧已杀九千九百九十六，悟空一夜剃满城，国王改名「兴国」。",
+    "verdict": "照应",
+    "note": "",
+    "who": [
+     "mie-fa-guo-wang",
+     "wu-kong"
+    ]
+   },
+   {
+    "name": "第八十一难（通天河落水）",
+    "chapter": 100,
+    "omen": "簿上原止八十，补足九九之数",
+    "actual": "第99回末八大金刚送归，查难簿只有八十难，故再设一难：老鼋因未问寿数怒沉经书，第100回晒经石上遂有字迹残缺。",
+    "verdict": "补列",
+    "note": "最硬的一条结构证据——小说把「凑数」的过程直接写进正文：先算不足，再补一难。而补的代价是经书永久残缺，等于用结尾否定了「圆满」。",
+    "who": [
+     "tang-seng",
+     "wu-kong",
+     "guan-yin"
+    ]
+   }
+  ]
+ },
+ "wordplay": [
+  {
+   "word": "灵台方寸山",
+   "meaning": "「灵台」「方寸」皆指心",
+   "kind": "拆字·会意",
+   "verdict": "通行",
+   "basis": "第2回祖师道场名；第20回乌巢禅师传《心经》，同一指向。",
+   "note": "悟空求仙不在西天，在「方寸」之间；作者把道场名直接写成心的别名。",
+   "person": "pu-ti"
+  },
+  {
+   "word": "斜月三星洞",
+   "meaning": "「心」字的拆写：一勾三点",
+   "kind": "拆字·会意",
+   "verdict": "通行",
+   "basis": "第2回洞名；回内诗「佛向性中作，莫向身外求」。",
+   "note": "把「心」拆成笔画藏进地名，是全书最著名的一次拆字。",
+   "person": "pu-ti"
+  },
+  {
+   "word": "心猿",
+   "meaning": "孙悟空",
+   "kind": "内丹代号",
+   "verdict": "通行",
+   "basis": "第7回「五行山下定心猿」、第14回「心猿归正」，回目屡见。",
+   "note": "猿喻心之跳跃不定；「锁心猿、拴意马」是全书修行的表层说法。",
+   "person": "wu-kong"
+  },
+  {
+   "word": "意马",
+   "meaning": "白龙马",
+   "kind": "内丹代号",
+   "verdict": "通行",
+   "basis": "第15回回目「鹰愁涧意马收缰」。",
+   "note": "与心猿配对：心猿归正、意马收缰，取经团队的精神结构在两个回目里就说完了。",
+   "person": "bai-long-ma"
+  },
+  {
+   "word": "木母",
+   "meaning": "猪八戒",
+   "kind": "内丹代号",
+   "verdict": "通行",
+   "basis": "第47回回目「金木垂慈救小童」；第23回难簿「木母怀怨」；正文诗词屡见。",
+   "note": "内丹以木母指汞/情，八戒属水（天蓬）而号木母，取「情动」之义；细节各家解说不一。",
+   "person": "ba-jie"
+  },
+  {
+   "word": "金公",
+   "meaning": "孙悟空",
+   "kind": "内丹代号",
+   "verdict": "通行",
+   "basis": "第47回「金木垂慈」；正文诗词中以金公称悟空。",
+   "note": "悟空属金（金箍棒、金箍、金钢之躯），故称金公。",
+   "person": "wu-kong"
+  },
+  {
+   "word": "黄婆",
+   "meaning": "沙悟净",
+   "kind": "内丹代号",
+   "verdict": "通行",
+   "basis": "第23回难簿「黄婆匹配」；正文诗词以黄婆、刀圭称沙僧。",
+   "note": "内丹中黄婆属土，为媒合金木者；沙僧在队中正是调和者的位置。",
+   "person": "sha-seng"
+  },
+  {
+   "word": "刀圭",
+   "meaning": "沙悟净（一说指土性之药）",
+   "kind": "内丹代号",
+   "verdict": "一说",
+   "basis": "正文诗词中偶见「刀圭」与心猿木母并提。",
+   "note": "刀圭本为方寸七分之一，内丹借指少许真种；是否专指沙僧，评点有分歧。",
+   "person": "sha-seng"
+  },
+  {
+   "word": "小雷音寺",
+   "meaning": "假冒灵山",
+   "kind": "名号反语·游戏",
+   "verdict": "通行",
+   "basis": "第65—66回黄眉自立「小雷音」，又设「小西天」；对悟空说「我且着你看看，我这个雷音比灵山如何」。",
+   "note": "全书最直白的名号反讽：形制全同、只是加个「小」字。",
+   "person": "huang-mei"
+  },
+  {
+   "word": "赛太岁",
+   "meaning": "比太岁更强",
+   "kind": "名号反语·游戏",
+   "verdict": "通行",
+   "basis": "第70—71回朱紫国妖自号「赛太岁」，本相观音座下金毛犼。",
+   "note": "自号即野心；而真身不过是一头被放下来的坐骑。",
+   "person": "sai-tai-sui"
+  },
+  {
+   "word": "者行孙 · 孙行 · 行孙",
+   "meaning": "名字的把柄",
+   "kind": "名号反语·游戏",
+   "verdict": "通行",
+   "basis": "第34—35回：金角银角的葫芦「我叫你一声你敢答应吗」，悟空以假名应答反装其人。",
+   "note": "名字在此成为可被利用的漏洞，正与「名号即权力」全书主题相反相成。",
+   "person": "jin-jiao"
+  },
+  {
+   "word": "半截观音 · 地涌夫人",
+   "meaning": "妖僭佛号",
+   "kind": "名号反语·游戏",
+   "verdict": "通行",
+   "basis": "第80—83回金鼻白毛老鼠精的两个自称。",
+   "note": "妖自取菩萨之号，与「小雷音」同法；小说对「名号」的冒用反复下笔。",
+   "person": "lao-shu"
+  },
+  {
+   "word": "平天大圣 · 齐天大圣",
+   "meaning": "天字号互相承认",
+   "kind": "名号反语·游戏",
+   "verdict": "通行",
+   "basis": "第4回结七圣：牛魔王平天大圣、蛟魔王复天大圣、鹏魔王混天大圣、狮驼王移山大圣、猕猴王通风大圣、禺狨王驱神大圣，悟空齐天大圣。",
+   "note": "六个「天」字辈称号并列，是对天庭封号体系的漫画复制。",
+   "person": "niu-mo"
+  },
+  {
+   "word": "悟空",
+   "meaning": "悟「空」·解空",
+   "kind": "名号寓意",
+   "verdict": "通行",
+   "basis": "第2回祖师喜其姓孙、赐名悟空；门下「悟、圆、觉、普」为辈。",
+   "note": "名即法体：悟空、悟能、悟净三悟，恰是三徒的分工（觉行、情欲、清净）。",
+   "person": "wu-kong"
+  },
+  {
+   "word": "五行山",
+   "meaning": "金木水火土之「压」",
+   "kind": "名号寓意",
+   "verdict": "一说",
+   "basis": "第7回如来五指化山；第14回改「两界山」。",
+   "note": "有评点以「五行攒簇」解之，谓心猿属金被土所压；正文只明写「两界」之义。",
+   "person": "wu-kong"
+  },
+  {
+   "word": "六耳猕猴",
+   "meaning": "「六耳」即三人为听",
+   "kind": "名号寓意",
+   "verdict": "一说",
+   "basis": "第58回如来列「四猴混世」，第三曰六耳猕猴「人若与他说话，他不知其意，却善听而知」。",
+   "note": "「六耳」取兼听之义，故有「二心」之解；正文只明写其「善听」。",
+   "person": "liu-er"
+  },
+  {
+   "word": "金蝉子",
+   "meaning": "蝉蜕重生",
+   "kind": "名号寓意",
+   "verdict": "一说",
+   "basis": "第12回如来自述贬降；第100回五圣成真。",
+   "note": "「金蝉脱壳」对应出胎、抛江、寻亲三段出身，是评点家的常见读法，正文未明言。",
+   "person": "jin-chan-zi"
+  },
+  {
+   "word": "灭法国 → 兴国",
+   "meaning": "国名随情节改判",
+   "kind": "地名寓意",
+   "verdict": "通行",
+   "basis": "第84—85回：国王愿杀万僧，悟空一夜剃满城，国王悔悟改「灭法」为「兴国」。",
+   "note": "国名不是布景，是情节的判决结果——小说里唯一被当场改掉的地名。",
+   "person": "mie-fa-guo-wang"
+  },
+  {
+   "word": "比丘国",
+   "meaning": "「比丘」义为乞士，却行食婴之事",
+   "kind": "地名寓意",
+   "verdict": "通行",
+   "basis": "第78—79回：国丈进小儿心肝为药引。",
+   "note": "以戒名之国行最破戒之事，反讽落在国名的字面上。",
+   "person": "bi-qiu-guo-wang"
+  },
+  {
+   "word": "布金禅寺",
+   "meaning": "须达多以黄金布地买祇园",
+   "kind": "地名寓意",
+   "verdict": "通行",
+   "basis": "第93回：寺基旧名「给孤独园」，天竺人呼为布金禅寺；真公主匿于此十三年。",
+   "note": "用典有据（《金刚经》发起序），且把「铺地买园」的典故转成「藏得住人」的情节。",
+   "person": "tian-zhu-gong-zhu"
+  },
+  {
+   "word": "荆棘岭 · 木仙庵",
+   "meaning": "不动手的难",
+   "kind": "地名寓意",
+   "verdict": "一说",
+   "basis": "第64回：四树精与唐僧谈诗，旦方知为木魅。",
+   "note": "有评点以为此段是「文字魔」，与「六贼」同属摄心；小说本身未加判词。",
+   "person": "tang-seng"
+  },
+  {
+   "word": "稀柿衕",
+   "meaning": "秽路须秽身来开",
+   "kind": "地名寓意",
+   "verdict": "存疑",
+   "basis": "第67回：八戒变巨猪拱开八百里稀柿衕。",
+   "note": "「稀柿」谐「西逝」一类读法属后人附会，无版本依据；此处列出仅为完整。",
+   "person": "ba-jie"
+  },
+  {
+   "word": "六贼无踪",
+   "meaning": "眼耳鼻舌身意六根",
+   "kind": "佛典用事",
+   "verdict": "通行",
+   "basis": "第14回回目「心猿归正 六贼无踪」；六怪名眼看喜、耳听怒、鼻嗅爱、舌尝思、意见欲、身本忧。",
+   "note": "六个名字本身就是六根，是小说把「降妖」写成「摄心」的第一处明示。",
+   "person": "wu-kong"
+  },
+  {
+   "word": "乌鸡国",
+   "meaning": "一说谐「污其国」",
+   "kind": "谐音·附会",
+   "verdict": "一说",
+   "basis": "第36—39回：假王占国三年，真王沉井。",
+   "note": "「乌」与「污」之谐属今人推断，明清评点未见此说；因流传太广，故列出并标一说。",
+   "person": "wu-ji-guo-wang"
+  },
+  {
+   "word": "唐憎 → 唐僧",
+   "meaning": "「僧」与「憎」的古今音",
+   "kind": "谐音·附会",
+   "verdict": "存疑",
+   "basis": "第12回玄奘受唐王赐姓「唐」，号三藏。",
+   "note": "以今音求「唐僧=唐憎」属牵强，无文本依据；列出仅为提醒读者：并非所有谐音都成立。",
+   "person": "tang-seng"
+  }
+ ],
+ "counts": {
+  "characters": 108,
+  "relations": 203,
+  "places": 56,
+  "events": 49,
+  "trials": 21,
+  "wordplay": 25
+ }
+}
