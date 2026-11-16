@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh-CN" data-work="honglou">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>入府 · 红楼梦文字小游戏 | Chinese Classics Atlas</title>
+<meta name="description" content="第一人称文字小游戏：你是新买进荣国府的小丫头。两日两夜，七场戏，几番话，四个去处。">
+<meta name="theme-color" content="#f6f1e6">
+<meta property="og:title" content="入府 · 红楼梦文字小游戏">
+<meta property="og:description" content="你扮演一个新入府的小丫头，从角门到怡红院，听见、看见，也做几件小事。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://iihao.github.io/chinese-classics-atlas/works/honglou/game/">
+<meta property="og:image" content="https://iihao.github.io/chinese-classics-atlas/docs/social-preview.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../../../css/honglou-game.css">
+<link rel="stylesheet" href="../../../css/atlas.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="./" aria-label="入府 · 首页">
+    <span class="seal">入</span>
+    <span class="brand-text"><strong>入府</strong><small>红楼 · 文字小游戏</small></span>
+  </a>
+  <nav class="workswitch" aria-label="切换作品">
+    <a class="ws-honglou" href="../" title="红楼梦图谱" aria-current="page">红</a>
+    <a class="ws-sanguo" href="../../sanguo/" title="三国演义">三</a>
+    <a class="ws-xiyou" href="../../xiyou/" title="西游记">西</a>
+    <a class="ws-shuihu" href="../../shuihu/" title="水浒传">水</a>
+  </nav>
+  <div class="gtools">
+    <button type="button" id="journalBtn" class="chip">册子 <span id="journalCount">0/0</span></button>
+    <button type="button" id="restartBtn" class="chip">重开</button>
+    <a class="back" href="../">← 红楼梦图谱</a>
+  </div>
+</header>
+
+<main class="stage">
+  <noscript><p class="notice">这个小游戏需要 JavaScript。</p></noscript>
+
+  <section id="intro" class="intro" hidden>
+    <p class="eyebrow">红楼梦 · 文字小游戏</p>
+    <h1 id="gameTitle">入府</h1>
+    <p id="gameIntro" class="lead"></p>
+    <p class="hint">每一次选择只改变你在这里的位置，不改变她们的命运。</p>
+    <div class="intro-actions">
+      <button type="button" id="startBtn" class="primary">从角门进去</button>
+      <button type="button" id="resumeBtn" class="ghost" hidden>继续上次</button>
+    </div>
+    <p class="keys">数字键 1–4 选择 · J 打开册子 · R 重开</p>
+  </section>
+
+  <section id="play" class="play" hidden>
+    <div class="chapter">
+      <span id="sceneChapter"></span>
+      <span class="dot">·</span>
+      <span id="scenePlace"></span>
+    </div>
+    <div id="gprog" class="gprog"></div>
+    <h2 id="sceneTitle" tabindex="-1"></h2>
+    <div id="sceneText" class="prose" aria-live="polite"></div>
+    <div id="choices" class="choices" role="group" aria-label="选择"></div>
+    <p class="turn-hint" id="turnHint"></p>
+  </section>
+
+  <section id="ending" class="ending" hidden>
+    <p class="eyebrow">结局</p>
+    <h2 id="endingTitle" tabindex="-1"></h2>
+    <div id="endingText" class="prose"></div>
+    <div id="endingMeters" class="meters"></div>
+    <p id="endingNote" class="note"></p>
+    <div class="ending-actions">
+      <button type="button" id="againBtn" class="primary">再走一遍</button>
+      <a class="ghost" href="../">回到图谱</a>
+    </div>
+  </section>
+  <footer class="gfoot">
+    <span>纯静态 · 无依赖 · 进度存在浏览器本地</span>
+    <span><a href="../">红楼梦图谱</a> · <a href="../../">全部作品</a></span>
+  </footer>
+</main>
+
+<aside id="journal" class="drawer" hidden aria-label="册子">
+  <div class="drawer-head">
+    <h2>册子</h2>
+    <button type="button" id="journalClose" class="chip">合上</button>
+  </div>
+  <p id="journalNote" class="note"></p>
+  <div id="journalList" class="journal-list"></div>
+</aside>
+
+<p id="loadError" class="notice" hidden></p>
+
+<script src="../../../js/works/honglou-game.js"></script>
+</body>
+</html>
