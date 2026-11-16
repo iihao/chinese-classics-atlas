@@ -1,43 +1,167 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-work="hub">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Chinese Classics Atlas · 中国古典名著图谱</title>
-<meta name="description" content="在一座图谱里探索中国古典名著的人物、关系、事件与地点。">
+<meta name="description" content="在一座图谱里探索中国古典名著的人物、关系、事件与地点：红楼梦、三国演义、西游记、水浒传，399 个人物、1244 条带出处的关系。">
+<meta property="og:title" content="Chinese Classics Atlas · 中国古典名著图谱">
+<meta property="og:description" content="四大名著的可交互图谱：399 个人物、1244 条带出处的关系，谱系、西行路线、座次与结局，纯静态开源。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://iihao.github.io/chinese-classics-atlas/">
+<meta property="og:image" content="https://iihao.github.io/chinese-classics-atlas/docs/social-preview.png">
+<meta property="og:locale" content="zh_CN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Chinese Classics Atlas · 中国古典名著图谱">
+<meta name="twitter:description" content="四大名著的可交互图谱：399 个人物、1244 条带出处的关系。">
+<meta name="twitter:image" content="https://iihao.github.io/chinese-classics-atlas/docs/social-preview.png">
+<link rel="stylesheet" href="css/atlas.css">
 <style>
-:root{color-scheme:light;--ink:#29241e;--accent:#912e32;--paper:#f8f5ed;--line:#ddd4c6}
-*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.75 system-ui,-apple-system,"PingFang SC",sans-serif}
-main{max-width:940px;margin:auto;padding:clamp(32px,8vw,100px) 24px}header{border-bottom:1px solid var(--line);padding-bottom:32px}
-small{color:var(--accent);letter-spacing:.15em}h1{font-family:Georgia,"Songti SC",serif;font-size:clamp(38px,6vw,64px);line-height:1.2;margin:12px 0}p{color:#625d55}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;margin:36px 0}.card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:26px;text-decoration:none;color:inherit;display:block}.card:hover,.card:focus-visible{border-color:var(--accent);box-shadow:0 5px 22px #29241e12}.card h2{margin:0;font-size:27px}.card p{margin:8px 0 16px}.card span{color:var(--accent);font-weight:600}footer{font-size:14px;color:#625d55}a{color:var(--accent)}
+/* 系列首页：只放首页自己的版式，颜色/字体/控件全部来自 css/atlas.css */
+.topbar .brand-text strong { letter-spacing: .08em; }
+.hero { padding: clamp(34px, 6vw, 72px) 0 clamp(14px, 2vw, 22px); }
+.hero h1 { max-width: 20em; }
+.hero .lead { max-width: 640px; }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(268px, 1fr)); gap: 16px; margin: 8px 0 0; }
+.work { display: flex; flex-direction: column; gap: 8px; min-width: 0; height: 100%; }
+.card {
+  position: relative; display: flex; flex-direction: column; gap: 6px;
+  flex: 1; padding: 22px 22px 20px;
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--r-md);
+  color: inherit; box-shadow: var(--shadow-2);
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.card:hover, .card:focus-visible { transform: translateY(-2px); border-color: var(--c); box-shadow: 0 16px 34px -20px rgba(50, 34, 20, .6); color: inherit; }
+.card-head { display: flex; align-items: center; gap: 12px; }
+.card .seal { background: var(--c); box-shadow: inset 0 0 0 1px rgba(255,255,255,.25); }
+.card h2 { font-family: var(--serif); font-size: 24px; letter-spacing: .06em; line-height: 1.2; }
+.card .en { font-size: 10px; letter-spacing: .16em; color: var(--ink-3); text-transform: uppercase; }
+.card p { margin: 10px 0 0; font-size: 13.5px; line-height: 1.8; color: #4e493f; }
+.card .go { margin-top: auto; padding-top: 14px; display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 600; color: var(--c); }
+.card .go::after { content: "→"; transition: transform .18s ease; }
+.card:hover .go::after { transform: translateX(3px); }
+.game-link {
+  display: inline-flex; align-items: center; gap: 6px; width: fit-content;
+  height: 28px; padding: 0 11px;
+  font-size: 12px; color: var(--ink-2);
+  background: rgba(255,255,255,.6); border: 1px solid var(--line); border-radius: 999px;
+}
+.game-link:hover { border-color: var(--c); color: var(--c); }
+
+/* 每部作品的身份色，与顶栏的作品切换一致 */
+[data-work="honglou"] { --c: var(--c-honglou); }
+[data-work="sanguo"] { --c: var(--c-sanguo); }
+[data-work="xiyou"] { --c: var(--c-xiyou); }
+[data-work="shuihu"] { --c: var(--c-shuihu); }
+
+.hub-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; margin-top: 44px; padding-top: 18px; border-top: 1px solid var(--line); font-size: 12px; color: var(--ink-3); }
+.hub-foot a { color: var(--ink-2); }
+.hub-foot a:hover { color: var(--seal); }
+@media (max-width: 640px) {
+  .hero h1 { font-size: clamp(26px, 7.4vw, 32px); }
+  .card { padding: 18px; }
+}
 </style>
 </head>
 <body>
+
+<header class="topbar">
+  <a class="brand" href="./" aria-label="中国古典名著图谱首页">
+    <span class="seal">图</span>
+    <span class="brand-text"><strong>中国古典名著图谱</strong><small>CHINESE CLASSICS ATLAS</small></span>
+  </a>
+  <nav class="workswitch" aria-label="切换作品">
+    <a class="ws-honglou" href="works/honglou/" title="红楼梦">红</a>
+    <a class="ws-sanguo" href="works/sanguo/" title="三国演义">三</a>
+    <a class="ws-xiyou" href="works/xiyou/" title="西游记">西</a>
+    <a class="ws-shuihu" href="works/shuihu/" title="水浒传">水</a>
+  </nav>
+  <a class="back" href="en/" hreflang="en">English ↗</a>
+</header>
+
 <main>
-<header><small>CHINESE CLASSICS ATLAS · 中国古典名著图谱</small><h1>一书一世界，合起来是一座图谱。</h1><p>从人物关系出发，顺着故事、地点和原著线索探索经典。</p></header>
-<div id="works" class="grid" aria-live="polite"></div>
-<footer><a href="https://github.com/iihao/chinese-classics-atlas">项目源码与反馈</a> · <a href="en/">English</a></footer>
+  <section class="hero">
+    <p class="eyebrow">CHINESE CLASSICS ATLAS · 中国古典名著图谱</p>
+    <h1>一书一世界，合起来是一座图谱。</h1>
+    <p class="lead">从人物关系出发，顺着故事、地点和原著线索探索经典。四部作品共用一套读法：每个节点都有出处，每一条关系都标回目。</p>
+  </section>
+
+  <!-- 作品卡片是静态 HTML：无 JS、爬虫与分享抓取都能直接读到。
+       新增作品时请同步 works/catalog.json 与此处的卡片。 -->
+  <div id="works" class="grid">
+    <div class="work">
+      <a class="card" href="works/honglou/" data-work="honglou">
+        <div class="card-head">
+          <span class="seal">红</span>
+          <div>
+            <h2>红楼梦</h2>
+            <div class="en">Dream of the Red Chamber</div>
+          </div>
+        </div>
+        <p>人物谱系、关系图、判词、诗词、事件与府邸。173 人物 · 860 关系，全系列最完整的一部。</p>
+        <span class="go">进入图谱</span>
+      </a>
+      <a class="game-link" href="works/honglou/game/" data-work="honglou">▸ 文字小游戏 · 入府</a>
+    </div>
+
+    <div class="work">
+      <a class="card" href="works/sanguo/" data-work="sanguo">
+        <div class="card-head">
+          <span class="seal">三</span>
+          <div>
+            <h2>三国演义</h2>
+            <div class="en">Romance of the Three Kingdoms</div>
+          </div>
+        </div>
+        <p>交互图谱：人物、关系、事件与地点（小说叙事切片）。39 人物 · 71 关系，区分演义与史传。</p>
+        <span class="go">进入图谱</span>
+      </a>
+    </div>
+
+    <div class="work">
+      <a class="card" href="works/xiyou/" data-work="xiyou">
+        <div class="card-head">
+          <span class="seal">西</span>
+          <div>
+            <h2>西游记</h2>
+            <div class="en">Journey to the West</div>
+          </div>
+        </div>
+        <p>法脉师承、人物关系、西行路线、八十一难簿对照与名号隐语。108 人物 · 203 关系。</p>
+        <span class="go">进入图谱</span>
+      </a>
+    </div>
+
+    <div class="work">
+      <a class="card" href="works/shuihu/" data-work="shuihu">
+        <div class="card-head">
+          <span class="seal">水</span>
+          <div>
+            <h2>水浒传</h2>
+            <div class="en">Water Margin</div>
+          </div>
+        </div>
+        <p>交互图谱、天罡地煞座次与星号、招安进程与结局（小说叙事切片）。79 人物 · 110 关系。</p>
+        <span class="go">进入图谱</span>
+      </a>
+    </div>
+  </div>
+
+  <footer class="hub-foot">
+    <span>Chinese Classics Atlas · 四部作品 · 纯静态</span>
+    <span><a href="https://github.com/iihao/chinese-classics-atlas">项目源码与反馈</a></span>
+    <span><a href="en/">English</a></span>
+  </footer>
 </main>
+
 <script>
-(function(){
-  var legacy = location.hash;
+(function () {
   // 历史分享链接继续指向红楼，不占用系列首页路由。
+  var legacy = location.hash;
   if (legacy && /^#(?:lineage|graph|people|events|fate|riddle|poetry|places|map|chapters|data|item)(?:\/|$)/.test(legacy)) {
-    location.replace('works/honglou/' + legacy); return;
+    location.replace('works/honglou/' + legacy);
   }
-  fetch('works/catalog.json').then(function(r){if(!r.ok)throw Error('目录加载失败');return r.json();}).then(function(c){
-    var box=document.getElementById('works');
-    c.works.forEach(function(w){
-      if(w.status!=='available')return;
-      var a=document.createElement('a');a.className='card';a.href=w.entry;
-      var h=document.createElement('h2');h.textContent=w.name;
-      var en=document.createElement('small');en.textContent=w.englishName;
-      var p=document.createElement('p');p.textContent=w.description;
-      var arrow=document.createElement('span');arrow.textContent='进入图谱 →';
-      a.append(h,en,p,arrow);box.append(a);
-    });
-  }).catch(function(e){document.getElementById('works').textContent=e.message;});
 })();
 </script>
 </body>
