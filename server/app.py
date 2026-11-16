@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""红楼梦图谱 · 本地服务（仅标准库）
+"""中国古典名著图谱 · 本地服务（仅标准库）
 
     python3 server/app.py            # http://127.0.0.1:8600
     python3 server/app.py --port 9000
@@ -21,13 +21,28 @@ from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import parse_qs, unquote, urlsplit
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(ROOT, "tools"))
+import sanguo_data  # noqa: E402
+
 DEFAULT_DB = os.path.join(ROOT, "db", "honglou.db")
 DB_PATH = DEFAULT_DB
 
+# 作品清单以 works/catalog.json 为准：加作品不必再改正则与服务分支。
+def _work_ids():
+    try:
+        with open(os.path.join(ROOT, "works", "catalog.json"), encoding="utf-8") as f:
+            return [w["id"] for w in json.load(f)["works"]]
+    except Exception:
+        return []
+
+
+WORK_IDS = _work_ids()
+_WORK_ALT = "|".join(re.escape(w) for w in WORK_IDS) if WORK_IDS else "(?!)"
 STATIC_RE = re.compile(
     r"^/(?:(?:[A-Za-z0-9][A-Za-z0-9._-]*\.html)|favicon\.ico|"
-    r"(?:css|js|assets)/[A-Za-z0-9][A-Za-z0-9._-]*\.(?:css|js|png|jpe?g|svg|webp|gif|ico|woff2?)|"
-    r"works/catalog\.json|works/honglou/index\.html|"
+    r"(?:css|js|assets)(?:/[A-Za-z0-9][A-Za-z0-9._-]*)*/[A-Za-z0-9][A-Za-z0-9._-]*\.(?:css|js|png|jpe?g|svg|webp|gif|ico|woff2?)|"
+    r"works/catalog\.json|works/(?:" + _WORK_ALT + r")/(?:[A-Za-z0-9._-]+/)*"
+    r"[A-Za-z0-9._-]+\.(?:html|json)|"
     r"en/index\.html|docs/[A-Za-z0-9][A-Za-z0-9._-]*\.(?:png|gif|jpe?g|webp))$")
 
 
@@ -88,7 +103,7 @@ def load_db():
 
 
 class Handler(SimpleHTTPRequestHandler):
-    server_version = "HonglouAtlas/1.0"
+    server_version = "ChineseClassicsAtlas/1.0"
 
     def __init__(self, *a, **kw):
         super().__init__(*a, directory=ROOT, **kw)
@@ -117,7 +132,7 @@ class Handler(SimpleHTTPRequestHandler):
     def do_GET(self):
         parsed = urlsplit(self.path)
         path = parsed.path
-        if path in ('/works/honglou/', '/en/'):
+        if path == '/en/' or (path.startswith('/works/') and path.endswith('/')):
             path += 'index.html'
         q = {k: v[-1] for k, v in parse_qs(parsed.query).items()}
 
@@ -147,6 +162,16 @@ class Handler(SimpleHTTPRequestHandler):
     def api(self, path, q):
         if path in ("/api/bootstrap", "/api/works/honglou"):
             return self.send_json(self.bootstrap())
+        if path.startswith("/api/works/"):
+            wid = path[len("/api/works/"):].strip("/")
+            if wid == "sanguo":
+                return self.send_json(sanguo_data.load(ROOT))
+            if wid in WORK_IDS and wid != "honglou":
+                src = os.path.join(ROOT, "works", wid, "data.json")
+                if not os.path.exists(src):
+                    return self.send_json({"error": f"{wid} 尚未构建数据"}, 404)
+                with open(src, encoding="utf-8") as f:
+                    return self.send_json(json.load(f))
         if path.startswith("/api/items/"):
             return self.item(unquote(path[len("/api/items/"):]))
         if path == "/api/search":
