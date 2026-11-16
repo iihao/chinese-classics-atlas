@@ -8,6 +8,34 @@
       "description": "人物谱系、关系图、判词、诗词、事件与府邸",
       "entry": "works/honglou/",
       "data": "api/works/honglou.json",
+      "status": "available",
+      "game": "works/honglou/game/"
+    },
+    {
+      "id": "sanguo",
+      "name": "三国演义",
+      "englishName": "Romance of the Three Kingdoms",
+      "description": "交互图谱：人物、关系、事件与地点（小说叙事切片）",
+      "entry": "works/sanguo/",
+      "data": "api/works/sanguo.json",
+      "status": "available"
+    },
+    {
+      "id": "xiyou",
+      "name": "西游记",
+      "englishName": "Journey to the West",
+      "description": "法脉师承、人物关系、西行路线、八十一难簿对照与名号隐语",
+      "entry": "works/xiyou/",
+      "data": "api/works/xiyou.json",
+      "status": "available"
+    },
+    {
+      "id": "shuihu",
+      "name": "水浒传",
+      "englishName": "Water Margin",
+      "description": "交互图谱、天罡地煞座次与星号、招安进程与结局（小说叙事切片，地煞选录）",
+      "entry": "works/shuihu/",
+      "data": "api/works/shuihu.json",
       "status": "available"
     }
   ]
