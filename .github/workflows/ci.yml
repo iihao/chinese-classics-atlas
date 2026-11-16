@@ -19,6 +19,7 @@ jobs:
       - name: 重建数据与数据库
         run: |
           python3 tools/build_seed.py
+          python3 tools/build_xiyou.py
           python3 db/init_db.py --force
       - name: 数据完整性
         run: |
@@ -61,11 +62,89 @@ jobs:
       - name: 系列作品目录与前端语法
         run: |
           python3 tools/validate_works.py
+          python3 tools/validate_game.py
           node --check js/app.js
           node --check js/map-art.js
+          node --check js/works/sanguo.js
+          node --check js/works/xiyou.js
+          node --check js/works/shuihu.js
+          node --check js/works/honglou-game.js
       - name: 静态构建
         run: |
+          python3 tools/build_shuihu.py
           python3 tools/build_static.py
           test -f dist/works/honglou/index.html
           test -f dist/api/works/honglou.json
+          test -f dist/works/sanguo/index.html
+          test -f dist/api/works/sanguo.json
+          test -f dist/css/atlas.css
+          test -f dist/css/sanguo.css
+          test -f dist/js/works/sanguo.js
+          test -f dist/works/xiyou/index.html
+          test -f dist/api/works/xiyou.json
+          test -f dist/css/xiyou.css
+          test -f dist/js/works/xiyou.js
+          test -f dist/works/shuihu/index.html
+          test -f dist/api/works/shuihu.json
+          test -f dist/css/shuihu.css
+          test -f dist/js/works/shuihu.js
+          test -f dist/works/honglou/game/index.html
+          test -f dist/works/honglou/game/scenes.json
+          test -f dist/css/honglou-game.css
+          test -f dist/js/works/honglou-game.js
           test -f dist/en/index.html
+          test -f dist/works/catalog.json
+          python3 - <<'PY'
+          import json
+          d = json.load(open('dist/api/works/sanguo.json', encoding='utf-8'))
+          assert d.get('factSource')
+          assert all(c.get('facts') and c.get('refs') for c in d['characters'])
+          assert all(e.get('facts') and e.get('refs') for e in d['events'])
+          assert all(p.get('refs') for p in d['places'])
+          print('Sanguo encyclopedia OK', len(d['characters']))
+          PY
+      - name: 水浒数据包断言
+        run: |
+          python3 - <<'PY'
+          import json
+          d = json.load(open('dist/api/works/shuihu.json', encoding='utf-8'))
+          assert d['layer'] == 'novel' and d['workId'] == 'shuihu'
+          chars = d['characters']
+          ranks = sorted(c['rank'] for c in chars if c['rank'])
+          assert sorted(r for r in ranks if r <= 36) == list(range(1, 37))
+          assert len(ranks) == len(set(ranks))
+          assert all(c['fate'] in set(d['fateOrder']) for c in chars)
+          assert all(c['ending'] for c in chars)
+          assert all(1 <= e['chapter'] <= 120 for e in d['events'])
+          chs = [e['chapter'] for e in d['events']]
+          assert chs == sorted(chs)
+          assert d['counts']['ranked'] == len(ranks)
+          print('Shuihu OK:', d['counts'])
+          PY
+      - name: 西游数据包断言
+        run: |
+          python3 - <<'PY'
+          import json
+          d = json.load(open('dist/api/works/xiyou.json', encoding='utf-8'))
+          assert d['layer'] == 'novel' and d['workId'] == 'xiyou'
+          # 六界齐全，人物都归界
+          assert set(g['id'] for g in d['groups']) == {'tu','fo','tian','dao','yao','ren'}
+          # 难簿与隐语必须带判定，且判定值受限
+          assert all(t['verdict'] in {'照应','拆分','补列','存疑'} for t in d['trials']['items'])
+          assert all(w['verdict'] in {'通行','一说','存疑'} for w in d['wordplay'])
+          # 隐语一律要有依据（回目或正文），不能只给结论
+          assert all(w.get('basis') for w in d['wordplay'])
+          # 路线：站点不得写死坐标，位置由渲染器按 (leg, chapter) 计算
+          assert all('x' not in p and 'y' not in p for p in d['places'])
+          # 路线：同段内站点按数据原始顺序的回目不得倒退（渲染器按 leg 分行）
+          last_by_leg = {}
+          for p in d['places']:
+              if p['leg'] == 9: continue
+              assert p['chapter'] >= last_by_leg.get(p['leg'], 0), \
+                  f'路段 {p["leg"]} 内回目倒退: {p["id"]}'
+              last_by_leg[p['leg']] = p['chapter']
+          # 事件按回目不减
+          chs = [e['chapter'] for e in d['events']]
+          assert chs == sorted(chs)
+          print('Xiyou OK:', d['counts'])
+          PY

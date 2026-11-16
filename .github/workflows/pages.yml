@@ -25,11 +25,33 @@ jobs:
       - name: 校验数据并重建数据库
         run: |
           python3 tools/build_seed.py
+          python3 tools/build_xiyou.py
           python3 tools/validate_works.py
           python3 db/init_db.py --force
           python3 -c "import json;d=json.load(open('db/seed.json'));print('items',len(d['items']),'relations',len(d['relations']))"
       - name: 导出静态站点
-        run: python3 tools/build_static.py
+        run: |
+          python3 tools/build_shuihu.py
+          python3 tools/build_static.py
+      - name: 发布前校验（与 CI 同一套口径）
+        run: |
+          test -f dist/works/catalog.json
+          python3 - <<'PY'
+          import json, os
+          src = json.load(open('works/catalog.json', encoding='utf-8'))['works']
+          out = json.load(open('dist/works/catalog.json', encoding='utf-8'))['works']
+          assert [w['id'] for w in src] == [w['id'] for w in out], '作品目录与源码不一致'
+          for w in out:
+              assert os.path.isfile('dist/' + w['entry'] + 'index.html'), w['id']
+              assert os.path.isfile('dist/' + w['data']), w['id']
+          # 三国百科档案层：sanguo_data.load 在文件缺失时会静默降级，这里必须拦住
+          d = json.load(open('dist/api/works/sanguo.json', encoding='utf-8'))
+          assert d.get('factSource'), '三国百科档案层缺失'
+          assert all(c.get('facts') and c.get('refs') for c in d['characters'])
+          assert all(e.get('facts') and e.get('refs') for e in d['events'])
+          assert all(p.get('refs') for p in d['places'])
+          print('Pre-deploy OK:', ', '.join(w['id'] for w in out))
+          PY
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
