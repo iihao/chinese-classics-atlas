@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Honglou Atlas · Dream of the Red Chamber — an interactive atlas</title>
-<meta name="description" content="The only open, searchable, clickable atlas of Dream of the Red Chamber (红楼梦): 173 characters, 860 typed relations, a full genealogy. Reproducible in one command, zero frontend dependencies, MIT.">
-<meta property="og:title" content="Honglou Atlas · Dream of the Red Chamber">
-<meta property="og:description" content="An interactive atlas of 红楼梦: 173 characters, 860 relations, full genealogy, poems and fates — open source, zero dependency.">
+<title>Chinese Classics Atlas — China's four great novels as interactive graphs</title>
+<meta name="description" content="Open, searchable atlases of Dream of the Red Chamber, Romance of the Three Kingdoms, Journey to the West and Water Margin: 399 characters, 1,244 chapter-cited relations. Static site, zero frontend dependencies, MIT.">
+<meta property="og:title" content="Chinese Classics Atlas">
+<meta property="og:description" content="399 characters and 1,244 chapter-cited relations across China's four great novels — interactive graphs, open source, zero dependency.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://iihao.github.io/chinese-classics-atlas/en/">
 <meta property="og:image" content="https://iihao.github.io/chinese-classics-atlas/docs/screenshot-graph.png">
@@ -54,6 +54,18 @@
   .stat b { display: block; font-size: 28px; color: var(--accent); font-weight: 700; }
   .stat span { font-size: 13px; color: var(--muted); }
   .cards { display: grid; grid-template-columns: 1fr; gap: 14px; }
+  .works { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+  .work-card {
+    display: block; background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; padding: 18px 20px; text-decoration: none; color: inherit;
+    transition: transform .08s ease, box-shadow .08s ease;
+  }
+  .work-card:hover { transform: translateY(-1px); box-shadow: 0 4px 14px rgba(0,0,0,.08); border-color: var(--accent); }
+  .work-card h3 { margin: 0 0 4px; font-size: 17px; }
+  .work-card .zh { color: var(--muted); font-size: 13px; font-weight: 400; }
+  .work-card p { margin: 6px 0 0; color: var(--muted); font-size: 14px; }
+  .work-card .n { display: block; margin-top: 10px; font-size: 12px; color: var(--accent); }
+  @media (max-width: 640px) { .works { grid-template-columns: 1fr; } }
   .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px 22px; }
   .card h3 { margin: 0 0 8px; font-size: 17px; }
   .card p { margin: 0; color: var(--muted); font-size: 15px; }
@@ -72,16 +84,45 @@
 
 <header class="hero">
   <div class="wrap">
-    <span class="seal">红</span>
-    <h1>Honglou Atlas</h1>
-    <p class="subtitle">An interactive atlas of <em>Dream of the Red Chamber</em> (红楼梦) — the genealogy,
-    the relationship graph, the poems and the fates, made clickable and searchable.</p>
+    <span class="seal">图</span>
+    <h1>Chinese Classics Atlas</h1>
+    <p class="subtitle">China's four great novels as interactive graphs — the people, the relations,
+    the journeys and the endings, each one cited back to its chapter.</p>
     <div class="cta-row">
       <a class="btn primary" href="../works/honglou/">▶ Open the live demo</a>
+      <a class="btn ghost" href="../works/sanguo/">Romance of the Three Kingdoms ↗</a>
       <a class="btn ghost" href="https://github.com/iihao/chinese-classics-atlas">View source on GitHub</a>
     </div>
   </div>
 </header>
+
+<section id="series">
+  <div class="wrap">
+    <h2>Four novels, one atlas</h2>
+    <div class="works">
+      <a class="work-card" href="../works/honglou/">
+        <h3>Dream of the Red Chamber <span class="zh">红楼梦</span></h3>
+        <p>Genealogy, relationship graph, fates and poems — the most complete atlas in the series.</p>
+        <span class="n">173 characters · 860 relations</span>
+      </a>
+      <a class="work-card" href="../works/sanguo/">
+        <h3>Romance of the Three Kingdoms <span class="zh">三国演义</span></h3>
+        <p>From the Peach Garden Oath to Wuzhang Plains, with novel-vs-history notes on every entry.</p>
+        <span class="n">39 characters · 71 relations · preview slice</span>
+      </a>
+      <a class="work-card" href="../works/xiyou/">
+        <h3>Journey to the West <span class="zh">西游记</span></h3>
+        <p>Master-and-disciple lineages, the westward route, and the 81 trials mapped to the chapters.</p>
+        <span class="n">108 characters · 203 relations</span>
+      </a>
+      <a class="work-card" href="../works/shuihu/">
+        <h3>Water Margin <span class="zh">水浒传</span></h3>
+        <p>The Liangshan ranks and star names, the amnesty campaign, and how each hero ends.</p>
+        <span class="n">79 characters · 110 relations</span>
+      </a>
+    </div>
+  </div>
+</section>
 
 <div class="wrap">
   <div class="media">
@@ -92,7 +133,7 @@
 
 <section>
   <div class="wrap">
-    <h2>What's inside</h2>
+    <h2>Featured atlas · Dream of the Red Chamber</h2>
     <div class="grid">
       <div class="stat"><b>173</b><span>characters</span></div>
       <div class="stat"><b>860</b><span>typed relations</span></div>
@@ -164,6 +205,7 @@ python3 db/init_db.py --force   # build db/honglou.db
 <footer>
   <div class="wrap">
     <p>MIT-licensed · <a href="https://github.com/iihao/chinese-classics-atlas">github.com/iihao/chinese-classics-atlas</a></p>
+    <p><a href="../">中文首页</a> · Four works, one static site — the demo UI is in Chinese, and the source text is classical Chinese.</p>
     <p>If it saves you from re-reading the novel to look someone up, a ⭐ on GitHub helps other readers find it.</p>
   </div>
 </footer>
