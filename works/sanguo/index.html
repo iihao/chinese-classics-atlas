@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-CN" data-work="sanguo">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>三国演义 · 小说叙事图谱 | Chinese Classics Atlas</title>
+<meta name="description" content="《三国演义》人物关系、事件与地点交互图谱：从桃园结义到五丈原，逐条标注回目，并区分小说叙事与史传记载。">
+<meta property="og:title" content="三国演义 · 小说叙事图谱">
+<meta property="og:description" content="人物、关系、事件与地点的一张可交互图谱；每条关系标注回目，并区分《三国演义》与史传记载。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://iihao.github.io/chinese-classics-atlas/works/sanguo/">
+<meta property="og:image" content="https://iihao.github.io/chinese-classics-atlas/docs/screenshot-sanguo.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://iihao.github.io/chinese-classics-atlas/docs/screenshot-sanguo.png">
+<link rel="stylesheet" href="../../css/sanguo.css">
+<link rel="stylesheet" href="../../css/atlas.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="../../" aria-label="返回中国古典名著图谱">
+    <span class="seal">三</span>
+    <span class="brand-text"><strong>三国演义</strong><small>CHINESE CLASSICS ATLAS</small></span>
+  </a>
+  <nav class="workswitch" aria-label="切换作品">
+    <a class="ws-honglou" href="../../works/honglou/" title="红楼梦">红</a>
+    <a class="ws-sanguo" href="../../works/sanguo/" title="三国演义" aria-current="page">三</a>
+    <a class="ws-xiyou" href="../../works/xiyou/" title="西游记">西</a>
+    <a class="ws-shuihu" href="../../works/shuihu/" title="水浒传">水</a>
+  </nav>
+  <nav class="mainnav" aria-label="视图切换">
+    <button type="button" data-view="graph" class="on">图谱</button>
+    <button type="button" data-view="people">人物</button>
+    <button type="button" data-view="events">大事记</button>
+    <button type="button" data-view="places">地点</button>
+  </nav>
+  <a class="back" href="../../">全部作品 ↗</a>
+</header>
+
+<main>
+  <section class="hero">
+    <p class="eyebrow">ROMANCE OF THE THREE KINGDOMS · 小说叙事图谱</p>
+    <h1>三国演义<small>试运行切片</small></h1>
+    <p class="lead" id="scopeText"></p>
+    <div class="stats" aria-label="数据规模">
+      <div class="stat"><b id="statChars">—</b><span>人物</span></div>
+      <div class="stat"><b id="statRels">—</b><span>关系</span></div>
+      <div class="stat"><b id="statEvents">—</b><span>事件</span></div>
+    </div>
+    <p class="notice"><b>读法</b><span>本页以《三国演义》小说叙事为准，每条关系、事件与人物都标注回目。史传记载可能不同，另以「小说与史」标出；不要把小说情节当作历史定论。</span></p>
+  </section>
+
+  <section class="panel view" id="view-graph">
+    <div class="toolbar">
+      <div class="fbar" id="gFac" role="group" aria-label="按势力筛选"></div>
+      <div class="fbar relbar" id="gRel" role="group" aria-label="按关系类型筛选"></div>
+      <div class="gsearch">
+        <input id="gSearch" type="search" placeholder="搜人物或别号，如 孔明" autocomplete="off" spellcheck="false" aria-label="搜索人物">
+        <div class="slist" id="gSearchList" role="listbox" hidden></div>
+      </div>
+      <button type="button" class="chip" id="evToggle">显示事件节点</button>
+    </div>
+    <div class="graph-stage">
+      <svg id="gSvg" viewBox="0 0 1120 720" role="img" aria-label="三国演义人物关系图"></svg>
+      <div class="tip" id="gTip" hidden></div>
+    </div>
+    <div class="graph-foot">
+      <div>
+        <div class="legend" id="gLegend"></div>
+        <p id="gHint">点人物看关系与出场事件；点两点之间的连线看关系依据；滚轮缩放，拖动平移。</p>
+      </div>
+      <div class="gf-tools">
+        <div class="zoom" id="gZoom">
+          <button type="button" data-zoom="out" aria-label="缩小">−</button>
+          <span id="gZoomLabel">100%</span>
+          <button type="button" data-zoom="in" aria-label="放大">＋</button>
+          <button type="button" data-zoom="reset" class="fit">重置</button>
+        </div>
+        <span id="gCount"></span>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel view" id="view-people" hidden>
+    <div class="toolbar">
+      <div class="fbar" id="pFac" role="group" aria-label="按势力筛选人物"></div>
+      <input class="psearch" id="peopleSearch" type="search" placeholder="搜姓名、别号或简介" autocomplete="off" aria-label="搜索人物">
+      <span id="peopleCount"></span>
+    </div>
+    <div class="pgrid" id="peopleGrid"></div>
+  </section>
+
+  <section class="panel view" id="view-places" hidden>
+    <div class="toolbar">
+      <input class="psearch" id="placesSearch" type="search" placeholder="搜地名或今地" autocomplete="off" aria-label="搜索地点">
+      <span id="placesCount"></span>
+    </div>
+    <div class="pgrid" id="placesGrid"></div>
+  </section>
+
+  <section class="panel view" id="view-events" hidden>
+    <div class="toolbar">
+      <div class="fbar" id="eFac" role="group" aria-label="按势力筛选事件"></div>
+      <span id="eventCount"></span>
+    </div>
+    <div class="timeline" id="timeline"></div>
+  </section>
+</main>
+
+<footer class="foot">
+  <span class="foot-src" id="sourceText"></span>
+  <span>Chinese Classics Atlas · 三国演义 · 试运行切片</span>
+  <span><a href="../../">系列首页</a> · <a href="../../works/honglou/">红楼梦</a></span>
+</footer>
+
+<div class="modal" id="modal" hidden>
+  <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button type="button" class="modal-close" id="modalClose" aria-label="关闭">✕</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<script src="../../js/works/sanguo.js"></script>
+</body>
+</html>
