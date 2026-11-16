@@ -1,11 +1,19 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-work="honglou">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>红楼梦图谱 · Dream of the Red Chamber Atlas</title>
 <meta name="description" content="红楼梦人物谱系、关系图谱、判词、诗词、事件与地点检索，附参考来源、维基/百度百科外链与红楼研究线索">
+<meta property="og:title" content="红楼梦图谱 · Dream of the Red Chamber Atlas">
+<meta property="og:description" content="173 人物、860 条带出处的关系：谱系、判词、诗词、事件与府邸，可交互、可检索。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://iihao.github.io/chinese-classics-atlas/works/honglou/">
+<meta property="og:image" content="https://iihao.github.io/chinese-classics-atlas/docs/screenshot-graph.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://iihao.github.io/chinese-classics-atlas/docs/screenshot-graph.png">
 <link rel="stylesheet" href="../../css/style.css?v=26">
+<link rel="stylesheet" href="../../css/atlas.css">
 </head>
 <body>
 
@@ -18,8 +26,15 @@
       <small>DREAM OF THE RED CHAMBER · ATLAS</small>
     </span>
   </a>
+  <nav class="workswitch" aria-label="切换作品">
+    <a class="ws-honglou" href="../../works/honglou/" title="红楼梦" aria-current="page">红</a>
+    <a class="ws-sanguo" href="../../works/sanguo/" title="三国演义">三</a>
+    <a class="ws-xiyou" href="../../works/xiyou/" title="西游记">西</a>
+    <a class="ws-shuihu" href="../../works/shuihu/" title="水浒传">水</a>
+  </nav>
   <nav class="mainnav" id="mainnav">
     <a href="../../" title="返回系列首页">全部作品 ↗</a>
+    <a href="game/" title="红楼梦文字小游戏">入府 ↗</a>
     <a href="#lineage" data-nav="lineage">谱系</a>
     <a href="#graph" data-nav="graph">关系图</a>
     <a href="#people" data-nav="people">人物</a>
@@ -275,8 +290,10 @@
 </main>
 
 <footer class="footer">
-  <span class="seal small">红</span>
-  <p>红楼梦图谱 · 本地资料库 · 数据可增补</p>
+  <div class="foot-brand">
+    <span class="seal small">红</span>
+    <p>红楼梦图谱 · 本地资料库 · 数据可增补</p>
+  </div>
   <p class="muted" id="footerCount"></p>
 </footer>
 
